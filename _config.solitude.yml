@@ -6,7 +6,7 @@ site:
   name:
     class: text # text / i_class / img
     custom: Ideas en Blanco # Solitude / fas fa-ghost / /img/pwa/favicon.ico
-  icon: /img/logo.png # Icono del sitio / Site icon
+  icon: img/logo1.png # Icono del sitio / Site icon
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -15,7 +15,7 @@ nav:
   # Left Box
   group:
     Proyectos:
-      Github: https://github.com/avdyan/blog || /img/logo.png # name: url || icon
+      Github: https://github.com/avdyan/blog || /blog/img/logo1.png # name: url || icon
 
   # Menu
   menu:
@@ -187,7 +187,7 @@ post:
     # Copyright
     copyright:
       enable: true
-      author: /img/logo.png
+      author: /img/logo1.png
       # License
       license: CC BY-NC-SA 4.0
       # License link
@@ -426,7 +426,7 @@ rightside:
 # Footer
 footer:
   information:
-    author: /img/logo.png
+    author: /blog/img/logo1.png
     left:
       Github: https://github.com/avdyan || fab fa-github
       Mail: mailto:andresvx@icloud.com || far fa-envelope
