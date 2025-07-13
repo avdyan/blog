@@ -1,0 +1,170 @@
+title: Acerca de
+
+contentinfo: # Información personal principal
+  sup: Hola, encantado de conocerte 👋
+  name: Soy Andrés # Nombre
+  title: Estudiante, Ingeniero de Software, Futuro Blogger # Introducción
+  tip: Buscando el autoprogreso
+  slogan: La creatividad nace de la pasión
+  mask:
+    - Ideas sin fin
+    - Diseño sobresaliente
+    - Programación eficiente
+    - Productividad mejorada
+
+skills: # Agrega según sea necesario
+  title: Habilidades
+  subtitle: Desbloqueando la creatividad
+  tags:
+    - title: HTML
+      # img: https://skillicons.dev/icons?i=html
+      icon: fab fa-html5
+      color: "#e9572b"
+    - title: Javascript
+      # img: https://skillicons.dev/icons?i=javascript
+      icon: fab fa-js
+      color: "#f7cb4f"
+    - title: Git
+      # img: https://skillicons.dev/icons?i=git
+      icon: fab fa-git
+      color: "#df5b40"
+
+careers:
+  title: Carrera
+  subtitle: Progreso infinito
+  image: https://s3.qjqq.cn/47/67a216483c354.png!color
+  items:
+    - color: "#357ef5"
+      school: Ingeniería de Software
+      major: Estudio
+
+motto:
+  title: Lema
+  prefix: Sin vuelta atrás,
+  content: Avanzar con valentía.
+
+expertise:
+  title: Especialidad
+  prefix: Programación, Escritura
+  # specialist: Experto
+  # content: Capacidad de aprendizaje
+  # level: MÁX
+
+cause:
+  tip: Motivación
+  title: ¿Por qué creé este sitio web?
+  content:
+    <br>Principalmente cree este blog para <b>acumular conocimientos e intereses</b>. Compartir con otros permite que esto se convierta en experiencia y aprendizaje. Si puedo ayudar a más personas y resolver sus problemas, sería genial.
+    <br>
+    <br>Gracias a <b>Solitude Theme</b> por tan hermoso tema para Hexo. Me encanta su diseño y funcionalidad, lo que me permite concentrarme en escribir y compartir sin preocuparme por el diseño.
+    <br>
+    Esta es la razón de ser de este pequeño sitio web y <b>mi forma de compartir la vida</b>. Me siento afortunado de encontrarte aquí y creo que juntos podemos dejar buenos recuerdos.
+    <br>
+
+# comic y like-technology puedes elegir uno o ambos
+# likes:
+#   - type: "comic"
+#     tips: Afición por el anime # Sugerencia superior derecha
+#     title: Siguiendo anime # Título
+#     subtips: "Ciencia ficción, Anime, Comedia" # Texto pequeño inferior izquierdo, opcional
+#     list: # Mejor cinco o más, seguro tienes suficientes.
+#       - name: Tu nombre # Nombre del anime o película
+#         href: https://movie.douban.com/subject/26683290/ # Enlace
+#         cover: https://images.418121.xyz/file/blog/covers/p2910701461.webp # Portada
+#       - name: Tu mentira en abril
+#         href: https://www.bilibili.com/bangumi/media/md1699
+#         cover: https://images.418121.xyz/file/blog/covers/p2232343678.webp
+#       - name: La Tierra Errante 2
+#         href: https://movie.douban.com/subject/35267208/
+#         cover: https://images.418121.xyz/file/blog/covers/p2886653882.webp
+#       - name: Amor como un ramo de flores
+#         href: https://movie.douban.com/subject/34874432/
+#         cover: https://images.418121.xyz/file/blog/covers/p2868462052.webp
+#       - name: El tiempo contigo
+#         href: https://movie.douban.com/subject/30402296/
+#         cover: https://images.418121.xyz/file/blog/covers/p2558022335.webp
+#     button: false # false para ocultar el botón derecho
+#     button_link: "/pyq/" # Ruta de salto
+#     button_text: "Registro de visualización" # Texto del botón
+# - type: "like-technology"
+#   bg: "https://images.418121.xyz/file/blog/page/movie.webp"
+#   tips: "Ver con ella"
+#   title: "Preferencias de películas"
+#   subtips: "Ciencia ficción, Anime, Comedia"
+#   button: true
+#   button_link: "/pyq/"
+#   button_text: "Registro de visualización"
+# - type: "like-music"
+#   bg: "https://images.418121.xyz/file/blog/page/yy.webp"
+#   tips: "Cantonés, Pop"
+#   title: "Lista de reproducción privada"
+#   subtips: "Usuario y contraseña: ymx"
+#   button: true
+#   button_link: "https://music.418121.xyz/app/#/login/"
+#   button_text: "Biblioteca de música"
+
+# award:
+#   enable: true
+#   description: Gracias a todos por su apoyo y ánimo. Gracias a ustedes, siento que escribir el blog puede crear valor para todos. Esto me motivará a seguir adelante.
+#   tips: "Monto total: ¥ {sum}, se utilizará para el mantenimiento y actualización del blog."
+# rewardList: # Donaciones al final
+#   - name: Yuehua
+#     money: 5
+#     time: 2023-04-20
+#     icon: fab fa-weixin
+#     color: "#09bb07"
+#   - name: Gao Xiaocai
+#     money: 6.66
+#     time: 2023-08-11
+#     icon: fab fa-alipay
+#   - name: Mumu
+#     money: 5
+#     time: 2023-08-11
+#     icon: fab fa-weixin
+#   - name: Yuehua
+#     money: 56
+#     time: 2023-08-25
+#     icon: fab fa-weixin
+#   - name: Gao Xiaocai
+#     money: 3.33
+#     time: 2023-12-24
+#     icon: fab fa-alipay
+#   - name: Usuario AFD_G6sk
+#     money: 5
+#     time: 2023-11-08
+#     icon: fab fa-gratipay
+#   - name: Usuario AFD_pShm
+#     money: 10
+#     time: 2024-03-08
+#     icon: fab fa-gratipay
+#   - name: -Tú
+#     money: 28
+#     time: 2024-04-03
+#     icon: fab fa-gratipay
+#   - name: Hulebaji
+#     money: 28
+#     time: 2024-04-08
+#     icon: fab fa-gratipay
+#   - name: Usuario AFD_DkdV
+#     money: 28
+#     time: 2024-04-10
+#     icon: fab fa-gratipay
+#   - name: Usuario AFD_f4bd6
+#     money: 28
+#     time: 2024-04-12
+#     icon: fab fa-gratipay
+
+game:
+  - title: Afición por los juegos
+    img: https://7.isyangs.cn/66/6738b3614140c-66.webp
+    subtitle: Mobile Legends Bang Bang
+    box_shadow: "0 -69px 203px 11px #04120f inset"
+    icon_group:
+      - https://7.isyangs.cn/66/6738b472ce11f-66.webp
+      - https://7.isyangs.cn/66/6738b48045a5b-66.webp
+    tips_right: Sasuke
+  - title: Afición por los juegos
+    img: https://7.isyangs.cn/66/6738b3618ee12-66.webp
+    subtitle: Candy Crush Saga
+    box_shadow: "0 -69px 203px 11px #415dc9 inset"
+    tips_left: ID 1333E3FF

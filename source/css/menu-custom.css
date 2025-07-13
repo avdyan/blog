@@ -1,0 +1,9 @@
+/* CSS personalizado para el menú de navegación del tema Solitude */
+
+/* ========================================
+   ESPACIADO ENTRE LETRAS DEL MENÚ
+   ======================================== */
+
+#menus>div.menus_items>div>a {
+  letter-spacing: normal; /* Ajusta el espaciado entre letras */
+}

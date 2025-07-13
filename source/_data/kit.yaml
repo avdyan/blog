@@ -1,0 +1,25 @@
+- class_name: Productividad
+  description: Dispositivos de hardware para mejorar la eficiencia personal
+  equipment_list:
+    - name: Macbook Air M4
+      specification: 24GB RAM - 512GB ROM SSD
+      description: La mejor laptop de lejos por ahora, batería, rendimiento y diseño.
+      image: https://7.isyangs.cn/1/65eb3d5f8057b-1.png
+    - name: Dell Inspiron 3505
+      specification: AMD Ryzen 7 3700U - 8GB RAM - 512GB SSD
+      description: Aún con bajas especificaciones tiene un buen rendimiento en el desarrollo con Windows
+      image: https://7.isyangs.cn/1/65eb3d70c59d9-1.png
+      link: https://support.apple.com/kb/SP832?locale=zh_CN
+    - name: Samsung S20 FE
+      specification: 6GB RAM - 128GB ROM
+      description: Dado que ya lleva años en el mercado tiene varios ports con GSI's de Android además de poder rootearlo sin problemas
+      image: https://7.isyangs.cn/1/65eb3d70c59d9-1.png
+      link: https://support.apple.com/kb/SP832?locale=zh_CN
+# - class_name: Viajes
+#   description: Objetos y dispositivos para viajar
+#   equipment_list:
+#     - name: AirPods Pro
+#       specification: Versión estándar
+#       description: Unos auriculares realmente potentes, con varias actualizaciones importantes de firmware. Si tienes dos o más dispositivos Apple, son imprescindibles.
+#       image: https://7.isyangs.cn/1/65eb3d84dea25-1.png
+#       link: https://www.apple.com.cn/airpods-pro/

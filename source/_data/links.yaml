@@ -1,0 +1,14 @@
+banner_suffix:
+links:
+  - class_name: Recomendado # Nombre de la categoría
+    descr: Excelentes bloggers que participan en el desarrollo del sitio, aportan ideas de diseño o donan al sitio # Descripción de la categoría
+    type: card # Modo de visualización: card / item
+    suffix:
+    link_list:
+      - name: Wu Shiqi # Nombre del enlace de amigo
+        link: https://github.com/everfu # Dirección del enlace de amigo
+        descr: Un entusiasta colaborador de código abierto # Descripción del enlace de amigo
+        avatar: https://avatars.githubusercontent.com/u/74389842?v=4 # Avatar
+        topimg: https://s3.qjqq.cn/47/674c6c6783097.png!color # Se muestra en modo card
+        tag: Blogger
+        color: vip
