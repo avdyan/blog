@@ -4,6 +4,8 @@
    ESPACIADO ENTRE LETRAS DEL MENÚ
    ======================================== */
 
-#menus>div.menus_items>div>a {
-  letter-spacing: normal; /* Ajusta el espaciado entre letras */
+/* Más específico para asegurar que se aplique */
+#menus>div.menus_items>div>a,
+.menus_items a {
+  letter-spacing: normal !important; /* Ajusta el espaciado entre letras */
 }
