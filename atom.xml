@@ -1,0 +1,373 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Ideas en Blanco</title>
+  <icon>https://avdyan.github.io/blog/icon.png</icon>
+  
+  <link href="https://avdyan.github.io/blog/atom.xml" rel="self"/>
+  
+  <link href="https://avdyan.github.io/blog/"/>
+  <updated>2025-07-12T16:00:00.000Z</updated>
+  <id>https://avdyan.github.io/blog/</id>
+  
+  <author>
+    <name>Andrés Ujpán</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Las mejores distribuciones Linux tipo rolling release (actualización continua)</title>
+    <link href="https://avdyan.github.io/blog/posts/rolling-release-linux.html"/>
+    <id>https://avdyan.github.io/blog/posts/rolling-release-linux.html</id>
+    <published>2023-03-21T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Guías Linux" scheme="https://avdyan.github.io/blog/categories/Guias-Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://avdyan.github.io/blog/tags/Linux/"/>
+    
+    <category term="Distribuciones" scheme="https://avdyan.github.io/blog/tags/Distribuciones/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cómo instalar paquetes en Arch Linux fácilmente</title>
+    <link href="https://avdyan.github.io/blog/posts/instalar-paquetes-arch.html"/>
+    <id>https://avdyan.github.io/blog/posts/instalar-paquetes-arch.html</id>
+    <published>2023-01-19T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLaXsgiaBB1GvxWUhNKoaTc_5VK65gaD5Uam-jfWsATXxQOVBTQMb53i7_manrEkedYQn1MtRKVmBMZEMAEEO71uNw0FOZVjc2JyrzYRgpagIqe1jznI_ce6DGW-C-f-XCBuJ-9Z6_d3Ywm8pc78YUNt5ZXO9KcX9a8j49aDN1hoXtT02QcCzXxKWo/s1600/instalar-arch.webp&quot; alt=&quot;Instalar Arch Linux&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Al igual que en otras distribuciones, &lt;strong&gt;Arch Linux&lt;/strong&gt; tiene su propio gestor de paquetes con el que podemos instalar, actualizar paquetes o desinstalarlos del sistema.&lt;br&gt;
+Si ya tienes algún conocimiento básico o intermedio en Linux, sabrás que no solo existe una forma de instalar paquetes. Existen muchas, las cuales &lt;strong&gt;se adaptan a ti y a tus preferencias&lt;/strong&gt;.&lt;/p&gt;
+&lt;p&gt;Mira el vídeo del gran &lt;a href=&quot;https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/&quot;&gt;Riky Linux&lt;/a&gt; a continuación para saber más al respecto:&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Guías Linux" scheme="https://avdyan.github.io/blog/categories/Guias-Linux/"/>
+    
+    
+    <category term="Linux" scheme="https://avdyan.github.io/blog/tags/Linux/"/>
+    
+    <category term="Arch Linux" scheme="https://avdyan.github.io/blog/tags/Arch-Linux/"/>
+    
+    <category term="Paquetes" scheme="https://avdyan.github.io/blog/tags/Paquetes/"/>
+    
+    <category term="Pacman" scheme="https://avdyan.github.io/blog/tags/Pacman/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>¿Qué es la computación cuántica y por qué es importante?</title>
+    <link href="https://avdyan.github.io/blog/posts/computacion-cuantica.html"/>
+    <id>https://avdyan.github.io/blog/posts/computacion-cuantica.html</id>
+    <published>2022-12-14T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDBGFS31IEgMVJ8oPKddPOadiyAC-ePPAhsO4mBMSWj4K3_hDJDoFfaVx62Ng0E8P12NV3u_9nCpRvHiZNFlXJm8Q5UgHMgBwVLuCdiUCadUmWVoEoLTonZI23700VHy_GEuuV4Z2ymWbB73ReQ7P0-GUvVr8dxtpc9lS27Xrlaj0T4EmDBrnPrVY/s1600-rw/computacion%20cuantica.webp&quot; alt=&quot;Computación cuántica&quot;&gt;&lt;/p&gt;
+&lt;p&gt;La &lt;strong&gt;computación cuántica&lt;/strong&gt; es una rama de la informática que se centra en el estudio de cómo utilizar sistemas cuánticos para procesar información.&lt;br&gt;
+Estos sistemas utilizan los fenómenos cuánticos, como la &lt;strong&gt;superposición&lt;/strong&gt; y el &lt;strong&gt;entrelazamiento&lt;/strong&gt;, para realizar cálculos que no son posibles con la tecnología tradicional.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Ciencia y Tecnología" scheme="https://avdyan.github.io/blog/categories/Ciencia-y-Tecnologia/"/>
+    
+    
+    <category term="Computación Cuántica" scheme="https://avdyan.github.io/blog/tags/Computacion-Cuantica/"/>
+    
+    <category term="Tecnología" scheme="https://avdyan.github.io/blog/tags/Tecnologia/"/>
+    
+    <category term="Ciencia" scheme="https://avdyan.github.io/blog/tags/Ciencia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>¿Qué sales dan color a los fuegos artificiales?</title>
+    <link href="https://avdyan.github.io/blog/posts/fuegos-artificiales.html"/>
+    <id>https://avdyan.github.io/blog/posts/fuegos-artificiales.html</id>
+    <published>2022-12-09T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRPKcw7ZQCRWXQAl9e1ezt5sRh8arwPGdkr8noxePXMyCUMH3H1tpA5EDDb7sBaFqgLug2jk9pk2lJkQnzx8vvqz9LfcAtkq14Jaog6S8EgEeU3Cog_XB7X3gsJcmSbb-itU2EFIp8rs6l_OoUvhjUYsHMv2OSu1qhicMvBqIm55_ANpTLYnP53j6-/s1600/fuegos%20artificiales.webp&quot; alt=&quot;Fuegos artificiales&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Los colores de los fuegos artificiales se derivan de una amplia variedad de sales metálicas. Y cuando decimos &lt;strong&gt;‘sal’&lt;/strong&gt;, evidentemente no nos referimos a la sal de mesa común (cloruro de sodio), sino a aquellos compuestos que contienen átomos metálicos y no metálicos unidos iónicamente.&lt;br&gt;
+Pero, ¿qué elementos químicos son los encargados de dotar de color a los fuegos artificiales?&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Ciencia y Tecnología" scheme="https://avdyan.github.io/blog/categories/Ciencia-y-Tecnologia/"/>
+    
+    
+    <category term="Ciencia" scheme="https://avdyan.github.io/blog/tags/Ciencia/"/>
+    
+    <category term="Química" scheme="https://avdyan.github.io/blog/tags/Quimica/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Top extensiones para navegadores que todo techie debería probar</title>
+    <link href="https://avdyan.github.io/blog/posts/mejores-extensiones.html"/>
+    <id>https://avdyan.github.io/blog/posts/mejores-extensiones.html</id>
+    <published>2022-10-15T18:00:00.000Z</published>
+    <updated>2025-07-12T18:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Recomendaciones" scheme="https://avdyan.github.io/blog/categories/Recomendaciones/"/>
+    
+    
+    <category term="Extensiones" scheme="https://avdyan.github.io/blog/tags/Extensiones/"/>
+    
+    <category term="Navegadores" scheme="https://avdyan.github.io/blog/tags/Navegadores/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Cómo crear un portfolio con GitHub Pages</title>
+    <link href="https://avdyan.github.io/blog/posts/crear-portafolio-web.html"/>
+    <id>https://avdyan.github.io/blog/posts/crear-portafolio-web.html</id>
+    <published>2022-09-17T04:43:00.000Z</published>
+    <updated>2025-07-13T04:43:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Desarrollo Web" scheme="https://avdyan.github.io/blog/categories/Desarrollo-Web/"/>
+    
+    <category term="GitHub" scheme="https://avdyan.github.io/blog/categories/Desarrollo-Web/GitHub/"/>
+    
+    
+    <category term="Portfolio" scheme="https://avdyan.github.io/blog/tags/Portfolio/"/>
+    
+    <category term="GitHub" scheme="https://avdyan.github.io/blog/tags/GitHub/"/>
+    
+    <category term="Desarrollo Web" scheme="https://avdyan.github.io/blog/tags/Desarrollo-Web/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>¿Cómo se diseña un coche? El paso a paso del diseño automotriz</title>
+    <link href="https://avdyan.github.io/blog/posts/diseno-automotriz.html"/>
+    <id>https://avdyan.github.io/blog/posts/diseno-automotriz.html</id>
+    <published>2022-09-16T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+    <summary type="html">&lt;p&gt;&lt;img src=&quot;https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNqnAPnujYZPbNYgRkl0b0AZHOXNh0tAgn0Ka_a8sAYy2q-5kCWZI0Gm1oeCBmQ-sP5Xwf7fbsIIOKahfXhgxkttnDM13-hKpPp7v7qbCoWryHR2btbOv7QbRYzUZy_hl-zX96EfBGFGakGbfkfqbs5iS-tL9Xur1Fylc29QSB0Pr1gMjhpL9GbWA_/s1600-rw/briefing.webp&quot; alt=&quot;Diseño automotriz&quot;&gt;&lt;/p&gt;
+&lt;p&gt;Aunque a veces pueda parecer fácil, diseñar un nuevo modelo es una tarea que exige un gran esfuerzo por parte de un amplio equipo de profesionales.&lt;br&gt;
+Desde que se coge lápiz y papel hasta que el coche sale a la venta, se suceden una serie de pasos que SEAT nos desvela con su SUV &lt;strong&gt;Ateca&lt;/strong&gt; como ejemplo.&lt;/p&gt;</summary>
+    
+    
+    
+    <category term="Tecnología" scheme="https://avdyan.github.io/blog/categories/Tecnologia/"/>
+    
+    
+    <category term="Ingeniería" scheme="https://avdyan.github.io/blog/tags/Ingenieria/"/>
+    
+    <category term="Diseño automotriz" scheme="https://avdyan.github.io/blog/tags/Diseno-automotriz/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>La velocidad de la luz y lo que observamos</title>
+    <link href="https://avdyan.github.io/blog/posts/velocidad-de-la-luz.html"/>
+    <id>https://avdyan.github.io/blog/posts/velocidad-de-la-luz.html</id>
+    <published>2022-07-30T05:32:00.000Z</published>
+    <updated>2025-07-13T05:32:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Un ejemplo sencillo de cómo lo que observamos, es un haz de luz que proviene de un tiempo determinado; segundos, minutos, horas,</summary>
+        
+      
+    
+    
+    
+    <category term="Curiosidades" scheme="https://avdyan.github.io/blog/categories/Curiosidades/"/>
+    
+    
+    <category term="Ciencia" scheme="https://avdyan.github.io/blog/tags/Ciencia/"/>
+    
+    <category term="Espacio" scheme="https://avdyan.github.io/blog/tags/Espacio/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Marie Curie: La leyenda que ganó 2 premios Nobel</title>
+    <link href="https://avdyan.github.io/blog/posts/marie-curie-en-3-minutos.html"/>
+    <id>https://avdyan.github.io/blog/posts/marie-curie-en-3-minutos.html</id>
+    <published>2022-07-25T05:35:00.000Z</published>
+    <updated>2025-07-13T05:35:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;Descubre la historia de Marie Curie, la primera mujer en recibir 2 premios Nobel y ser una leyenda en la Física y la</summary>
+        
+      
+    
+    
+    
+    <category term="Biografías" scheme="https://avdyan.github.io/blog/categories/Biografias/"/>
+    
+    
+    <category term="Ciencia" scheme="https://avdyan.github.io/blog/tags/Ciencia/"/>
+    
+    <category term="Historia" scheme="https://avdyan.github.io/blog/tags/Historia/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Optimiza la Velocidad de tu Web: Tutorial con WebP y PageSpeed</title>
+    <link href="https://avdyan.github.io/blog/posts/pagespeed-y-optimizacion-web.html"/>
+    <id>https://avdyan.github.io/blog/posts/pagespeed-y-optimizacion-web.html</id>
+    <published>2022-07-18T05:35:00.000Z</published>
+    <updated>2025-07-13T05:35:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;En este articulo voy a ir al grano, navegando por la web me he encontrado muchos sitios sin optimización o con problemas de carga,</summary>
+        
+      
+    
+    
+    
+    <category term="Tutoriales útiles" scheme="https://avdyan.github.io/blog/categories/Tutoriales-utiles/"/>
+    
+    
+    <category term="Optimización Web" scheme="https://avdyan.github.io/blog/tags/Optimizacion-Web/"/>
+    
+    <category term="Tutorial" scheme="https://avdyan.github.io/blog/tags/Tutorial/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Las 6 Paradojas Más Fascinantes de la Física</title>
+    <link href="https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html"/>
+    <id>https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html</id>
+    <published>2022-07-01T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Curiosidades" scheme="https://avdyan.github.io/blog/categories/Curiosidades/"/>
+    
+    
+    <category term="Ciencia" scheme="https://avdyan.github.io/blog/tags/Ciencia/"/>
+    
+    <category term="Física" scheme="https://avdyan.github.io/blog/tags/Fisica/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Recursos Esenciales para Desarrolladores y Diseñadores Web</title>
+    <link href="https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html"/>
+    <id>https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html</id>
+    <published>2022-06-28T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Herramientas y Recursos" scheme="https://avdyan.github.io/blog/categories/Herramientas-y-Recursos/"/>
+    
+    
+    <category term="Desarrollo Web" scheme="https://avdyan.github.io/blog/tags/Desarrollo-Web/"/>
+    
+    <category term="Recursos" scheme="https://avdyan.github.io/blog/tags/Recursos/"/>
+    
+    <category term="Diseño Web" scheme="https://avdyan.github.io/blog/tags/Diseno-Web/"/>
+    
+    <category term="Herramientas" scheme="https://avdyan.github.io/blog/tags/Herramientas/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Los 10 Repositorios de GitHub Imprescindibles para Desarrolladores</title>
+    <link href="https://avdyan.github.io/blog/posts/github-repositorios-esenciales-desarrolladores.html"/>
+    <id>https://avdyan.github.io/blog/posts/github-repositorios-esenciales-desarrolladores.html</id>
+    <published>2022-05-17T16:00:00.000Z</published>
+    <updated>2025-07-12T16:00:00.000Z</updated>
+    
+    
+      
+      
+        
+        
+    <summary type="html">&lt;p&gt;&lt;img</summary>
+        
+      
+    
+    
+    
+    <category term="Herramientas y Recursos" scheme="https://avdyan.github.io/blog/categories/Herramientas-y-Recursos/"/>
+    
+    
+    <category term="GitHub" scheme="https://avdyan.github.io/blog/tags/GitHub/"/>
+    
+    <category term="Desarrollo Web" scheme="https://avdyan.github.io/blog/tags/Desarrollo-Web/"/>
+    
+    <category term="Recursos" scheme="https://avdyan.github.io/blog/tags/Recursos/"/>
+    
+    <category term="Programación" scheme="https://avdyan.github.io/blog/tags/Programacion/"/>
+    
+  </entry>
+  
+</feed>
