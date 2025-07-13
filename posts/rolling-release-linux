@@ -1,0 +1,498 @@
+<!DOCTYPE html><html lang="en" data-theme="light"><head><meta charset="utf-8"><meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1"><title>Las mejores distribuciones Linux tipo rolling release (actualización continua) | Ideas en Blanco</title><noscript>Please enable JavaScript to view the site</noscript><link rel="icon" href="/blog/img/logo1.png"><!-- index.css--><link rel="stylesheet" href="/blog/css/index.css?v=3.0.19"><!-- inject head--><link rel="canonical" href="https://avdyan.github.io/blog/posts/rolling-release-linux"><link rel="stylesheet" href="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/font-awesome/6.7.2/css/all.min.css"><!-- aplayer--><link rel="stylesheet" href="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/aplayer/1.10.1/APlayer.min.css"><!-- swiper--><!-- fancybox ui--><link rel="stylesheet" href="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.min.css"><!-- katex--><link rel="stylesheet" href="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/KaTeX/0.16.9/katex.min.css"><!-- Open Graph--><meta name="description" content="Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de">
+<meta property="og:type" content="article">
+<meta property="og:title" content="Las mejores distribuciones Linux tipo rolling release (actualización continua)">
+<meta property="og:url" content="https://avdyan.github.io/blog/posts/rolling-release-linux">
+<meta property="og:site_name" content="Ideas en Blanco">
+<meta property="og:description" content="Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de">
+<meta property="og:locale" content="en_US">
+<meta property="og:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png">
+<meta property="article:published_time" content="2023-03-21T16:00:00.000Z">
+<meta property="article:modified_time" content="2025-07-12T16:00:00.000Z">
+<meta property="article:author" content="Andrés Ujpán">
+<meta property="article:tag" content="Linux">
+<meta property="article:tag" content="Distribuciones">
+<meta name="twitter:card" content="summary">
+<meta name="twitter:image" content="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png"><!-- pwa--><meta name="apple-mobile-web-app-capable" content="Ideas en Blanco"><meta name="theme-color" content="var(--efu-main)"><meta name="apple-mobile-web-app-status-bar-style" content="var(--efu-main)"><link rel="bookmark" href="/blog/img/logo1.png"><link rel="apple-touch-icon" href="/blog/img/logo1.png" sizes="180x180"><script>console.log(' %c Solitude %c ' + '3.0.19' + ' %c https://github.com/everfu/hexo-theme-solitude',
+    'background:#35495e ; padding: 1px; border-radius: 3px 0 0 3px;  color: #fff',
+    'background:#ff9a9a ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff',
+    'background:unset ; padding: 1px; border-radius: 0 3px 3px 0;  color: #fff')
+</script><link rel="stylesheet" href="/blog/css/schedule.css"><link rel="stylesheet" href="/blog/css/menu-custom.css?v=1.0"><link rel="stylesheet" href="/blog/css/waline-custom.css"><script src="https://cdn.bootcdn.net/ajax/libs/pace/1.2.4/pace.min.js"></script><script>(()=>{
+        const saveToLocal = {
+            set: function setWithExpiry(key, value, ttl) {
+                if (ttl === 0)
+                    return
+                const now = new Date()
+                const expiryDay = ttl * 86400000
+                const item = {
+                    value: value,
+                    expiry: now.getTime() + expiryDay
+                }
+                localStorage.setItem(key, JSON.stringify(item))
+            },
+            get: function getWithExpiry(key) {
+                const itemStr = localStorage.getItem(key)
+
+                if (!itemStr) {
+                    return undefined
+                }
+                const item = JSON.parse(itemStr)
+                const now = new Date()
+
+                if (now.getTime() > item.expiry) {
+                    localStorage.removeItem(key)
+                    return undefined
+                }
+                return item.value
+            }
+        };
+        window.utils = {
+            saveToLocal: saveToLocal,
+            getCSS: (url, id = false) => new Promise((resolve, reject) => {
+              const link = document.createElement('link')
+              link.rel = 'stylesheet'
+              link.href = url
+              if (id) link.id = id
+              link.onerror = reject
+              link.onload = link.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                link.onload = link.onreadystatechange = null
+                resolve()
+              }
+              document.head.appendChild(link)
+            }),
+            getScript: (url, attr = {}) => new Promise((resolve, reject) => {
+              const script = document.createElement('script')
+              script.src = url
+              script.async = true
+              script.onerror = reject
+              script.onload = script.onreadystatechange = function() {
+                const loadState = this.readyState
+                if (loadState && loadState !== 'loaded' && loadState !== 'complete') return
+                script.onload = script.onreadystatechange = null
+                resolve()
+              }
+
+              Object.keys(attr).forEach(key => {
+                script.setAttribute(key, attr[key])
+              })
+
+              document.head.appendChild(script)
+            }),
+            addGlobalFn: (key, fn, name = false, parent = window) => {
+                const globalFn = parent.globalFn || {}
+                const keyObj = globalFn[key] || {}
+
+                if (name && keyObj[name]) return
+
+                name = name || Object.keys(keyObj).length
+                keyObj[name] = fn
+                globalFn[key] = keyObj
+                parent.globalFn = globalFn
+            },
+            addEventListenerPjax: (ele, event, fn, option = false) => {
+              ele.addEventListener(event, fn, option)
+              utils.addGlobalFn('pjax', () => {
+                  ele.removeEventListener(event, fn, option)
+              })
+            },
+            diffDateFormat: (selector) => {
+                selector.forEach(item => {
+                    const date = new Date(item.getAttribute('datetime') || item.textContent);
+                    item.textContent = (date.getMonth() + 1).toString()+'/'+date.getDate().toString();
+                });
+            },
+        }
+    })()</script><!-- theme--><script>initTheme = () => {
+    let isDarkMode = window.matchMedia('(prefers-color-scheme: dark)').matches
+    const cachedMode = utils.saveToLocal.get('theme');
+    if (cachedMode === undefined) {
+        const nowMode =
+            isDarkMode ? 'dark' : 'light'
+        document.documentElement.setAttribute('data-theme', nowMode);
+    } else {
+        document.documentElement.setAttribute('data-theme', cachedMode);
+    }
+    typeof rm === 'object' && rm.mode(cachedMode === 'dark' && isDarkMode)
+}
+initTheme()</script><!-- global head--><script>const GLOBAL_CONFIG = {
+    root: '/blog/',
+    algolia: undefined,
+    localsearch: {"preload":false,"path":"search.xml"},
+    runtime: '2023-04-20 00:00:00',
+    lazyload: {
+        enable: true,
+        error: '/img/error_load.avif'
+    },
+    copyright: false,
+    highlight: {"limit":200,"expand":true,"copy":true,"syntax":"highlight.js"},
+    randomlink: true,
+    lang: {"theme":{"dark":"Dark","light":"Light"},"copy":{"success":"Copied","error":"Copy failed"},"backtop":"Back to top","time":{"day":" days ago","hour":" hours ago","just":"just","min":" minutes ago","month":" months ago"},"day":" days","f12":"Developer mode is turned on, please follow the GPL.","totalk":"You don't need to delete blank lines, just type in your comments.","search":{"empty":"No results found","hit":"Found ${query} results for you","placeholder":"Enter keywords to search","count":"Total <b>${count}</b> results.","loading":"Loading..."},"barrage":{"title":"Hot"}},
+    aside: {
+        state: {
+            morning: "✨ ¡Buenas, comienza un nuevo día!",
+            noon: "🍲 Hora del almuerzo",
+            afternoon: "🌞 Buenas tardes",
+            night: "Es hora de descansar",
+            goodnight: "Buenas noches 😴",
+        },
+        witty_words: ["Donde termina el ruido, comienza la voz interior.","Crear es traducir lo invisible en algo que todos podamos sentir.","Explorando ideas, una palabra a la vez."],
+        witty_comment: {
+            prefix: 'Long time no see, ',
+            back: 'Welcome back again,',
+        },
+    },
+    covercolor: {
+        enable: true
+    },
+    comment: {"avatar":"https://weavatar.com/avatar/","commentBarrage":true},
+    lightbox: 'fancybox',
+    right_menu: {"mode":{"dark":"Dark","light":"Light"},"img_error":"This image cannot be copied or downloaded.","music":{"start":"Play","stop":"Pause"},"barrage":{"open":"Open Barrage","close":"Close Barrage"},"ctrlOriginalMenu":"Hold Ctrl + right-click to open the browser's context menu"},
+    translate: false,
+    lure: {"jump":"Regresaaa!","back":"ヾ(≧∇≦*)ゝ Regresaste, <3."},
+    expire: false,
+};</script><!-- page-config head--><script id="config-diff">var PAGE_CONFIG = {
+    is_post: true,
+    is_page: false,
+    is_home: false,
+    page: '',
+    toc: true,
+    comment: true,
+    ai_text: false,
+    color: false,
+}</script><meta name="generator" content="Hexo 7.3.0"><link rel="alternate" href="/blog/atom.xml" title="Ideas en Blanco" type="application/atom+xml">
+</head><body id="body"><!-- universe--><canvas id="universe"></canvas><!-- background img--><!-- loading--><!-- console--><div id="console"><div class="close-btn" onclick="sco.hideConsole()"><i class="solitude fas fa-xmark"></i></div><div class="console-card-group"><div class="console-card-group-left"><div class="console-card" id="card-newest-comments" onclick="sco.hideConsole()"><div class="card-content"><div class="author-content-item-tips">Interaction</div><div class="author-content-item-title">Latest comments</div></div><div class="console_recentcomments"><script pjax>(async () => {
+    document.querySelector('.console-card .console_recentcomments').textContent = `Loading...`
+    const emojiReg = /<img [^>]+ class="wl-emoji">/g
+    let cache = utils.saveToLocal.get('waline-recent-comments-console')
+    if (cache) {
+        setHtml(document.querySelector('.console-card .console_recentcomments'), cache)
+        return
+    }
+    let ls = []
+    await fetch('http://comments-blog-jet.vercel.app//api/comment?type=recent&count=6', {method: 'GET'}).then(async res => res.json())
+        .then(async data => {
+            for (const i of data.data) {
+                let title = ''
+                if (i.url) {
+                    await fetch(i.url).then(res => res.text()).then(html => {
+                        const parser = new DOMParser()
+                        const doc = parser.parseFromString(html, 'text/html')
+                        title = doc.querySelector('title').innerText
+                    }).catch(() => {
+                        title = i.url
+                    })
+                }
+                if (title.indexOf('|') > 0) {
+                    title = title.split('|')[0]
+                }
+                ls.push({
+                    title: title,
+                    url: i.url,
+                    nick: i.nick,
+                    avatar: i.avatar,
+                    time: new Date(i.time),
+                    content: formatContent(i.comment)
+                })
+            }
+            setHtml(document.querySelector('.console-card .console_recentcomments'), ls)
+            utils.saveToLocal.set('waline-recent-comments-console', ls, 0.2)
+        })
+
+    function setHtml(el, data) {
+        el.innerHTML = data.length !== 0 ? data.map(i => `
+                            <div class="comment-card" title="${i.title}" onclick="pjax.loadUrl('${i.url}')">
+                                <div class="comment-info">
+                                    <img src="${i.avatar}" class="nolazyload" alt="${i.nick}">
+                                    <div>
+                                        <span class="comment-user">${i.nick}</span>
+                                    </div>
+                                    <time class="comment-time" datetime="${i.time}"></time>
+                                </div>
+                                <div class="comment-content">${i.content}</div>
+                                <div class="comment-title">
+                                <i class="solitude fas fa-comment"></i>
+                                ${i.title}</div>
+                            </div>
+                        `).join('') : `No comments...`
+        if (typeof utils !== 'undefined') utils.diffDateFormat(document.querySelectorAll('.comment-time'))
+        else {
+            document.addEventListener('pjax:complete', () => utils.diffDateFormat(document.querySelectorAll('.comment-time')))
+            document.addEventListener('DOMContentLoaded', () => utils.diffDateFormat(document.querySelectorAll('.comment-time')))
+        }
+    }
+
+    function formatContent(content) {
+        content = content.replace(emojiReg, '[Emoji]')
+        content = content.replace(/<img.*?>/g, '[Image]');
+        content = content.replace(/<a.*?>.*?<\/a>/g, '[Link]');
+        content = content.replace(/<pre.*?>.*?<\/pre>/g, '[Code]');
+        content = content.replace(/<.*?>/g, '');
+        return content
+    }
+})()</script></div></div></div><div class="console-card-group-right"><div class="console-card tags" onclick="sco.hideConsole()"><div class="card-content"><div class="author-content-item-tips">Tags</div><div class="author-content-item-title">Find interesting areas</div></div><div class="card-tag-cloud"><a href="/blog/tags/Computacion-Cuantica/">Computación Cuántica<sup>1</sup></a><a href="/blog/tags/Tecnologia/">Tecnología<sup>1</sup></a><a href="/blog/tags/Ciencia/">Ciencia<sup>5</sup></a><a href="/blog/tags/Portfolio/">Portfolio<sup>1</sup></a><a href="/blog/tags/GitHub/">GitHub<sup>2</sup></a><a href="/blog/tags/Desarrollo-Web/">Desarrollo Web<sup>3</sup></a><a href="/blog/tags/Linux/">Linux<sup>2</sup></a><a href="/blog/tags/Distribuciones/">Distribuciones<sup>1</sup></a><a href="/blog/tags/Fisica/">Física<sup>1</sup></a><a href="/blog/tags/Quimica/">Química<sup>1</sup></a><a href="/blog/tags/Recursos/">Recursos<sup>2</sup></a><a href="/blog/tags/Programacion/">Programación<sup>1</sup></a><a href="/blog/tags/Arch-Linux/">Arch Linux<sup>1</sup></a><a href="/blog/tags/Paquetes/">Paquetes<sup>1</sup></a><a href="/blog/tags/Pacman/">Pacman<sup>1</sup></a><a href="/blog/tags/Historia/">Historia<sup>1</sup></a><a href="/blog/tags/Extensiones/">Extensiones<sup>1</sup></a><a href="/blog/tags/Navegadores/">Navegadores<sup>1</sup></a><a href="/blog/tags/Optimizacion-Web/">Optimización Web<sup>1</sup></a><a href="/blog/tags/Tutorial/">Tutorial<sup>1</sup></a><a href="/blog/tags/Diseno-Web/">Diseño Web<sup>1</sup></a><a href="/blog/tags/Herramientas/">Herramientas<sup>1</sup></a><a href="/blog/tags/Ingenieria/">Ingeniería<sup>1</sup></a><a href="/blog/tags/Diseno-automotriz/">Diseño automotriz<sup>1</sup></a><a href="/blog/tags/Espacio/">Espacio<sup>1</sup></a></div></div><div class="console-card history" onclick="sco.hideConsole()"><ul class="card-archive-list"><li class="item"><a href="/archives/2023/03/"><span class="date">2023/03</span><div class="count-group"><span class="count">1</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2023/01/"><span class="date">2023/01</span><div class="count-group"><span class="count">1</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/12/"><span class="date">2022/12</span><div class="count-group"><span class="count">2</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/10/"><span class="date">2022/10</span><div class="count-group"><span class="count">1</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/09/"><span class="date">2022/09</span><div class="count-group"><span class="count">2</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/07/"><span class="date">2022/07</span><div class="count-group"><span class="count">4</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/06/"><span class="date">2022/06</span><div class="count-group"><span class="count">1</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/2022/05/"><span class="date">2022/05</span><div class="count-group"><span class="count">1</span><span class="unit">Posts</span></div></a></li><li class="item"><a href="/archives/"><span class="date">All posts</span><div class="count-group"><span class="count">13</span><span class="unit">Posts</span></div></a></li></ul></div></div></div><div class="button-group"><div class="console-btn-item"><span class="darkmode_switchbutton" onclick="sco.switchDarkMode()" title="Day and night mode"><i class="solitude fas fa-circle-half-stroke"></i></span></div><div class="console-btn-item" id="consoleHideAside"><span class="asideSwitch" onclick="sco.switchHideAside()" title="Sidebar display control"><i class="solitude fas fa-arrows-left-right-to-line"></i></span></div><div class="console-btn-item" id="consoleKeyboard" onclick="sco.switchKeyboard()"><span class="keyboardSwitch" title="Keyboard operation"><i class="solitude fas fa-keyboard"></i></span></div><div class="console-btn-item" id="consoleMusic" onclick="sco.musicToggle()"><span class="music-switch" title="Music switch"><i class="solitude fas fa-compact-disc"></i></span></div><div class="console-btn-item on" id="consoleCommentBarrage" onclick="sco.switchCommentBarrage()"><span class="commentBarrage"><i class="solitude fas fa-comment"></i></span></div></div><div class="console-mask" onclick="sco.hideConsole()"></div></div><!-- sidebar--><div id="sidebar" style="zoom: 1;"><div id="menu-mask" style="display: none;"></div><div id="sidebar-menus"><div class="site-data"><div class="data-item is-center"><div class="data-item-link"><a href="/blog/archives/"><div class="headline">Archives</div><div class="length-num">13</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/categories/"><div class="headline">Categories</div><div class="length-num">9</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/tags/"><div class="headline">Tags</div><div class="length-num">25</div></a></div></div><div class="data-item is-center"><div class="data-item-link"><a href="/blog/recentcomments/"><div class="headline"> Comment</div><div class="length-num" id="waline_allcount"><i class="solitude fas fa-spinner fa-spin"></i></div><script pjax="pjax">(async () => {
+  await fetch('http://comments-blog-jet.vercel.app//api/comment?type=count', {method: 'GET'}).then(async res => res.json())
+    .then(async data => {
+      document.querySelector('#waline_allcount').innerHTML = data.data
+    })
+})()</script></a></div></div></div><span class="sidebar-menu-item-title">Function</span><div class="sidebar-menu-item"><span class="darkmode_switchbutton menu-child" onclick="sco.switchDarkMode()"><i class="solitude fas fa-circle-half-stroke"></i><span>Display mode</span></span></div><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">Proyectos</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/avdyan/blog" title="Github"><img class="nolazyload back-menu-item-icon" src="/blog/img/logo1.png" alt="Github"><span class="back-menu-item-text">Github</span></a></div></div></div><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Biblioteca</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/archives/"><i class="solitude  fas fa-folder-closed"></i><span>Archivo</span></a></li><li><a class="site-page child" href="/blog/categories/"><i class="solitude  fas fa-clone"></i><span>Categorías</span></a></li><li><a class="site-page child" href="/blog/tags/"><i class="solitude  fas fa-tags"></i><span>Etiquetas</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Enlaces Amigos</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/links/"><i class="solitude  fas fa-link"></i><span>Enlaces</span></a></li><li><a class="site-page child" href="javascript:travelling()" rel="external nofollow noreferrer"><i class="solitude  fas fa-gift"></i><span>Tesoros</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Sobre Mí</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/kit/"><i class="solitude  fas fa-cogs"></i><span>Mi Equipo</span></a></li><li><a class="site-page child" href="/blog/about/"><i class="solitude  fas fa-user"></i><span>Sobre el Sitio</span></a></li></ul></div></div><span class="sidebar-menu-item-title">Tags</span><div class="card-tags"><div class="card-tag-cloud"><a href="/blog/tags/Computacion-Cuantica/">Computación Cuántica<sup>1</sup></a><a href="/blog/tags/Tecnologia/">Tecnología<sup>1</sup></a><a href="/blog/tags/Ciencia/">Ciencia<sup>5</sup></a><a href="/blog/tags/Portfolio/">Portfolio<sup>1</sup></a><a href="/blog/tags/GitHub/">GitHub<sup>2</sup></a><a href="/blog/tags/Desarrollo-Web/">Desarrollo Web<sup>3</sup></a><a href="/blog/tags/Linux/">Linux<sup>2</sup></a><a href="/blog/tags/Distribuciones/">Distribuciones<sup>1</sup></a><a href="/blog/tags/Fisica/">Física<sup>1</sup></a><a href="/blog/tags/Quimica/">Química<sup>1</sup></a><a href="/blog/tags/Recursos/">Recursos<sup>2</sup></a><a href="/blog/tags/Programacion/">Programación<sup>1</sup></a><a href="/blog/tags/Arch-Linux/">Arch Linux<sup>1</sup></a><a href="/blog/tags/Paquetes/">Paquetes<sup>1</sup></a><a href="/blog/tags/Pacman/">Pacman<sup>1</sup></a><a href="/blog/tags/Historia/">Historia<sup>1</sup></a><a href="/blog/tags/Extensiones/">Extensiones<sup>1</sup></a><a href="/blog/tags/Navegadores/">Navegadores<sup>1</sup></a><a href="/blog/tags/Optimizacion-Web/">Optimización Web<sup>1</sup></a><a href="/blog/tags/Tutorial/">Tutorial<sup>1</sup></a><a href="/blog/tags/Diseno-Web/">Diseño Web<sup>1</sup></a><a href="/blog/tags/Herramientas/">Herramientas<sup>1</sup></a><a href="/blog/tags/Ingenieria/">Ingeniería<sup>1</sup></a><a href="/blog/tags/Diseno-automotriz/">Diseño automotriz<sup>1</sup></a><a href="/blog/tags/Espacio/">Espacio<sup>1</sup></a></div></div><span class="sidebar-menu-item-title">Site information</span><div class="webinfo"><div class="webinfo-item"><div class="item-name">Word count:</div><div class="item-count">5.5k</div></div></div></div></div><!-- keyboard--><div id="keyboard-tips"><div class="keyboardTitle">Blog shortcuts</div><div class="keyboardList"><div class="keyboardItem"><div class="keyGroup"><div class="key">Shift</div><div class="key">K</div></div><div class="keyContent"><div class="content">Cerrar menú rápido</div></div></div><div class="keyboardItem"><div class="keyGroup"><div class="key">Shift</div><div class="key">A</div></div><div class="keyContent"><div class="content">Abrir consola</div></div></div><div class="keyboardItem"><div class="keyGroup"><div class="key">Shift</div><div class="key">M</div></div><div class="keyContent"><div class="content">Reproducir/Pausar música</div></div></div><div class="keyboardItem"><div class="keyGroup"><div class="key">Shift</div><div class="key">L</div></div><div class="keyContent"><div class="content">Abrir enlaces de amigos</div></div></div></div></div><script>const keyboard_addKeyup = (e) => {
+    if (e.key === 'Shift') {
+        document.getElementById('keyboard-tips').classList.remove('show');
+    }
+}
+
+const keyboard_addKeydown = (e) => {
+    const keyboards = [{"name":"Cerrar menú rápido","key":"K","func":"keyboard"},{"name":"Abrir consola","key":"A","sco":"showConsole"},{"name":"Reproducir/Pausar música","key":"M","sco":"musicToggle"},{"name":"Abrir enlaces de amigos","key":"L","url":"/links/"}];
+    if (e.key === 'Shift') {
+        document.getElementById('keyboard-tips').classList.add('show');
+    }
+
+    for (let i = 0; i < keyboards.length; i++) {
+        if (keyboards[i].url) {
+            if (keyboards[i].url.startsWith('http')) {
+                if (e.key === keyboards[i].key) {
+                    window.open(keyboards[i].url);
+                }
+            } else {
+                if (e.key === keyboards[i].key) {
+                    pjax.loadUrl(keyboards[i].url);
+                }
+            }
+        } else if (keyboards[i].sco) {
+            if (e.key === keyboards[i].key) {
+                sco[keyboards[i].sco]();
+            }
+        } else if (keyboards[i].func) {
+            if (e.key === keyboards[i].key) {
+                window[keyboards[i].func]();
+            }
+        }
+    }
+}
+
+function openKeyboard() {
+
+    window.addEventListener('keyup', keyboard_addKeyup);
+
+    window.addEventListener('keydown', keyboard_addKeydown);
+}
+function closeKeyboard() {
+
+    window.removeEventListener('keyup', keyboard_addKeyup);
+
+    window.removeEventListener('keydown', keyboard_addKeydown);
+}
+
+var sco_keyboards = localStorage.getItem('keyboard') === 'true'
+if (sco_keyboards) {
+    openKeyboard();
+    let keyboard = document.getElementById('consoleKeyboard');
+    keyboard?.classList.add('on');
+}</script><!-- righhtside--><div class="needEndHide" id="rightside"><div class="rs_hide"><button class="mode" type="button" title="Mode" onclick="sco.switchDarkMode()"><i class="fas fa-circle-half-stroke"></i></button><button class="aside pc" type="button" title="Sidebar" onclick="sco.switchHideAside()"><i class="fas fa-arrows-alt-h"></i></button><button class="keyboard pc" type="button" title="Keyboard operation" onclick="sco.switchKeyboard()"><i class="fas fa-keyboard"></i></button></div><div class="rs_show"><button class="config" type="button" title="Settings" onclick="document.querySelector(&quot;.rs_hide&quot;).classList.toggle(&quot;show&quot;)"><i class="fas fa-gear fa-spin"></i></button><button class="mobile toc" type="button" title="Toc" onclick="document.querySelector('#card-toc').classList.toggle('open')"><i class="fas fa-list"></i></button><button class="comment" type="button" title="Comment" onclick="sco.scrollTo('post-comment')"><i class="fas fa-comment"></i></button><button class="barrage pc" type="button" title="弹" onclick="sco.switchCommentBarrage()"><span>弹</span></button><button class="top" type="button" title="Top" onclick="sco.toTop()"><i class="fas fa-arrow-up"></i><span id="percent">0</span></button></div></div><div class="post" id="body-wrap"><header class="post-bg" id="page-header"><nav class="show" id="nav"><div id="nav-group"><div id="blog_name"><div class="back-home-button" tabindex="-1"><i class="back-home-button-icon solitude fas fa-bars-progress"></i><div class="back-menu-list-groups"><div class="back-menu-list-group"><div class="back-menu-list-title">Proyectos</div><div class="back-menu-list"><a class="back-menu-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/avdyan/blog" title="Github"><img class="nolazyload back-menu-item-icon" src="/blog/img/logo1.png" alt="Github"><span class="back-menu-item-text">Github</span></a></div></div></div></div><a id="site-name" href="/blog/" title="Back to home"><span class="title">Ideas en Blanco</span><i class="solitude fas fa-home"></i></a></div><div id="page-name-mask"><div id="page-name"><a id="page-name-text" onclick="sco.toTop()">Las mejores distribuciones Linux tipo rolling release (actualización continua)</a></div></div><div id="menus"><div class="menus_items"><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Biblioteca</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/archives/"><i class="solitude  fas fa-folder-closed"></i><span>Archivo</span></a></li><li><a class="site-page child" href="/blog/categories/"><i class="solitude  fas fa-clone"></i><span>Categorías</span></a></li><li><a class="site-page child" href="/blog/tags/"><i class="solitude  fas fa-tags"></i><span>Etiquetas</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Enlaces Amigos</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/links/"><i class="solitude  fas fa-link"></i><span>Enlaces</span></a></li><li><a class="site-page child" href="javascript:travelling()" rel="external nofollow noreferrer"><i class="solitude  fas fa-gift"></i><span>Tesoros</span></a></li></ul></div><div class="menus_item"><a class="site-page" href="javascript:void(0);" rel="external nofollow noreferrer"><span>Sobre Mí</span></a><ul class="menus_item_child"><li><a class="site-page child" href="/blog/kit/"><i class="solitude  fas fa-cogs"></i><span>Mi Equipo</span></a></li><li><a class="site-page child" href="/blog/about/"><i class="solitude  fas fa-user"></i><span>Sobre el Sitio</span></a></li></ul></div></div></div><div id="nav-left"></div><div id="nav-right"><div class="nav-button" id="randomPost_button"><a class="site-page" onclick="toRandomPost()" title="Random post" href="javascript:void(0);" rel="external nofollow noreferrer"><i class="solitude fas fa-dice-d6"></i></a></div><div class="nav-button" id="search-button"><a class="site-page social-icon search" href="javascript:void(0);" rel="external nofollow noreferrer" title="Search"><i class="solitude fas fa-magnifying-glass"></i></a></div><div class="nav-button" id="nav-console"><a class="console_switchbutton" onclick="sco.showConsole()" title="Console" href="javascript:void(0);" rel="external nofollow noreferrer"><label><i class="left"></i><i class="center"></i><i class="right"></i></label></a></div><div id="toggle-menu"><a class="site-page"><i class="solitude fas fa-bars"></i></a></div></div></div></nav><div class="coverdiv" id="coverdiv"><img class="nolazyload" id="post-cover" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png" alt="Las mejores distribuciones Linux tipo rolling release (actualización continua)"></div><div id="post-info"><div id="post-firstinfo"><div class="meta-firstline"><a class="post-meta-original" title="This article is a Original article, pay attention to the copyright.">Original</a><span class="post-meta-categories"><a class="post-meta-categories" href="/blog/categories/Guias-Linux/">Guías Linux</a></span><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/Linux/"><span class="tags-name tags-punctuation"><i class="solitude fas fa-hashtag"></i>Linux</span></a><a class="post-meta__tags" href="/blog/tags/Distribuciones/"><span class="tags-name tags-punctuation"><i class="solitude fas fa-hashtag"></i>Distribuciones</span></a></div></div></div></div><h1 class="post-title">Las mejores distribuciones Linux tipo rolling release (actualización continua)</h1><div id="post-meta"><div class="meta-secondline"><span class="post-meta-date" title="Posted on 2023-03-21 10:00:00"><i class="post-meta-icon solitude fas fa-calendar-days"></i><time datetime="2023-03-21T16:00:00.000Z">2023-03-21T16:00:00.000Z</time></span><span class="post-meta-date" title="Last updated on 2025-07-12 10:00:00"><i class="post-meta-icon solitude fas fa-arrows-rotate"></i><time datetime="2025-07-12T16:00:00.000Z">2025-07-12T16:00:00.000Z</time></span><span class="post-meta-wordcount"><i class="post-meta-icon solitude fas fa-file-word" title="Word count"></i><span class="word-count">763</span><span class="post-meta-separator"></span><i class="post-meta-icon solitude fas fa-clock" title="Reading time"></i><span>4 min</span></span><span class="post-meta-position" title="The author's IP belongs toGuatemala"><i class="post-meta-icon solitude fas fa-location-dot"></i><span>Guatemala</span></span><a class="post-meta-pv" href="/blog/posts/rolling-release-linux" title="PV"><i class="post-meta-icon solitude fas fa-fire-flame-curved"></i><span class="waline-pageview-count"><i class="solitude fas fa-spinner fa-spin"></i></span></a></div></div></div></header><main class="layout" id="content-inner"><div id="post"><article class="post-content article-container"><p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png" alt="Distros Rolling Release"></p>
+<p>Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de las mejores distribuciones de Linux de lanzamiento continuo (“rolling release” de acá en adelante).</p>
+<p><em><strong>¿Sabes qué es una distribución “rolling release”?</strong></em><br>
+Estas distribuciones no esperan seis meses o más para lanzar una nueva versión con nuevas versiones del kernel de Linux, entorno de escritorio u otros componentes de software importantes, sino que se actualizan poco después de que se lanzan.</p>
+<p>Ahora que estás al tanto de eso, echemos un vistazo a algunas de las mejores distribuciones de Linux de lanzamiento continuo.</p>
+<h2 id="openSUSE-Tumbleweed"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.opensuse.org/">openSUSE Tumbleweed</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9HysxPg3kBDBXfOb4o0v-IvwFBMiPhIhOkvCOlYHlCOF37x1G7J8XrB_Qt0U_ozQCn5SuX5PfANMDkMZrM3f4hBn85NBB9TXlIjP0ttMS3Xef6zk0GSf8FQTYNQq5aWI_8XJ65sEWwpqtERSCG2zxKg4acVMB6kDDtsYfd4tSOoM0kIYsEwPesYqV/s1600/opensuse-tumbleweed.png" alt="openSUSE Tumbleweed"></p>
+<p>El buen viejo openSUSE se centró en la estabilidad durante años con su sistema de liberación puntual. Hace unos años, decidieron cambiar su oferta creando openSUSE Leap y Tumbleweed.<br>
+Mientras que openSUSE Leap sigue un lanzamiento puntual con una nueva versión cada pocos años, Tumbleweed está lanzando un nuevo software poco después de su lanzamiento.</p>
+<p>openSUSE Tumbleweed es una excelente opción para aquellos que quieren permanecer en el lado RPM (del lado Red Hat). El ecosistema openSUSE es mucho más diverso con un gran repositorio de software, además, Zypper y YaST le brindan muchas opciones para la administración de paquetes.</p>
+<h2 id="Arch-Linux"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://archlinux.org/">Arch Linux</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieKgJlECW3rcF_ddQxBJqkGi5E6YNtiy0IkmOmBd93_N3ypEAPuwPZ0IBuiGnsTRsDEHQNUHiuDEnaQxuViMy7I3iZ1TSwbat1cSXbj0Dc7aDAmSfNYMsabTk11BD2lGmZQyyG5dsuBy2iizEOo8BJBx_MzKQknp_XtyTZ6AEjm57h8ZYqRhsa3wHh/s1600/arch-linux.png" alt="Arch Linux"></p>
+<p>Es la distribución de lanzamiento continuo más popular. Es casi sinónimo de liberación continua.<br>
+Hay muchas razones por las que Arch Linux tiene un estatus de culto entre los usuarios de Linux. Creo que tiene más que ver con la sensación de logro que uno siente después de instalar Arch Linux porque incluso el procedimiento de instalación no es como otras distribuciones.</p>
+<p>Arch tiene un buen montón de software disponible oficialmente en sus repositorios. Y luego Arch User Repository (AUR) hace que casi cualquier otro software de Linux esté disponible a través del esfuerzo de la comunidad.</p>
+<h2 id="Manjaro-Linux"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://manjaro.org/">Manjaro Linux</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk2aA5GjfYXbWT2rhasceLzXEY68ArKlejEdt25rvHmEV-q6AD1KoLk3_ek6KwVAE3kBUw2xe01QMAPNSOP3EWz7VBXpCXMgNqEEbRJyNT3YFLWPd7lVvrBRrzlAtwErDn97AhHvrIL5MzrRSy1HwtPJYsXcMq7UOhy4J0Y-4jkKxYkrr_7Madr29l/s1600/manjaro-linux.png" alt="Manjaro Linux"></p>
+<p>Manjaro es básicamente Arch menos todas las molestias que conlleva Arch Linux.<br>
+Está basado en Arch Linux, por lo que obtienes Pacman y AUR con un modelo de lanzamiento continuo. Y al mismo tiempo, Manjaro tiene un instalador gráfico, un administrador de paquetes basado en GUI y otras herramientas gráficas para mejorar su experiencia.</p>
+<p>Manjaro es más fácil de instalar, más fácil de usar. Una buena opción para aquellos que quieren quedarse cómodamente en el dominio de Arch.<br>
+<strong>Nota:</strong> Hay muchas otras buenas distribuciones basadas en Arch Linux que no podría incluir en esta lista. Si lo deseas, puedes probar <strong>Garuda Linux</strong>, <strong>EndeavourOS</strong> y muchas otras.</p>
+<h2 id="Solus-Linux"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://getsol.us/">Solus Linux</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMyddKVc8qmqfcWe5UDv6tXuDdwqFBiYkCXwmH9D7Ny2VRjPUsdnGjBUFoLaCAAciD1vOe_LeUvOmGszOQben-ylDDG_zDQShrVKYApTpQc44wFDATLmdsYxqsNpPJgXa3UVKk5BeVB649hgszeHPoe-gHQ2Fr7p1qsYTvxaxc1y5ImTtfI6n48bT1/s1600/solus-linux.png" alt="Solus Linux"></p>
+<p>Solus también es una distribución de lanzamiento continuo “cuidadosa”. A diferencia de Manjaro, no se basa en Arch. Está creada desde cero y utiliza un administrador de paquetes llamado: <strong>eopkg</strong>.</p>
+<p>Solus es una buena opción si quieres algo diferente pero no lo suficientemente complicado como para hacerte sentir incómodo.</p>
+<h2 id="Debian-Testing"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.debian.org/devel/testing.es.html">Debian Testing</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZetRrmYfiQHMj9LQjda85m-d_iJpO_qglwoh7eIMGbCn2JlEgeJjCOuqznP1Kyy_24podzMix1UWA7-Iq9QwjdqRGCNmaHtt26SCwdwVb7Pl8WiAK93OY3sCTpsetomBcgKHZ1zaYaNg7gFuM2x-w6I5PQtIZWwLoUNnfxFs7hnOrRzZ1S3lckgce/s1600/debian-testing.png" alt="Debian Testing"></p>
+<p>Debian es conocido por su enfoque en la estabilidad tanto que la estabilidad a veces equivale a obsoleta. Pero eso es para la rama estable.</p>
+<p>Debian Testing se encuentra en algún lugar entre la rama estable y la inestable. Obtiene las nuevas características antes del lanzamiento estable.</p>
+<h2 id="Void-Linux"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://voidlinux.org/">Void Linux</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxMknTzToW5BwFMeEVBGmCt353Kalvxf3dclJw3EH3THFf-I8IFpsy4CzpPXBogIreOI0POqxP1Jb1vpL_LmhiDN3oOMbOUvoLcBhd3E4ouOzlHFzFfQFK5sggqXOXYsw5uaf98AY5mn5tDt3YwLYqfrCbT4o8t69D-N32EeUApiukYlzjW9XEtwa/s1600/void-linux.png" alt="Void Linux"></p>
+<p>Void también se creó desde cero, es decir, no se basa en Arch, Red Hat o Debian.<br>
+Es un lanzamiento rodante pero no de última generación como Arch. Da preferencia a la estabilidad.</p>
+<p>Otra cosa que lo separa de otras distribuciones es el uso de <strong>runit</strong> como sistema de inicio. En conjunto, Void es una buena opción si eres un usuario experimentado de Linux.</p>
+<h2 id="Gentoo-Linux"><a target="_blank" rel="noopener external nofollow noreferrer" href="https://www.gentoo.org/">Gentoo Linux</a></h2>
+<p><img src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vxBsJ9bK7F7sqXEcbb1rqbZk31CAquuk4y2JElWiKGr2dQyM4QHlPsUeoODMCXg7MQ4vt6KRJoZ4_NnKS2QqfOOVukkVfSgIZW16t0stL-1ULL2YoPuteLzgx3RB4v8vBGrbt0oA7DkI2_G85nHCJeeO1OdO_QDiJX38IuKrMFkhCrAhryoHidLr/s1600/gentoo-linux.png" alt="Gentoo Linux"></p>
+<p>Gentoo no es como tomarte una taza de café y esperar a que todo se instale fácilmente. Todo, desde la instalación hasta la configuración y la administración de paquetes, requiere algún tipo de experiencia y tiempo.</p>
+<p>Gentoo podría ser la distribución de tu elección si sientes que cualquier otra distribución no es lo suficientemente desafiante.</p>
+<h2 id="Conclusiones">Conclusiones</h2>
+<p>Cualquiera que sea tu nivel de experiencia, siempre habrá alguna distro que se adapte a ti. Desde Tumbleweed hasta Gentoo, desde lo más fácil hasta lo más complejo, en el mundo de Linux encontrarás cosas locas y a la vez interesantes. Intenta probar o consultar en los foros, que de seguro encontrarás algo con lo que quedarte.</p>
+</article><div class="post-copyright"><div class="post-copyright__author_group"><div class="post-copyright__author_img"><img class="post-copyright__author_img_front" src= "" data-lazy-src="/blog/img/logo1.png"></div><div class="post-copyright__author_name">Andrés Ujpán</div><div class="post-copyright__author_desc"></div></div><div class="post-tools" id="post-tools"><div class="post-tools-left"><div id="quit-box" onclick="RemoveRewardMask()"></div></div></div><div class="post-copyright__notice"><span class="post-copyright-info">This piece of writing is an original article, utilizing the<a target="_blank" rel="noopener external nofollow noreferrer" href="https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans">CC BY-NC-SA 4.0</a>Agreement. For complete reproduction, please acknowledge the source as Courtesy of<a href="/blog/">Ideas en Blanco</a></span></div></div><div class="post-tools-right"><div class="tag_share"><div class="post-meta__tag-list"><a class="post-meta__tags" href="/blog/tags/Linux/"><span class="tags-punctuation"><i class="solitude fas fa-hashtag"></i>Linux<span class="tagsPageCount">2</span></span></a><a class="post-meta__tags" href="/blog/tags/Distribuciones/"><span class="tags-punctuation"><i class="solitude fas fa-hashtag"></i>Distribuciones<span class="tagsPageCount">1</span></span></a></div></div></div><nav class="needEndHide pagination-post" id="pagination"><div class="next-post pull-full"><a href="/blog/posts/instalar-paquetes-arch"><div class="pagination-info"><div class="label">Next</div><div class="next_info">Cómo instalar paquetes en Arch Linux fácilmente</div></div></a></div></nav>
+        <div class="relatedPosts">
+            <div class="headline">
+                <i class="solitude fas fa-star"></i>
+                <span>Behold, those who found delight in this piece also perused</span>
+                <div class="relatedPosts-link">
+                    <a onclick="event.preventDefault(); toRandomPost();" href="javascript:void(0);" rel="external nofollow" data-pjax-state="">Random</a>
+                </div>
+            </div>
+            <div class="relatedPosts-list">
+            <div>
+                <a href="/blog/posts/instalar-paquetes-arch" title="Cómo instalar paquetes en Arch Linux fácilmente">
+                    <img class="cover" src= "" data-lazy-src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLaXsgiaBB1GvxWUhNKoaTc_5VK65gaD5Uam-jfWsATXxQOVBTQMb53i7_manrEkedYQn1MtRKVmBMZEMAEEO71uNw0FOZVjc2JyrzYRgpagIqe1jznI_ce6DGW-C-f-XCBuJ-9Z6_d3Ywm8pc78YUNt5ZXO9KcX9a8j49aDN1hoXtT02QcCzXxKWo/s1600/instalar-arch.webp" alt="cover">
+                    <div class="content is-center">
+                        <div class="title">Cómo instalar paquetes en Arch Linux fácilmente</div>
+                    </div>
+                </a>
+            </div>
+            </div>
+        </div><div id="post-comment"><div class="comment-head"><div class="comment-headline"><i class="solitude fas fa-comment"></i><span>  Comment</span><span class="count"> (<span class="waline-comment-count"><i class="solitude fas fa-spinner fa-spin"></i></span>)</span></div></div><div class="comment-wrap"><div id="waline-wrap"></div></div></div></div><div class="aside-content" id="aside-content"><div class="card-widget card-info"><div class="card-content"><div class="card-info-avatar is-center"><div class="top-group"><div class="sayhi" id="sayhi" onclick="sco.changeWittyWord()"></div></div></div><div class="avatar"><img alt="Avatar" src="https://cdn.lightxi.com/cloudreve/uploads/2025/02/14/yY8tgUJU_891fe376065dc8b9eacecfde3b6b6e8f.jpg"><div class="sticker"><img class="sticker-img" src="https://s3.qjqq.cn/47/67eb5b00cf179.png!color" alt="Mood sticker"></div></div><div class="description">Las palabras no cambian el mundo, pero cambian a quien lo mira.</div><div class="bottom-group"><span class="left"><div class="name">Andrés Ujpán</div><div class="desc">Lo breve, si despierta algo, siempre vale.</div></span><div class="social-icons is-center"><a class="social-icon" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/avdyan" title="Github"><i class="solitude  fab fa-github"></i></a><a class="social-icon" target="_blank" rel="noopener external nofollow noreferrer" href="https://instagram.com/andressable" title="Bsky"><i class="solitude  fab fa-instagram"></i></a></div></div></div></div><div class="sticky_layout"><div class="card-widget" id="card-toc"><div class="item-headline"><i class="solitude fas fa-bars"></i><span>Table of contents</span></div><div class="toc-content" id="toc-content"><ol class="toc"><li class="toc-item toc-level-2"><a class="toc-link" href="#openSUSE-Tumbleweed"><span class="toc-text">openSUSE Tumbleweed</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Arch-Linux"><span class="toc-text">Arch Linux</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Manjaro-Linux"><span class="toc-text">Manjaro Linux</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Solus-Linux"><span class="toc-text">Solus Linux</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Debian-Testing"><span class="toc-text">Debian Testing</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Void-Linux"><span class="toc-text">Void Linux</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Gentoo-Linux"><span class="toc-text">Gentoo Linux</span></a></li><li class="toc-item toc-level-2"><a class="toc-link" href="#Conclusiones"><span class="toc-text">Conclusiones</span></a></li></ol></div></div><div class="card-widget card-recent-post"><div class="item-headline"><i class="solitude fas fa-map"></i><span>New posts</span></div><div class="aside-list"><a class="aside-list-item" href="/blog/posts/rolling-release-linux" title="Las mejores distribuciones Linux tipo rolling release (actualización continua)"><div class="thumbnail"><img alt="Las mejores distribuciones Linux tipo rolling release (actualización continua)" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png"></div><div class="content"><span class="title" href="/blog/posts/rolling-release-linux" title="Las mejores distribuciones Linux tipo rolling release (actualización continua)">Las mejores distribuciones Linux tipo rolling release (actualización continua)</span><span class="categories" href="/blog/posts/rolling-release-linux">Guías Linux</span></div></a><a class="aside-list-item" href="/blog/posts/instalar-paquetes-arch" title="Cómo instalar paquetes en Arch Linux fácilmente"><div class="thumbnail"><img alt="Cómo instalar paquetes en Arch Linux fácilmente" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLaXsgiaBB1GvxWUhNKoaTc_5VK65gaD5Uam-jfWsATXxQOVBTQMb53i7_manrEkedYQn1MtRKVmBMZEMAEEO71uNw0FOZVjc2JyrzYRgpagIqe1jznI_ce6DGW-C-f-XCBuJ-9Z6_d3Ywm8pc78YUNt5ZXO9KcX9a8j49aDN1hoXtT02QcCzXxKWo/s1600/instalar-arch.webp"></div><div class="content"><span class="title" href="/blog/posts/instalar-paquetes-arch" title="Cómo instalar paquetes en Arch Linux fácilmente">Cómo instalar paquetes en Arch Linux fácilmente</span><span class="categories" href="/blog/posts/instalar-paquetes-arch">Guías Linux</span></div></a><a class="aside-list-item" href="/blog/posts/computacion-cuantica" title="¿Qué es la computación cuántica y por qué es importante?"><div class="thumbnail"><img alt="¿Qué es la computación cuántica y por qué es importante?" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDBGFS31IEgMVJ8oPKddPOadiyAC-ePPAhsO4mBMSWj4K3_hDJDoFfaVx62Ng0E8P12NV3u_9nCpRvHiZNFlXJm8Q5UgHMgBwVLuCdiUCadUmWVoEoLTonZI23700VHy_GEuuV4Z2ymWbB73ReQ7P0-GUvVr8dxtpc9lS27Xrlaj0T4EmDBrnPrVY/s1600-rw/computacion%20cuantica.webp"></div><div class="content"><span class="title" href="/blog/posts/computacion-cuantica" title="¿Qué es la computación cuántica y por qué es importante?">¿Qué es la computación cuántica y por qué es importante?</span><span class="categories" href="/blog/posts/computacion-cuantica">Ciencia y Tecnología</span></div></a><a class="aside-list-item" href="/blog/posts/fuegos-artificiales" title="¿Qué sales dan color a los fuegos artificiales?"><div class="thumbnail"><img alt="¿Qué sales dan color a los fuegos artificiales?" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRPKcw7ZQCRWXQAl9e1ezt5sRh8arwPGdkr8noxePXMyCUMH3H1tpA5EDDb7sBaFqgLug2jk9pk2lJkQnzx8vvqz9LfcAtkq14Jaog6S8EgEeU3Cog_XB7X3gsJcmSbb-itU2EFIp8rs6l_OoUvhjUYsHMv2OSu1qhicMvBqIm55_ANpTLYnP53j6-/s1600/fuegos%20artificiales.webp"></div><div class="content"><span class="title" href="/blog/posts/fuegos-artificiales" title="¿Qué sales dan color a los fuegos artificiales?">¿Qué sales dan color a los fuegos artificiales?</span><span class="categories" href="/blog/posts/fuegos-artificiales">Ciencia y Tecnología</span></div></a><a class="aside-list-item" href="/blog/posts/mejores-extensiones" title="Top extensiones para navegadores que todo techie debería probar"><div class="thumbnail"><img alt="Top extensiones para navegadores que todo techie debería probar" src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3vnglZORrNvAumo86_ayCgW2cx8cPwTYj9InB9jtCWUc-IBZRDCikZ3Ew6q-W3sdHJGtcejdVByFD_hGzdmipeWC-FxQbtiVpqgUW_d1gPlChMcM6Emcpv5LipK3Pi-mGvlSCiSjpFtZEulqXhF2rt6kVR02Ui2L4sfCzqKohVxSA_sBuCxwtc7VO/s1600/Top%20Extensiones%20Para%20Navegadores.webp"></div><div class="content"><span class="title" href="/blog/posts/mejores-extensiones" title="Top extensiones para navegadores que todo techie debería probar">Top extensiones para navegadores que todo techie debería probar</span><span class="categories" href="/blog/posts/mejores-extensiones">Recomendaciones</span></div></a></div></div></div></div></main><footer id="footer"><div id="footer_deal"><a class="deal_link" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/avdyan" title="Github"><i class="solitude  fab fa-github"></i></a><a class="deal_link" href="mailto:andresvx@icloud.com" rel="external nofollow noreferrer" title="Mail"><i class="solitude  far fa-envelope"></i></a><div class="nolazyload footer_mini_logo" id="footer_mini_logo" title="Back to top" onclick="sco.toTop()"><img src= "" data-lazy-src="/blog/img/logo1.png" alt="Back to top"></div><a class="deal_link" target="_blank" rel="noopener external nofollow noreferrer" href="https://instagram.com/andressable" title="Twitter"><i class="solitude  fab fa-twitter"></i></a><a class="deal_link" target="_blank" rel="noopener external nofollow noreferrer" href="https://tiktok.com/avdyen" title="Douyin"><i class="solitude  fab fa-tiktok"></i></a></div><div id="st-footer"><div class="footer-group"><h3 class="footer-title">Navegación</h3><div class="footer-links"><a class="footer-item" href="/blog/archives/" title="Artículos">Artículos</a><a class="footer-item" href="/blog/categories/" title="Categorías">Categorías</a><a class="footer-item" href="/blog/tags/" title="Etiquetas">Etiquetas</a></div></div><div class="footer-group"><h3 class="footer-title">Licencia</h3><div class="footer-links"><a class="footer-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://www.apache.org/licenses/LICENSE-2.0.html" title="Apache-2.0">Apache-2.0</a></div></div><div class="footer-group"><h3 class="footer-title">Enlaces de amigos</h3><div class="footer-links"><a class="footer-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/" title="Jhonny">Jhonny</a><a class="footer-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/" title="Carlos">Carlos</a><a class="footer-item" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/" title="Andy">Andy</a></div></div><div class="footer-group"><div class="footer-title-group"><h3 class="footer-title">Links</h3><button class="random-friends-btn" onclick="randomLinksList()" title="Links"><i class="solitude fas fa-arrows-rotate"></i></button></div><div class="footer-links" id="friend-links-in-footer"></div></div></div><div id="footer-bar"><div class="footer-bar-links"><div class="footer-bar-left"><div class="copyright">© 2023 - 2025 By&nbsp;<a class="footer-bar-link" href="/blog/"><img class="author-avatar" src= "" data-lazy-src="/blog/img/logo1.png">Andrés Ujpán</a></div><div class="beian-group"><a class="footer-bar-link" target="_blank" rel="noopener external nofollow noreferrer" href="https://hexo.io/">Framework: Hexo</a><a class="footer-bar-link" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/everfu/hexo-theme-solitude">Theme: Solitude</a></div></div><div class="footer-bar-right"><a class="footer-bar-link" href="/blog/atom.xml" alt="Suscribirse">Suscribirse</a><a class="footer-bar-link" target="_blank" rel="noopener external nofollow noreferrer" href="https://github.com/everfu/hexo-theme-solitude/blob/main/LICENSE" alt="Licencia"><i class="solitude fas fa-copyright"></i><i class="solitude fab fa-creative-commons-by"></i><i class="solitude fab fa-creative-commons-nc"></i><i class="solitude fab fa-creative-commons-nd"></i></a></div></div></div><div class="comment-barrage needEndHide"></div></footer></div><!-- right_menu--><div id="rightMenu"><div class="rightMenu-group rightMenu-small"><div class="rightMenu-item" id="menu-backward"><i class="solitude fas fa-arrow-left"></i></div><div class="rightMenu-item" id="menu-forward"><i class="solitude fas fa-arrow-right"></i></div><div class="rightMenu-item" id="menu-refresh"><i class="solitude fas fa-arrows-rotate"></i></div><div class="rightMenu-item" id="menu-top"><i class="solitude fas fa-arrow-up"></i></div></div><div class="rightMenu-group rightMenu-line rightMenuPlugin"><div class="rightMenu-item" id="menu-copytext"><i class="solitude fas fa-clone"></i><span>Copy</span></div><div class="rightMenu-item" id="menu-pastetext"><i class="solitude fas fa-clipboard"></i><span>Paste</span></div><div class="rightMenu-item" id="menu-commenttext"><i class="solitude fas fa-comment-medical"></i><span>ToTalk</span></div><div class="rightMenu-item" id="menu-newwindow"><i class="solitude far fa-window-maximize"></i><span>Open</span></div><div class="rightMenu-item" id="menu-copylink"><i class="solitude fas fa-link"></i><span>Copy</span></div><div class="rightMenu-item" id="menu-copyimg"><i class="solitude fas fa-clone"></i><span>Copy</span></div><div class="rightMenu-item" id="menu-downloadimg"><i class="solitude fas fa-cloud-arrow-down"></i><span>Download</span></div><div class="rightMenu-item" id="menu-search"><i class="solitude fas fa-magnifying-glass"></i><span>Search</span></div><div class="rightMenu-item" id="menu-music-toggle"><i class="solitude fas fa-play"></i><span>Play</span></div><div class="rightMenu-item" id="menu-music-back"><i class="solitude fas fa-backward"></i><span>Back</span></div><div class="rightMenu-item" id="menu-music-forward"><i class="solitude fas fa-forward"></i><span>Forward</span></div><div class="rightMenu-item" id="menu-music-copyMusicName"><i class="solitude fas fa-clone"></i><span>Copy Name</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><div class="rightMenu-item" id="menu-randomPost" onclick="toRandomPost()||rm.hideRightMenu()"><i class="solitude fas fa-tower-broadcast"></i><span>Aleatorio</span></div><div class="rightMenu-item" onclick="pjax.loadUrl('/categories/')||rm.hideRightMenu()"><i class="solitude fas fa-clone"></i><span>Categorías</span></div><div class="rightMenu-item" onclick="pjax.loadUrl('/tags/')||rm.hideRightMenu()"><i class="solitude fas fa-tags"></i><span>Etiquetas</span></div></div><div class="rightMenu-group rightMenu-line rightMenuOther"><div class="rightMenu-item" id="menu-darkmode" onclick="sco.switchDarkMode()"><i class="solitude fas fa-circle-half-stroke"></i><span class="menu-darkmode-text">Dark</span></div></div></div><div id="rightmenu-mask"></div><!-- inject body--><div><script src="/blog/js/utils.js?v=3.0.19"></script><script src="/blog/js/main.js?v=3.0.19"></script><script src="/blog/js/third_party/waterfall.min.js?v=3.0.19"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/pjax/0.2.8/pjax.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/mermaid/11.4.1/mermaid.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/Chart.js/4.4.1/chart.umd.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/typeit/8.8.7/index.umd.min.js"></script><script src="/blog/js/third_party/universe.min.js?v=3.0.19"></script><script>dark()
+</script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/KaTeX/0.16.9/contrib/copy-tex.min.js"><script>(() => {
+  document.querySelectorAll('.article-container span.katex-display').forEach(item => {
+    utils.wrap(item, 'div', {class: 'katex-wrap'})
+  })
+})();
+</script></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/vanilla-lazyload/19.1.3/lazyload.iife.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/node-snackbar/0.1.16/snackbar.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/fancyapps-ui/5.0.36/fancybox/fancybox.umd.min.js"></script><script src="/blog/js/post_ai.js?v=3.0.19"></script><script>var meting_api = 'https://meting.qjqq.cn/?server=:server&type=:type&id=:id&auth=:auth&r=:r';</script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/aplayer/1.10.1/APlayer.min.js"></script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/meting/2.0.1/Meting.min.js"></script><script>const coverColorConfig = {
+  time: 43200000
+}</script><script src="/blog/js/covercolor/ave.js?v=3.0.19"></script><script>window.paceOptions = {
+  restartOnPushState: false
+}
+
+utils.addGlobalFn('pjaxSend', () => {
+  Pace.restart()
+}, 'pace_restart')
+</script><script src="//mirrors.sustech.edu.cn/cdnjs/ajax/libs/pace/1.2.4/pace.min.js"></script><script src="/blog/js/right_menu.js?v=3.0.19"></script><script src="/blog/js/schedule.js"></script><script src="https://npm.akass.cn/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script><div class="js-pjax"><script>(() => {
+    let walineInitFunction = window.walineFn || null
+
+    function initWaline(initFn) {
+        const walineOptions = {
+            el: '#waline-wrap',
+            serverURL: 'http://comments-blog-jet.vercel.app/',
+            pageview: true,
+            dark: 'html[data-theme="dark"]',
+            path: window.location.pathname,
+            comment: true,
+            ...{"lang":"es-MX","emoji":["//unpkg.com/@waline/emojis@1.2.0/weibo","//unpkg.com/@waline/emojis@1.2.0/bmoji","//unpkg.com/@waline/emojis@1.2.0/bilibili"],"reaction":["https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_heart_eyes.png","https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_joy.png","https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_dog_consider.png","https://unpkg.com/@waline/emojis@1.1.0/weibo/weibo_sob.png"]}
+        }
+        const walineInstance = initFn(walineOptions)
+        utils.addGlobalFn('pjax', () => walineInstance.destroy(), 'destroyWaline')
+        GLOBAL_CONFIG.lightbox && utils.lightbox(document.querySelectorAll('#comment .wl-content img:not(.wl-emoji)'))
+        sco.owoBig({
+            body: '.wl-emoji-popup',
+            item: '.wl-tab-wrapper button'
+        })
+    }
+
+    async function loadWaline() {
+        if (walineInitFunction) initWaline(walineInitFunction)
+        else {
+            await utils.getCSS('//mirrors.sustech.edu.cn/cdnjs/ajax/libs/waline/3.4.3/waline.min.css')
+            const {init} = await import('//mirrors.sustech.edu.cn/cdnjs/ajax/libs/waline/3.4.3/waline.min.js')
+            walineInitFunction = init || Waline.init
+            initWaline(walineInitFunction)
+            window.walineFn = walineInitFunction
+        }
+        true && barrageWaline()
+    }
+
+    if (true || true) {
+        if (true) utils.loadComment(document.getElementById('waline-wrap'), loadWaline)
+        else loadWaline()
+    } else window.loadTwoComment = loadWaline
+})()
+</script><script>async function barrageWaline() {
+    const url = new URL('http://comments-blog-jet.vercel.app//api/comment')
+    const params = {path: window.location.pathname, sortBy: 'insertedAt_asc'}
+    Object.entries(params).forEach(([key, value]) => url.searchParams.append(key, value))
+    await fetch(url).then(async res => {
+        if (!res.ok) throw new Error(`HTTP error! status: ${res.status}`)
+        const data = await res.json();
+        const regex = /<img [^>]*class="wl-emoji"[^>]*>/;
+        const init = () => {
+            initializeCommentBarrage(data.data.data
+                .map(item => ({
+                    nick: item.nick,
+                    mailId: item.avatar,
+                    content: item.comment.replace(regex, ''),
+                    id: item.objectId
+                })))
+        }
+        if (typeof initializeCommentBarrage === "undefined") await utils.getScript('/blog/js/third_party/barrage.min.js?v=3.0.19').then(init)
+        else init()
+    }).catch(error => console.error("An error occurred while fetching comments: ", error))
+}</script><script>mermaid.run();
+</script></div></div><script>const links = [{"name":"Wu Shiqi","link":"https://github.com/everfu"}]
+const randomText = 'Click the button to visit a random link. The safety and availability of the destination website are not guaranteed. The random link for this visit is: ⌈ ${name} ⌋ '
+function travelling() {
+    const link = links[utils.randomNum(links.length)];
+    Snackbar.show({
+        text: randomText.replace(/\$\{name}/,link.name),
+        duration: 8000,
+        pos: 'top-center',
+        actionText: 'To',
+        onActionClick: function(element) {
+            element.style.opacity = 0;
+            window.open(link.link, '_blank');
+        }
+    });
+}
+</script><script>function randomLinksList() {
+    const linkcard = document.getElementById('friend-links-in-footer');
+    if (linkcard == null) return;
+
+    let data = '';
+    let linksCopy = [...links];
+    let count = Math.min(3, linksCopy.length);
+
+    for (let i = 0; i < count; i++) {
+        let index = utils.randomNum(linksCopy.length);
+        const {link, name} = linksCopy[index];
+        data += `<a class="footer-item" href="${link}" target="_blank" rel="noopener noreferrer nofollow">${name}</a>`;
+        linksCopy.splice(index, 1);
+    }
+
+    linkcard.innerHTML = data + '<a class="footer-item" href="/blog/links/">More</a>';
+}</script><!-- pjax--><script>const pjax = new Pjax({
+    elements: 'a:not([target="_blank"])',
+    selectors: ["title","#body-wrap","#site-config","meta[name=\"description\"]",".js-pjax","meta[property^=\"og:\"]","#config-diff",".rs_show",".rs_hide"],
+    cacheBust: false,
+    analytics: false,
+    scrollRestoration: false
+})
+
+document.querySelectorAll('script[data-pjax]').forEach(item => {
+    const newScript = document.createElement('script')
+    const content = item.text || item.textContent || item.innerHTML || ""
+    Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+    newScript.appendChild(document.createTextNode(content))
+    item.parentNode.replaceChild(newScript, item)
+})
+
+document.addEventListener('pjax:complete', () => {
+    window.refreshFn()
+
+    document.querySelectorAll('script[data-pjax]').forEach(item => {
+        const newScript = document.createElement('script')
+        const content = item.text || item.textContent || item.innerHTML || ""
+        Array.from(item.attributes).forEach(attr => newScript.setAttribute(attr.name, attr.value))
+        newScript.appendChild(document.createTextNode(content))
+        item.parentNode.replaceChild(newScript, item)
+    })
+
+    GLOBAL_CONFIG.islazyload && window.lazyLoadInstance.update()
+
+})
+
+document.addEventListener('pjax:error', (e) => {
+    if (e.request.status === 404) {
+        pjax.loadUrl('/404.html')
+    }
+})</script><!-- google adsense--><!-- search--><div id="local-search"><div class="search-dialog"><nav class="search-nav"><span class="search-dialog-title">Search</span><button class="search-close-button"><i class="solitude fas fa-xmark"></i></button></nav><div class="search-wrap"><div class="search-box"><input class="search-box-input" id="search-input" type="text" autocomplete="off" spellcheck="false" autocorrect="off" autocapitalize="off" placeholder="Enter keywords to search"></div><div id="search-results"><div id="search-hits"></div></div><div id="search-pagination"></div><div id="search-tips"></div></div></div><div id="search-mask"></div></div><script src="/blog/js/search/local.js?v=3.0.19"></script><!-- music--><div class="needEndHide" id="nav-music"><div id="nav-music-hoverTips"><i class="music-control-btn fas fa-backward-step" id="music-prev" onclick="sco.musicSkipBack()"></i><i class="music-control-btn fas fa-pause" id="music-pause" onclick="sco.musicToggle()"></i><i class="music-control-btn fas fa-play" id="music-play" onclick="sco.musicToggle()"></i><i class="music-control-btn fas fa-forward-step" id="music-next" onclick="sco.musicSkipForward()"></i></div><meting-js id="8407304077" server="netease" type="playlist" mutex="true" preload="none" theme="var(--efu-main)" data-lrctype="0" order="random" volume="0.8"></meting-js></div></body></html>
+        <script>
+            const posts = ["posts/rolling-release-linux","posts/instalar-paquetes-arch","posts/computacion-cuantica","posts/fuegos-artificiales","posts/mejores-extensiones","posts/crear-portafolio-web","posts/diseno-automotriz","posts/velocidad-de-la-luz","posts/marie-curie-en-3-minutos","posts/pagespeed-y-optimizacion-web","posts/famosas-paradojas-fisica","posts/recursos-desarrollo-diseno-web","posts/github-repositorios-esenciales-desarrolladores"];
+            function toRandomPost() {
+                const randomPost = posts[Math.floor(Math.random() * posts.length)];
+                pjax.loadUrl(GLOBAL_CONFIG.root + randomPost);
+            }
+        </script>
