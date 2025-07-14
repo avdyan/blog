@@ -124,7 +124,7 @@ function cardTimes() {
     lunarMon = chineseLunar.format(lunarDate, "M");
     lunarDay = chineseLunar.format(lunarDate, "d");
 
-    const newYearDate = new Date("2026/02/17 00:00:00");
+    const newYearDate = new Date("2026/01/01 00:00:00");
     const daysUntilNewYear = Math.floor(
       (newYearDate - now) / 1e3 / 60 / 60 / 24
     );
@@ -138,16 +138,16 @@ function cardTimes() {
 
     e.querySelector(
       "#calendar-week"
-    ).innerHTML = `Semana ${weekNum}&nbsp;${weekStr}`;
+    ).innerHTML = `Semana ${weekNum}`;
     e.querySelector("#calendar-date").innerHTML = date
       .toString()
       .padStart(2, "0");
     e.querySelector(
       "#calendar-solar"
-    ).innerHTML = `${year}&nbsp;${monthStr}&nbsp;Día ${asideDay.toFixed(0)}`;
-    e.querySelector(
-      "#calendar-lunar"
-    ).innerHTML = `${ganzhiYear}${animalYear}&nbsp;${lunarMon}${lunarDay}`;
+    ).innerHTML = `${weekStr}, ${date} ${monthStr} ${year}`;
+    // e.querySelector(
+    //   "#calendar-lunar"
+    // ).innerHTML = `${ganzhiYear}${animalYear}&nbsp;${lunarMon}${lunarDay}`;
     document.getElementById("schedule-days").innerHTML = daysUntilNewYear;
   }
 }

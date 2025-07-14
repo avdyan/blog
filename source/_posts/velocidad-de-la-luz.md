@@ -8,7 +8,7 @@ categories:
 abbrlink: velocidad-de-la-luz
 date: 2022-07-29 23:32:00
 updated: 2025-07-12 23:32:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjFVy7_uCbMOB2Xo_S4gaCoIm56AzMsdWq16nlRC2DleQ5LEKL_1uZZflF3Y4eRZPT-yjjzbstNUEUrrwPfumx4JB4MjvxubuaxT9ms6OVjKw6bDgPnIA5D8OevIog-rwu7L18wS_fbn5kQHmHfi7g4n34Cw10688tR0eMJe7RmOM7ilNnCkWdS37EL/s1600-rw/Velocidad%20de%20la%20Luz.webp
+cover: img/post-covers/velocidad-de-la-luz.webp
 ---
 
 Un ejemplo sencillo de cómo lo que observamos, es un haz de luz que proviene de un tiempo determinado; segundos, minutos, horas, semanas, meses, años, años luz… según cuán lejos se encuentre el objetivo del observardor. Es por eso, que algunas estrellas, galaxias, etc. podrían inclusive no existir y aún así poder observalas de cómo fueron en su existencia.

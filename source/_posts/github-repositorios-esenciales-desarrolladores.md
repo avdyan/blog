@@ -10,10 +10,10 @@ categories:
 abbrlink: github-repositorios-esenciales-desarrolladores
 date: 2022-05-17 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7cHQXKb-jHUaaDnrArXrI_wNo7a4v3LlRJ0BFnd9z0OyQHV39UWPyb138E0Ot04jJNxVYV5j4bJTOMaz0XtlrmNmZZNsfcxpv63dhK6FoMhQaCLxToKpxMvb_N_6W9qsYOgo9nPjGCUNVAih7ZNfVPaZ2F3ftuzMga_I671sm2gWCH9jDOsqnw_y5/s1600-rw/Repositorios.webp
+cover: img/post-covers/github-repositorios-esenciales-desarrolladores.webp
 ---
 
-![Repositorios de GitHub Esenciales](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7cHQXKb-jHUaaDnrArXrI_wNo7a4v3LlRJ0BFnd9z0OyQHV39UWPyb138E0Ot04jJNxVYV5j4bJTOMaz0XtlrmNmZZNsfcxpv63dhK6FoMhQaCLxToKpxMvb_N_6W9qsYOgo9nPjGCUNVAih7ZNfVPaZ2F3ftuzMga_I671sm2gWCH9jDOsqnw_y5/s1600-rw/Repositorios.webp)
+![Repositorios de GitHub Esenciales](/blog/img/post-covers/github-repositorios-esenciales-desarrolladores.webp)
 
 Además de ser el hogar de algunos de los proyectos de código abierto más interesantes de Internet, GitHub también es un excelente lugar para compartir recursos de todo tipo: libros gratuitos, API's o ideas de proyectos. Pero con la gran cantidad se vuelve difícil encontrar los repositorios más útiles. Así que he seleccionado esta lista de diez repositorios fabulosos que brindan un gran valor para todos los desarrolladores web y de software. Todos ellos le agregarán valor y lo ayudarán a convertirse en un mejor desarrollador web o de software.
 

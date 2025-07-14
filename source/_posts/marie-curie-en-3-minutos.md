@@ -8,7 +8,7 @@ categories:
 abbrlink: marie-curie-en-3-minutos
 date: 2022-07-24 23:35:00
 updated: 2025-07-12 23:35:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN2r-6EMm42a15zQLdYFDKMoF2kRus5bUtGh2p10bNhw8U2PJcznaS0eWN-2c5-gTFf75KwS5feZ5anPhMCr4MAXbTTvO7AFRTQ9YQ9iWwSUosLlSBkqjJIfo2rv85l0Zz4jCXNHVExTJseTkjB4jqWhc-RlTQkdWYUoBc0twLvnGYEWXwzWBCofif/s1600/Marie%20Curie.webp
+cover: img/post-covers/marie-curie-en-3-minutos.jpg
 ---
 
 Descubre la historia de Marie Curie, la primera mujer en recibir 2 premios Nobel y ser una leyenda en la Física y la Química.

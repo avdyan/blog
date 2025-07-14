@@ -8,10 +8,10 @@ categories:
 abbrlink: mejores-extensiones
 date: 2022-10-15 12:00:00
 updated: 2025-07-12 12:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3vnglZORrNvAumo86_ayCgW2cx8cPwTYj9InB9jtCWUc-IBZRDCikZ3Ew6q-W3sdHJGtcejdVByFD_hGzdmipeWC-FxQbtiVpqgUW_d1gPlChMcM6Emcpv5LipK3Pi-mGvlSCiSjpFtZEulqXhF2rt6kVR02Ui2L4sfCzqKohVxSA_sBuCxwtc7VO/s1600/Top%20Extensiones%20Para%20Navegadores.webp
+cover: img/post-covers/mejores-extensiones.jpg
 ---
 
-![Top Extensiones Para Navegadores](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3vnglZORrNvAumo86_ayCgW2cx8cPwTYj9InB9jtCWUc-IBZRDCikZ3Ew6q-W3sdHJGtcejdVByFD_hGzdmipeWC-FxQbtiVpqgUW_d1gPlChMcM6Emcpv5LipK3Pi-mGvlSCiSjpFtZEulqXhF2rt6kVR02Ui2L4sfCzqKohVxSA_sBuCxwtc7VO/s1600/Top%20Extensiones%20Para%20Navegadores.webp)
+![Top Extensiones Para Navegadores](/blog/img/post-covers/mejores-extensiones.jpg)
 
 Como programadores o entusiastas de la tecnología queremos estar a la vanguardia y destacar entre los demás. Quizás alguna vez hayas querido que hubiera una herramienta que te facilite la tarea o te ahorre tiempo. Es por ello que hoy te traemos una lista con algunas extensiones que sin duda te encantarán, ya sea por su gran utilidad o porque añaden una estética diferente.
 

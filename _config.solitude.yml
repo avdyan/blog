@@ -84,7 +84,7 @@ aside:
 
   # Sticky: Fixed position / noSticky: Not fixed position
   home: # on the homepage
-    noSticky: "about,calendar,schedule"
+    noSticky: "about,calendar,schedule,newestPost"
     Sticky: "allInfo"
   post: # on the article page
     noSticky: "about"
@@ -193,7 +193,7 @@ post:
       # License link
       licenurl: https://creativecommons.org/licenses/by-nc-sa/4.0/deed.zh-hans
   ai:
-    enable: true
+    enable: false
     modelName: ChatGPT
   # Article meta information
   meta:
@@ -243,7 +243,7 @@ post:
   covercolor:
     enable: true
     # local: local color / api: api color / ave: oss average color
-    mode: ave
+    mode: api
     # api address / dirección de la API
     api: https://api.qjqq.cn/api/Imgcolor?img=
     # Storage / tiempo de caché
@@ -252,7 +252,7 @@ post:
     enable: false
     desc: # Articles from Ever Fu.
     button: # Button
-      enable: true
+      enable: false
       name: # Learn more
       url: /about/
 # --------------------------- end ---------------------------
@@ -260,8 +260,8 @@ post:
 # --------------------------- start ---------------------------
 # Custom Theme Color
 theme_color:
-  oscuro: "#3498db" # Azul oscuro
-  claro: "#f1c40f" # Amarillo brillante
+  dark: "#cba6f7" # Azul oscuro
+  light: "#dc8a78" # Amarillo brillante
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -270,7 +270,7 @@ display_mode:
   # auto: automatic switching(Recognize the current theme mode of the device) / dark: dark mode / light: light mode
   type: auto
   # After opening, the dark mode will display the starry sky background
-  universe: true
+  universe: false
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -477,7 +477,7 @@ footer:
 # 404 page
 # Página 404
 errorpage:
-  img: /img/404.avif
+  img: /blog/img/404.avif
   text: =awa= Página no encontrada # Text
   recommendList: true
 # --------------------------- end ---------------------------
@@ -633,6 +633,7 @@ css_prefix: false
 extends:
   # Insert in head
   head:
+    - <link rel="stylesheet" href="/blog/css/modifications.css">
     - <link rel="stylesheet" href="/blog/css/schedule.css">
     - <link rel="stylesheet" href="/blog/css/menu-custom.css?v=1.0">
     - <link rel="stylesheet" href="/blog/css/waline-custom.css">
@@ -694,7 +695,7 @@ twikoo: # https://twikoo.js.org/
   option: # twikoo option
 # Waline: https://solitude.js.org/comment/waline
 waline: # https://waline.js.org/
-  envId: http://comments-blog-jet.vercel.app/ # url: https://waline.wzsco.top
+  envId: https://comments-blog-jet.vercel.app/ # url: https://waline.wzsco.top
   pageview: true # Whether to enable page access statistics
   option: # waline configuration item
     lang: es-MX
@@ -849,8 +850,8 @@ google_adsense:
 # --------------------------- start ---------------------------
 # No modificar a menos que sea necesario
 CDN:
-  internal: local # local / cdnjs / jsdelivr / unpkg / custom
-  third_party: custom # cdnjs / jsdelivr / unpkg / custom
+  internal: cdnjs # local / cdnjs / jsdelivr / unpkg / custom
+  third_party: cdnjs # cdnjs / jsdelivr / unpkg / custom
   version: true # Si usar número de versión
   custom_format: //mirrors.sustech.edu.cn/cdnjs/ajax/libs/${cdnjs_name}/${version}/${min_cdnjs_file} # Formato personalizado
   # Sobrescribir directamente los enlaces CDN por defecto (prioridad más alta)

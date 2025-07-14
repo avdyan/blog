@@ -8,10 +8,10 @@ categories:
 abbrlink: famosas-paradojas-fisica
 date: 2022-07-01 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVJ7j8K_E_qxjIzUKujBSNS2KvuaSQLm8sQp_WFsjkujEyLtt8gJmlD_VQi-MvI76qlSoEtIza_v5Og5Ly51wInDkHBN4rIXPDKbvdyqzQkr5bLJat-img6N7njlKc7KFiZxm42hr7TckrR1--Ho19C3eLeGYUMZ6O7Cpy-Y1pycb6cywSp7eq6TT2/s1600/Paradojas%20de%20la%20F%C3%ADsica.webp
+cover: img/post-covers/famosas-paradojas-fisicas.jpg
 ---
 
-![Paradojas de la Física](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVJ7j8K_E_qxjIzUKujBSNS2KvuaSQLm8sQp_WFsjkujEyLtt8gJmlD_VQi-MvI76qlSoEtIza_v5Og5Ly51wInDkHBN4rIXPDKbvdyqzQkr5bLJat-img6N7njlKc7KFiZxm42hr7TckrR1--Ho19C3eLeGYUMZ6O7Cpy-Y1pycb6cywSp7eq6TT2/s1600/Paradojas%20de%20la%20F%C3%ADsica.webp)
+![Paradojas de la Física](/blog/img/post-covers/famosas-paradojas-fisicas.jpg)
 
 La palabra **paradoja**, de origen griego, puede referir algo contrario al sentido común, o bien algo que sucede contra lo esperado y provoca asombro. **Descubre 6 de éstos a continuación.**
 

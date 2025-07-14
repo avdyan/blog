@@ -8,10 +8,10 @@ categories:
 abbrlink: fuegos-artificiales
 date: 2022-12-09 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRPKcw7ZQCRWXQAl9e1ezt5sRh8arwPGdkr8noxePXMyCUMH3H1tpA5EDDb7sBaFqgLug2jk9pk2lJkQnzx8vvqz9LfcAtkq14Jaog6S8EgEeU3Cog_XB7X3gsJcmSbb-itU2EFIp8rs6l_OoUvhjUYsHMv2OSu1qhicMvBqIm55_ANpTLYnP53j6-/s1600/fuegos%20artificiales.webp
+cover: img/post-covers/fuegos-artificiales.jpeg
 ---
 
-![Fuegos artificiales](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRPKcw7ZQCRWXQAl9e1ezt5sRh8arwPGdkr8noxePXMyCUMH3H1tpA5EDDb7sBaFqgLug2jk9pk2lJkQnzx8vvqz9LfcAtkq14Jaog6S8EgEeU3Cog_XB7X3gsJcmSbb-itU2EFIp8rs6l_OoUvhjUYsHMv2OSu1qhicMvBqIm55_ANpTLYnP53j6-/s1600/fuegos%20artificiales.webp)
+![Fuegos artificiales](/blog/img/post-covers/fuegos-artificiales.jpeg)
 
 Los colores de los fuegos artificiales se derivan de una amplia variedad de sales metálicas. Y cuando decimos **‘sal’**, evidentemente no nos referimos a la sal de mesa común (cloruro de sodio), sino a aquellos compuestos que contienen átomos metálicos y no metálicos unidos iónicamente.  
 Pero, ¿qué elementos químicos son los encargados de dotar de color a los fuegos artificiales?

@@ -8,10 +8,10 @@ categories:
 abbrlink: rolling-release-linux
 date: 2023-03-21 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png
+cover: img/post-covers/distros-linux.png
 ---
 
-![Distros Rolling Release](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png)
+![Distros Rolling Release](/blog/img/post-covers/distros-linux.png)
 
 Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de las mejores distribuciones de Linux de lanzamiento continuo ("rolling release" de acá en adelante).
 

@@ -8,10 +8,10 @@ categories:
 abbrlink: diseno-automotriz
 date: 2022-09-16 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNqnAPnujYZPbNYgRkl0b0AZHOXNh0tAgn0Ka_a8sAYy2q-5kCWZI0Gm1oeCBmQ-sP5Xwf7fbsIIOKahfXhgxkttnDM13-hKpPp7v7qbCoWryHR2btbOv7QbRYzUZy_hl-zX96EfBGFGakGbfkfqbs5iS-tL9Xur1Fylc29QSB0Pr1gMjhpL9GbWA_/s1600-rw/briefing.webp
+cover: img/post-covers/trazo-de-un-automovil.webp
 ---
 
-![Diseño automotriz](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNqnAPnujYZPbNYgRkl0b0AZHOXNh0tAgn0Ka_a8sAYy2q-5kCWZI0Gm1oeCBmQ-sP5Xwf7fbsIIOKahfXhgxkttnDM13-hKpPp7v7qbCoWryHR2btbOv7QbRYzUZy_hl-zX96EfBGFGakGbfkfqbs5iS-tL9Xur1Fylc29QSB0Pr1gMjhpL9GbWA_/s1600-rw/briefing.webp)
+![Diseño automotriz](/blog/img/post-covers/trazo-de-un-automovil.webp)
 
 Aunque a veces pueda parecer fácil, diseñar un nuevo modelo es una tarea que exige un gran esfuerzo por parte de un amplio equipo de profesionales.  
 Desde que se coge lápiz y papel hasta que el coche sale a la venta, se suceden una serie de pasos que SEAT nos desvela con su SUV **Ateca** como ejemplo.

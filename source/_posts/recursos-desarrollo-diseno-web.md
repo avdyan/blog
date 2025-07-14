@@ -10,10 +10,10 @@ categories:
 abbrlink: recursos-desarrollo-diseno-web
 date: 2022-06-28 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN5WQF-cy8ZBZanVZDMp4ZFtgayqPyvWHVl7p8o-_EZ5sSEC6Tb1F5GbwUSvHaDR4PK2xgNP5IZpilcPxLuZ91nN9orltF0aTI6HFgYtbMsm3vIGoiGwaGKrE423em0QSouIZaROmAkSAWXtIQCyfeRweudU3p-S84OrsiNUiuqRE7KFXSH9SPIpkADQ/s1600/Recursos.webp
+cover: img/post-covers/recursos-desarrollo-diseno-web.jpg
 ---
 
-![Recursos Esenciales](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN5WQF-cy8ZBZanVZDMp4ZFtgayqPyvWHVl7p8o-_EZ5sSEC6Tb1F5GbwUSvHaDR4PK2xgNP5IZpilcPxLuZ91nN9orltF0aTI6HFgYtbMsm3vIGoiGwaGKrE423em0QSouIZaROmAkSAWXtIQCyfeRweudU3p-S84OrsiNUiuqRE7KFXSH9SPIpkADQ/s1600/Recursos.webp)
+![Recursos Esenciales](/blog/img/post-covers/recursos-desarrollo-diseno-web.jpg)
 
 Ya sea que necesites herramientas para facilitar tu tarea como programador o necesites inspiración para un nuevo diseño en mente, agilizar el proceso es algo que todos necesitamos, ¿las razones? Mejorar el tiempo de entrega, salir temprano del trabajo entre otros beneficios. Checa este listado que preparamos para ti.
 

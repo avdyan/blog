@@ -8,7 +8,7 @@ categories:
 abbrlink: pagespeed-y-optimizacion-web
 date: 2022-07-17 23:35:00
 updated: 2025-07-12 23:35:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgXb9D-rRsfhsVhfwcHuO1XVcXytD9IVf9YBE_YJYUL_6aF5rhpNiqtNsmr07AGtxth3ROKunlgSyiMwlfEJpAYHrXBLw_70HSqUWd8QXJ-1g0iNiOVxh4doJDYNfAO-WZP6n-zoaB9ZvkFJCrU48WTNeDQSIcvJIbujmv9ThlyDe4fpNfAtDUwDsAU/s2880/Page%20Speed.png
+cover: img/post-covers/pagespeed-y-optimizacion-web.jpeg
 ---
 
 En este articulo voy a ir al grano, navegando por la web me he encontrado muchos sitios sin optimización o con problemas de carga, algunos están dentro del 40% al 70% de optimización según Google y esto podría estar afectando tanto a la experiencia de usuario como al posicionamiento en el buscador más grande del mundo, por eso les comparto este pequeño tutorial que posiblemente podría ayudar a algunos a utilizar herramientas nuevas, reforzar sus conocimientos y mejorar un poco la carga de su sitio web.

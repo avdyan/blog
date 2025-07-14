@@ -10,10 +10,10 @@ categories:
 abbrlink: crear-portafolio-web
 date: 2022-09-16 22:43:00
 updated: 2025-07-12 22:43:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7LH7VANVvIcRevKK0dApE44W3DFpzAoE9g9wja1Rz1wG6ZkFT8sBGaBGPUOgedoT8VqXvgZHG3TtNS9S6BNbrNw4aNr60o_qhdev9AEhX2FiYtcbVmF3h35wsc7mj6Ij7A82K-QdCFvhjv8OzVYu1IJ0DYLWyi70o7liIAp_ZiVfj_tGtK-mjJ7CR/s1600/Portfolio%20Github%20Pages.webp
+cover: img/post-covers/crear-portafolio-web.jpg
 ---
 
-![Portfolio ejemplo](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7LH7VANVvIcRevKK0dApE44W3DFpzAoE9g9wja1Rz1wG6ZkFT8sBGaBGPUOgedoT8VqXvgZHG3TtNS9S6BNbrNw4aNr60o_qhdev9AEhX2FiYtcbVmF3h35wsc7mj6Ij7A82K-QdCFvhjv8OzVYu1IJ0DYLWyi70o7liIAp_ZiVfj_tGtK-mjJ7CR/s1600/Portfolio%20Github%20Pages.webp)
+![Portfolio ejemplo](/blog/img/post-covers/crear-portafolio-web.jpg)
 
 Dentro del gran mundo de la programación, necesitas destacarte para optar por mejores trabajos y ser más remunerado por tu experiencia. Pero, ¿cómo logras eso? En este artículo te lo contamos.
 

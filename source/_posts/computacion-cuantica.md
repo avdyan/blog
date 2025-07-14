@@ -9,10 +9,10 @@ categories:
 abbrlink: computacion-cuantica
 date: 2022-12-14 10:00:00
 updated: 2025-07-12 10:00:00
-cover: https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDBGFS31IEgMVJ8oPKddPOadiyAC-ePPAhsO4mBMSWj4K3_hDJDoFfaVx62Ng0E8P12NV3u_9nCpRvHiZNFlXJm8Q5UgHMgBwVLuCdiUCadUmWVoEoLTonZI23700VHy_GEuuV4Z2ymWbB73ReQ7P0-GUvVr8dxtpc9lS27Xrlaj0T4EmDBrnPrVY/s1600-rw/computacion%20cuantica.webp
+cover: img/post-covers/computacion-cuantica.webp
 ---
 
-![Computación cuántica](https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDBGFS31IEgMVJ8oPKddPOadiyAC-ePPAhsO4mBMSWj4K3_hDJDoFfaVx62Ng0E8P12NV3u_9nCpRvHiZNFlXJm8Q5UgHMgBwVLuCdiUCadUmWVoEoLTonZI23700VHy_GEuuV4Z2ymWbB73ReQ7P0-GUvVr8dxtpc9lS27Xrlaj0T4EmDBrnPrVY/s1600-rw/computacion%20cuantica.webp)
+![Computación cuántica](/blog/img/post-covers/computacion-cuantica.webp)
 
 La **computación cuántica** es una rama de la informática que se centra en el estudio de cómo utilizar sistemas cuánticos para procesar información.  
 Estos sistemas utilizan los fenómenos cuánticos, como la **superposición** y el **entrelazamiento**, para realizar cálculos que no son posibles con la tecnología tradicional.
