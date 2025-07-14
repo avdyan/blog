@@ -1,5 +1,5 @@
-https://avdyan.github.io/blog/kit/index.html
 https://avdyan.github.io/blog/links/index.html
+https://avdyan.github.io/blog/kit/index.html
 https://avdyan.github.io/blog/music/index.html
 https://avdyan.github.io/blog/tags/index.html
 https://avdyan.github.io/blog/about/index.html
@@ -35,10 +35,10 @@ https://avdyan.github.io/blog/tags/Pacman/
 https://avdyan.github.io/blog/tags/Historia/
 https://avdyan.github.io/blog/tags/Extensiones/
 https://avdyan.github.io/blog/tags/Navegadores/
-https://avdyan.github.io/blog/tags/Optimizacion-Web/
-https://avdyan.github.io/blog/tags/Tutorial/
 https://avdyan.github.io/blog/tags/Diseno-Web/
 https://avdyan.github.io/blog/tags/Herramientas/
+https://avdyan.github.io/blog/tags/Optimizacion-Web/
+https://avdyan.github.io/blog/tags/Tutorial/
 https://avdyan.github.io/blog/tags/Ingenieria/
 https://avdyan.github.io/blog/tags/Diseno-automotriz/
 https://avdyan.github.io/blog/tags/Espacio/

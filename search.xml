@@ -3,7 +3,7 @@
   <entry>
     <title>¿Qué es la computación cuántica y por qué es importante?</title>
     <url>/blog/posts/computacion-cuantica.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEheDBGFS31IEgMVJ8oPKddPOadiyAC-ePPAhsO4mBMSWj4K3_hDJDoFfaVx62Ng0E8P12NV3u_9nCpRvHiZNFlXJm8Q5UgHMgBwVLuCdiUCadUmWVoEoLTonZI23700VHy_GEuuV4Z2ymWbB73ReQ7P0-GUvVr8dxtpc9lS27Xrlaj0T4EmDBrnPrVY/s1600-rw/computacion%20cuantica.webp" alt="Computación cuántica"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/computacion-cuantica.webp" alt="Computación cuántica"></p>
 <p>La <strong>computación cuántica</strong> es una rama de la informática que se centra en el estudio de cómo utilizar sistemas cuánticos para procesar información.<br>
 Estos sistemas utilizan los fenómenos cuánticos, como la <strong>superposición</strong> y el <strong>entrelazamiento</strong>, para realizar cálculos que no son posibles con la tecnología tradicional.</p>
 <span id="more"></span>
@@ -35,7 +35,7 @@ Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro c
   <entry>
     <title>Cómo crear un portfolio con GitHub Pages</title>
     <url>/blog/posts/crear-portafolio-web.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEh7LH7VANVvIcRevKK0dApE44W3DFpzAoE9g9wja1Rz1wG6ZkFT8sBGaBGPUOgedoT8VqXvgZHG3TtNS9S6BNbrNw4aNr60o_qhdev9AEhX2FiYtcbVmF3h35wsc7mj6Ij7A82K-QdCFvhjv8OzVYu1IJ0DYLWyi70o7liIAp_ZiVfj_tGtK-mjJ7CR/s1600/Portfolio%20Github%20Pages.webp" alt="Portfolio ejemplo"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/crear-portafolio-web.jpg" alt="Portfolio ejemplo"></p>
 <p>Dentro del gran mundo de la programación, necesitas destacarte para optar por mejores trabajos y ser más remunerado por tu experiencia. Pero, ¿cómo logras eso? En este artículo te lo contamos.</p>
 <p>Un <strong>portfolio web</strong> es una página que recopila una selección de tus trabajos o contenidos para darte a conocer ante otras personas. Piénsalo como un <strong>Instagram</strong> para tus proyectos, pero en vez de tener likes, atraes la atención de reclutadores para optar así a mejores oportunidades laborales.</p>
 <p>Tanto al momento de buscar trabajo como para mantener actualizado tu perfil laboral, exhibir tus proyectos en un portfolio web es tan primordial como beneficioso. Existen muchas plataformas para desplegar tu portfolio, pero en esta ocasión utilizaremos GitHub Pages para facilitarte la tarea.</p>
@@ -139,7 +139,7 @@ Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro c
   <entry>
     <title>Las mejores distribuciones Linux tipo rolling release (actualización continua)</title>
     <url>/blog/posts/rolling-release-linux.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiHxZoWbFzORc0FOcd0zieDDf9yKmnEpFFBlez3t_C0D_S65nfEYqwVL12lZqNZCWS5zVmU36gU2LZ4I7XVTMEhoUNmvc4JUiUVlS_x0G66FcJ_u5qKXOVqDpl-gA3rHlytd7fRj-16MZl507sFq4778EgIUeLC-BdmNDAGFH4Kp1AcYVpdp0Jvy8e8/s1600/Distros%20Rolling%20Release.png" alt="Distros Rolling Release"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/distros-linux.png" alt="Distros Rolling Release"></p>
 <p>Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de las mejores distribuciones de Linux de lanzamiento continuo (“rolling release” de acá en adelante).</p>
 <p><em><strong>¿Sabes qué es una distribución “rolling release”?</strong></em><br>
 Estas distribuciones no esperan seis meses o más para lanzar una nueva versión con nuevas versiones del kernel de Linux, entorno de escritorio u otros componentes de software importantes, sino que se actualizan poco después de que se lanzan.</p>
@@ -191,7 +191,7 @@ Es un lanzamiento rodante pero no de última generación como Arch. Da preferenc
   <entry>
     <title>Las 6 Paradojas Más Fascinantes de la Física</title>
     <url>/blog/posts/famosas-paradojas-fisica.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVJ7j8K_E_qxjIzUKujBSNS2KvuaSQLm8sQp_WFsjkujEyLtt8gJmlD_VQi-MvI76qlSoEtIza_v5Og5Ly51wInDkHBN4rIXPDKbvdyqzQkr5bLJat-img6N7njlKc7KFiZxm42hr7TckrR1--Ho19C3eLeGYUMZ6O7Cpy-Y1pycb6cywSp7eq6TT2/s1600/Paradojas%20de%20la%20F%C3%ADsica.webp" alt="Paradojas de la Física"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/famosas-paradojas-fisicas.jpg" alt="Paradojas de la Física"></p>
 <p>La palabra <strong>paradoja</strong>, de origen griego, puede referir algo contrario al sentido común, o bien algo que sucede contra lo esperado y provoca asombro. <strong>Descubre 6 de éstos a continuación.</strong></p>
 <h2 id="Paradoja-del-Abuelo">Paradoja del Abuelo</h2>
 <p>Una de las posibles paradojas que se desprenderían de un potencial viaje en el tiempo es conocida popularmente como la <strong>paradoja del abuelo</strong>.</p>
@@ -222,7 +222,7 @@ Es un lanzamiento rodante pero no de última generación como Arch. Da preferenc
   <entry>
     <title>¿Qué sales dan color a los fuegos artificiales?</title>
     <url>/blog/posts/fuegos-artificiales.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgRPKcw7ZQCRWXQAl9e1ezt5sRh8arwPGdkr8noxePXMyCUMH3H1tpA5EDDb7sBaFqgLug2jk9pk2lJkQnzx8vvqz9LfcAtkq14Jaog6S8EgEeU3Cog_XB7X3gsJcmSbb-itU2EFIp8rs6l_OoUvhjUYsHMv2OSu1qhicMvBqIm55_ANpTLYnP53j6-/s1600/fuegos%20artificiales.webp" alt="Fuegos artificiales"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/fuegos-artificiales.jpeg" alt="Fuegos artificiales"></p>
 <p>Los colores de los fuegos artificiales se derivan de una amplia variedad de sales metálicas. Y cuando decimos <strong>‘sal’</strong>, evidentemente no nos referimos a la sal de mesa común (cloruro de sodio), sino a aquellos compuestos que contienen átomos metálicos y no metálicos unidos iónicamente.<br>
 Pero, ¿qué elementos químicos son los encargados de dotar de color a los fuegos artificiales?</p>
 <span id="more"></span>
@@ -269,7 +269,7 @@ Ingeniería en General<br>
   <entry>
     <title>Los 10 Repositorios de GitHub Imprescindibles para Desarrolladores</title>
     <url>/blog/posts/github-repositorios-esenciales-desarrolladores.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi7cHQXKb-jHUaaDnrArXrI_wNo7a4v3LlRJ0BFnd9z0OyQHV39UWPyb138E0Ot04jJNxVYV5j4bJTOMaz0XtlrmNmZZNsfcxpv63dhK6FoMhQaCLxToKpxMvb_N_6W9qsYOgo9nPjGCUNVAih7ZNfVPaZ2F3ftuzMga_I671sm2gWCH9jDOsqnw_y5/s1600-rw/Repositorios.webp" alt="Repositorios de GitHub Esenciales"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/github-repositorios-esenciales-desarrolladores.webp" alt="Repositorios de GitHub Esenciales"></p>
 <p>Además de ser el hogar de algunos de los proyectos de código abierto más interesantes de Internet, GitHub también es un excelente lugar para compartir recursos de todo tipo: libros gratuitos, API’s o ideas de proyectos. Pero con la gran cantidad se vuelve difícil encontrar los repositorios más útiles. Así que he seleccionado esta lista de diez repositorios fabulosos que brindan un gran valor para todos los desarrolladores web y de software. Todos ellos le agregarán valor y lo ayudarán a convertirse en un mejor desarrollador web o de software.</p>
 <h2 id="Free-Programming-Books">Free Programming Books</h2>
 <p><strong>[GitHub🌟: 183K+]</strong> Ofrecido en una variedad de lenguajes diferentes, <a href="https://github.com/EbookFoundation/free-programming-books"><strong>Free Programming Books</strong></a> es sin duda uno de los repositorios más populares y destacados en GitHub. Aunque tiene “Libros” en su nombre, ofrece mucho más que eso. Contiene secciones de cursos en línea gratuitos, recursos de programación interactivos, conjuntos de problemas y programación competitiva, juegos de programación, podcasts y hojas de trucos para casi todos los lenguajes de programación.</p>
@@ -316,7 +316,7 @@ Ingeniería en General<br>
   <entry>
     <title>Cómo instalar paquetes en Arch Linux fácilmente</title>
     <url>/blog/posts/instalar-paquetes-arch.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhLaXsgiaBB1GvxWUhNKoaTc_5VK65gaD5Uam-jfWsATXxQOVBTQMb53i7_manrEkedYQn1MtRKVmBMZEMAEEO71uNw0FOZVjc2JyrzYRgpagIqe1jznI_ce6DGW-C-f-XCBuJ-9Z6_d3Ywm8pc78YUNt5ZXO9KcX9a8j49aDN1hoXtT02QcCzXxKWo/s1600/instalar-arch.webp" alt="Instalar Arch Linux"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/instalar-programas-en-arch-linux.jpg" alt="Instalar Arch Linux"></p>
 <p>Al igual que en otras distribuciones, <strong>Arch Linux</strong> tiene su propio gestor de paquetes con el que podemos instalar, actualizar paquetes o desinstalarlos del sistema.<br>
 Si ya tienes algún conocimiento básico o intermedio en Linux, sabrás que no solo existe una forma de instalar paquetes. Existen muchas, las cuales <strong>se adaptan a ti y a tus preferencias</strong>.</p>
 <p>Mira el vídeo del gran <a href="https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/">Riky Linux</a> a continuación para saber más al respecto:</p>
@@ -414,7 +414,7 @@ Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
   <entry>
     <title>Top extensiones para navegadores que todo techie debería probar</title>
     <url>/blog/posts/mejores-extensiones.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj3vnglZORrNvAumo86_ayCgW2cx8cPwTYj9InB9jtCWUc-IBZRDCikZ3Ew6q-W3sdHJGtcejdVByFD_hGzdmipeWC-FxQbtiVpqgUW_d1gPlChMcM6Emcpv5LipK3Pi-mGvlSCiSjpFtZEulqXhF2rt6kVR02Ui2L4sfCzqKohVxSA_sBuCxwtc7VO/s1600/Top%20Extensiones%20Para%20Navegadores.webp" alt="Top Extensiones Para Navegadores"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/mejores-extensiones.jpg" alt="Top Extensiones Para Navegadores"></p>
 <p>Como programadores o entusiastas de la tecnología queremos estar a la vanguardia y destacar entre los demás. Quizás alguna vez hayas querido que hubiera una herramienta que te facilite la tarea o te ahorre tiempo. Es por ello que hoy te traemos una lista con algunas extensiones que sin duda te encantarán, ya sea por su gran utilidad o porque añaden una estética diferente.</p>
 <h2 id="uBlock-Origin"><a href="https://ublockorigin.com/es">uBlock Origin</a></h2>
 <p>Más de alguna vez nos hemos frustrado de tanto saltar y quitar anuncios por aquí y por allá, pero eso ha acabado ahora. <a href="https://ublockorigin.com/es">uBlock Origin</a> es una extensión que te bloquea cualquier tipo de anuncio en cualquier sitio que visites, incluyendo los molestos anuncios de YouTube, consumiendo menos recursos que otros bloqueadores. Así que dale una oportunidad y verás la diferencia.</p>
@@ -436,6 +436,61 @@ Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
       <tags>
         <tag>Extensiones</tag>
         <tag>Navegadores</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>Recursos Esenciales para Desarrolladores y Diseñadores Web</title>
+    <url>/blog/posts/recursos-desarrollo-diseno-web.html</url>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/recursos-desarrollo-diseno-web.jpg" alt="Recursos Esenciales"></p>
+<p>Ya sea que necesites herramientas para facilitar tu tarea como programador o necesites inspiración para un nuevo diseño en mente, agilizar el proceso es algo que todos necesitamos, ¿las razones? Mejorar el tiempo de entrega, salir temprano del trabajo entre otros beneficios. Checa este listado que preparamos para ti.</p>
+<h5 id="Escucha-musica-lo-fi-mientras-lees-este-articulo">Escuchá música lo-fi mientras lées este artículo</h5>
+<div class="ytShdw">
+  <div class="lazyYt" data-embed="jfKfPfyJRdk">
+    <div class="play">
+      <svg viewbox="0 0 213.7 213.7">
+        <polygon class="t" points="73.5,62.5 148.5,105.8 73.5,149.1"></polygon>
+        <circle class="c" cx="106.8" cy="106.8" r="103.3"></circle>
+      </svg>
+    </div>
+  </div>
+</div>
+<hr>
+<h2 id="The-Front-End-Checklist"><a href="https://frontendchecklist.io/">The Front-End Checklist</a></h2>
+<p>Si lo que quieres en esta vida es convertirte en desarrollador web, este sitio web, recoge todas las fases y tecnologías que deberías aprender para crear sitios web increíbles.</p>
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMcnTcUYwz0QVofRKsyW94upS9xunIeNDZo8pWOI5yWvN98mBoGwzNcaFi0gWg7VAG4h_VJJZbfkPLp4SaQPy34tykbeGC_Bs-RXQ4Ea4T7W42IQzZEhDz4uXDHTXpCH869JRkK3QeZE2UphdCetZgXMv7wnPRP1avgzaN-LtnW1T8Sn4q4unD0hFJ_A/s1600/image.png" alt="The Front-End Checklist"></p>
+<p><a href="https://frontendchecklist.io/">Ir al sitio</a></p>
+<hr>
+<h2 id="Web-Skills"><a href="https://andreasbm.github.io/web-skills/">Web Skills</a></h2>
+<p>Web Skills es una visión general de las habilidades útiles para aprender como desarrollador web. Es útil para las personas que acaban de comenzar a aprender sobre desarrollo web y para las personas que han estado en el campo durante años y quieren aprender cosas nuevas.</p>
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqZLclR__bS9iC5urPdJzVwmalSs5ided7-8mfSgYR27zOmR1V1x6sTwEzkLJKUzvAEks5VatpD20e4CXI5s-OSKFJmI82JP7Y7a2MbOuIoJEOa03f9agmI3kXzONFva3UzVC6ZNf1osnjWDCHqmlqOW5eCJRXFUqrFhBjc3BaOpu6_aYTu4ZbjrpnHw/s1600/image.png" alt="Web Skills"></p>
+<p><a href="https://andreasbm.github.io/web-skills/">Ir al sitio</a></p>
+<hr>
+<details class='sp toc' open=''>
+  <summary data-show='Show all' data-hide='Hide all'>Artículos Relacionados</summary>  
+  <div class='toC' id='aRel'></div>
+</details>
+<hr>
+<h2 id="Goodpalette"><a href="https://goodpalette.io/">Goodpalette</a></h2>
+<p>Usar demasiados colores a menudo distrae. Limitar su paleta de colores a un color primario, un color de acento y una base sólida de tonos neutros puede ayudar a que su diseño se sienta consistente.</p>
+<p>Goodpalette le proporciona precisamente eso. Cada color tiene nueve tonos que han sido cuidadosamente seleccionados para ser utilizados para texto, fondos, pozos, botones y más. También puede ver cómo se verá el color en diferentes tipos de sitios web con las maquetas en vivo. Una cosa es mirar una selección de muestras de color de color de forma aislada, pero verlo en el contexto de una aplicación real es clave.</p>
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu1ZYOWRo2QSSTCczDkyJ8LIW5X1PZXmVc4a_hbrVqtPMehqlVnHcGbmot6mfPj01DMwAGd2dfFcXonfV0ZUNINbfhXohbHXVycZz8VNEGE1c24HtLC9bCoVKfziyRu39EB6ilXxGGruZa2b27LuhFJ2t7jIj4D7e1q8TePEnZj08QCch0Z-85WBG-_A/s1600/image.png" alt="Goodpalette"></p>
+<p><a href="https://goodpalette.io/">Ir al sitio</a></p>
+<hr>
+<h2 id="Flaticon"><a href="https://www.flaticon.com/">Flaticon</a></h2>
+<p>¿Necesitas íconos para tu sitio web, alguna tarea o algún proyecto? Flaticon es tu solución, tiene millones de íconos disponibles para descargar en PNG, SVG, EPS, PSD y en formato CSS, ¡en la mejor resolución posible!</p>
+<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZFN2DznEGY5DgqvrFA9DedK0AbyRVS6ASfUpX3cPk57x8yHAACvmfuBkk7NncZPDtpm6L2SZdhTtQYHYBjVlMG2U9oa9DtIGBCkN2pKUY64a440cu9C7oMS_SaKbdt--ikPauygmncsCxmdBlunbU8m794FwmLMSu-Io4RyEgomlzx86wq00-KXBF7Q/s1600/image.png" alt="Flaticon"></p>
+<p><a href="https://www.flaticon.com/">Ir al sitio</a></p>
+<hr>
+<p>¡Próximamente añadiremos más fuentes!</p>
+]]></content>
+      <categories>
+        <category>Herramientas y Recursos</category>
+      </categories>
+      <tags>
+        <tag>Desarrollo Web</tag>
+        <tag>Recursos</tag>
+        <tag>Diseño Web</tag>
+        <tag>Herramientas</tag>
       </tags>
   </entry>
   <entry>
@@ -492,64 +547,9 @@ Invítame un <strong><a href="https://www.buymeacoffee.com/sentinelbot">Cafecín
       </tags>
   </entry>
   <entry>
-    <title>Recursos Esenciales para Desarrolladores y Diseñadores Web</title>
-    <url>/blog/posts/recursos-desarrollo-diseno-web.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjN5WQF-cy8ZBZanVZDMp4ZFtgayqPyvWHVl7p8o-_EZ5sSEC6Tb1F5GbwUSvHaDR4PK2xgNP5IZpilcPxLuZ91nN9orltF0aTI6HFgYtbMsm3vIGoiGwaGKrE423em0QSouIZaROmAkSAWXtIQCyfeRweudU3p-S84OrsiNUiuqRE7KFXSH9SPIpkADQ/s1600/Recursos.webp" alt="Recursos Esenciales"></p>
-<p>Ya sea que necesites herramientas para facilitar tu tarea como programador o necesites inspiración para un nuevo diseño en mente, agilizar el proceso es algo que todos necesitamos, ¿las razones? Mejorar el tiempo de entrega, salir temprano del trabajo entre otros beneficios. Checa este listado que preparamos para ti.</p>
-<h5 id="Escucha-musica-lo-fi-mientras-lees-este-articulo">Escuchá música lo-fi mientras lées este artículo</h5>
-<div class="ytShdw">
-  <div class="lazyYt" data-embed="jfKfPfyJRdk">
-    <div class="play">
-      <svg viewbox="0 0 213.7 213.7">
-        <polygon class="t" points="73.5,62.5 148.5,105.8 73.5,149.1"></polygon>
-        <circle class="c" cx="106.8" cy="106.8" r="103.3"></circle>
-      </svg>
-    </div>
-  </div>
-</div>
-<hr>
-<h2 id="The-Front-End-Checklist"><a href="https://frontendchecklist.io/">The Front-End Checklist</a></h2>
-<p>Si lo que quieres en esta vida es convertirte en desarrollador web, este sitio web, recoge todas las fases y tecnologías que deberías aprender para crear sitios web increíbles.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMcnTcUYwz0QVofRKsyW94upS9xunIeNDZo8pWOI5yWvN98mBoGwzNcaFi0gWg7VAG4h_VJJZbfkPLp4SaQPy34tykbeGC_Bs-RXQ4Ea4T7W42IQzZEhDz4uXDHTXpCH869JRkK3QeZE2UphdCetZgXMv7wnPRP1avgzaN-LtnW1T8Sn4q4unD0hFJ_A/s1600/image.png" alt="The Front-End Checklist"></p>
-<p><a href="https://frontendchecklist.io/">Ir al sitio</a></p>
-<hr>
-<h2 id="Web-Skills"><a href="https://andreasbm.github.io/web-skills/">Web Skills</a></h2>
-<p>Web Skills es una visión general de las habilidades útiles para aprender como desarrollador web. Es útil para las personas que acaban de comenzar a aprender sobre desarrollo web y para las personas que han estado en el campo durante años y quieren aprender cosas nuevas.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqZLclR__bS9iC5urPdJzVwmalSs5ided7-8mfSgYR27zOmR1V1x6sTwEzkLJKUzvAEks5VatpD20e4CXI5s-OSKFJmI82JP7Y7a2MbOuIoJEOa03f9agmI3kXzONFva3UzVC6ZNf1osnjWDCHqmlqOW5eCJRXFUqrFhBjc3BaOpu6_aYTu4ZbjrpnHw/s1600/image.png" alt="Web Skills"></p>
-<p><a href="https://andreasbm.github.io/web-skills/">Ir al sitio</a></p>
-<hr>
-<details class='sp toc' open=''>
-  <summary data-show='Show all' data-hide='Hide all'>Artículos Relacionados</summary>  
-  <div class='toC' id='aRel'></div>
-</details>
-<hr>
-<h2 id="Goodpalette"><a href="https://goodpalette.io/">Goodpalette</a></h2>
-<p>Usar demasiados colores a menudo distrae. Limitar su paleta de colores a un color primario, un color de acento y una base sólida de tonos neutros puede ayudar a que su diseño se sienta consistente.</p>
-<p>Goodpalette le proporciona precisamente eso. Cada color tiene nueve tonos que han sido cuidadosamente seleccionados para ser utilizados para texto, fondos, pozos, botones y más. También puede ver cómo se verá el color en diferentes tipos de sitios web con las maquetas en vivo. Una cosa es mirar una selección de muestras de color de color de forma aislada, pero verlo en el contexto de una aplicación real es clave.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu1ZYOWRo2QSSTCczDkyJ8LIW5X1PZXmVc4a_hbrVqtPMehqlVnHcGbmot6mfPj01DMwAGd2dfFcXonfV0ZUNINbfhXohbHXVycZz8VNEGE1c24HtLC9bCoVKfziyRu39EB6ilXxGGruZa2b27LuhFJ2t7jIj4D7e1q8TePEnZj08QCch0Z-85WBG-_A/s1600/image.png" alt="Goodpalette"></p>
-<p><a href="https://goodpalette.io/">Ir al sitio</a></p>
-<hr>
-<h2 id="Flaticon"><a href="https://www.flaticon.com/">Flaticon</a></h2>
-<p>¿Necesitas íconos para tu sitio web, alguna tarea o algún proyecto? Flaticon es tu solución, tiene millones de íconos disponibles para descargar en PNG, SVG, EPS, PSD y en formato CSS, ¡en la mejor resolución posible!</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZFN2DznEGY5DgqvrFA9DedK0AbyRVS6ASfUpX3cPk57x8yHAACvmfuBkk7NncZPDtpm6L2SZdhTtQYHYBjVlMG2U9oa9DtIGBCkN2pKUY64a440cu9C7oMS_SaKbdt--ikPauygmncsCxmdBlunbU8m794FwmLMSu-Io4RyEgomlzx86wq00-KXBF7Q/s1600/image.png" alt="Flaticon"></p>
-<p><a href="https://www.flaticon.com/">Ir al sitio</a></p>
-<hr>
-<p>¡Próximamente añadiremos más fuentes!</p>
-]]></content>
-      <categories>
-        <category>Herramientas y Recursos</category>
-      </categories>
-      <tags>
-        <tag>Desarrollo Web</tag>
-        <tag>Recursos</tag>
-        <tag>Diseño Web</tag>
-        <tag>Herramientas</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>¿Cómo se diseña un coche? El paso a paso del diseño automotriz</title>
     <url>/blog/posts/diseno-automotriz.html</url>
-    <content><![CDATA[<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjNqnAPnujYZPbNYgRkl0b0AZHOXNh0tAgn0Ka_a8sAYy2q-5kCWZI0Gm1oeCBmQ-sP5Xwf7fbsIIOKahfXhgxkttnDM13-hKpPp7v7qbCoWryHR2btbOv7QbRYzUZy_hl-zX96EfBGFGakGbfkfqbs5iS-tL9Xur1Fylc29QSB0Pr1gMjhpL9GbWA_/s1600-rw/briefing.webp" alt="Diseño automotriz"></p>
+    <content><![CDATA[<p><img src="/blog/img/post-covers/trazo-de-un-automovil.webp" alt="Diseño automotriz"></p>
 <p>Aunque a veces pueda parecer fácil, diseñar un nuevo modelo es una tarea que exige un gran esfuerzo por parte de un amplio equipo de profesionales.<br>
 Desde que se coge lápiz y papel hasta que el coche sale a la venta, se suceden una serie de pasos que SEAT nos desvela con su SUV <strong>Ateca</strong> como ejemplo.</p>
 <span id="more"></span>
