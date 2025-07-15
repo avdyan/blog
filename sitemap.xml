@@ -20,7 +20,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/tags/index.html</loc>
+    <loc>https://avdyan.github.io/blog/music/index.html</loc>
     
     <lastmod>2025-07-15</lastmod>
     
@@ -29,7 +29,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/music/index.html</loc>
+    <loc>https://avdyan.github.io/blog/tags/index.html</loc>
     
     <lastmod>2025-07-15</lastmod>
     
@@ -110,7 +110,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html</loc>
+    <loc>https://avdyan.github.io/blog/posts/fuegos-artificiales.html</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -119,7 +119,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/posts/fuegos-artificiales.html</loc>
+    <loc>https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -146,7 +146,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html</loc>
+    <loc>https://avdyan.github.io/blog/posts/diseno-automotriz.html</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -155,7 +155,7 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/posts/diseno-automotriz.html</loc>
+    <loc>https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html</loc>
     
     <lastmod>2025-07-12</lastmod>
     
@@ -229,14 +229,14 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/tags/Fisica/</loc>
+    <loc>https://avdyan.github.io/blog/tags/Quimica/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/tags/Quimica/</loc>
+    <loc>https://avdyan.github.io/blog/tags/Fisica/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>
@@ -313,20 +313,6 @@
   </url>
   
   <url>
-    <loc>https://avdyan.github.io/blog/tags/Diseno-Web/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
-    <loc>https://avdyan.github.io/blog/tags/Herramientas/</loc>
-    <lastmod>2025-07-15</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.2</priority>
-  </url>
-  
-  <url>
     <loc>https://avdyan.github.io/blog/tags/Ingenieria/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
@@ -335,6 +321,20 @@
   
   <url>
     <loc>https://avdyan.github.io/blog/tags/Diseno-automotriz/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://avdyan.github.io/blog/tags/Diseno-Web/</loc>
+    <lastmod>2025-07-15</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.2</priority>
+  </url>
+  
+  <url>
+    <loc>https://avdyan.github.io/blog/tags/Herramientas/</loc>
     <lastmod>2025-07-15</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.2</priority>

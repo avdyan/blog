@@ -1,7 +1,7 @@
 https://avdyan.github.io/blog/kit/index.html
 https://avdyan.github.io/blog/links/index.html
-https://avdyan.github.io/blog/tags/index.html
 https://avdyan.github.io/blog/music/index.html
+https://avdyan.github.io/blog/tags/index.html
 https://avdyan.github.io/blog/about/index.html
 https://avdyan.github.io/blog/posts/marie-curie-en-3-minutos.html
 https://avdyan.github.io/blog/posts/pagespeed-y-optimizacion-web.html
@@ -10,12 +10,12 @@ https://avdyan.github.io/blog/posts/crear-portafolio-web.html
 https://avdyan.github.io/blog/posts/mejores-extensiones.html
 https://avdyan.github.io/blog/posts/computacion-cuantica.html
 https://avdyan.github.io/blog/posts/rolling-release-linux.html
-https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html
 https://avdyan.github.io/blog/posts/fuegos-artificiales.html
+https://avdyan.github.io/blog/posts/famosas-paradojas-fisica.html
 https://avdyan.github.io/blog/posts/github-repositorios-esenciales-desarrolladores.html
 https://avdyan.github.io/blog/posts/instalar-paquetes-arch.html
-https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html
 https://avdyan.github.io/blog/posts/diseno-automotriz.html
+https://avdyan.github.io/blog/posts/recursos-desarrollo-diseno-web.html
 https://avdyan.github.io/blog
 https://avdyan.github.io/blog/tags/Computacion-Cuantica/
 https://avdyan.github.io/blog/tags/Tecnologia/
@@ -25,8 +25,8 @@ https://avdyan.github.io/blog/tags/GitHub/
 https://avdyan.github.io/blog/tags/Desarrollo-Web/
 https://avdyan.github.io/blog/tags/Linux/
 https://avdyan.github.io/blog/tags/Distribuciones/
-https://avdyan.github.io/blog/tags/Fisica/
 https://avdyan.github.io/blog/tags/Quimica/
+https://avdyan.github.io/blog/tags/Fisica/
 https://avdyan.github.io/blog/tags/Recursos/
 https://avdyan.github.io/blog/tags/Programacion/
 https://avdyan.github.io/blog/tags/Arch-Linux/
@@ -37,10 +37,10 @@ https://avdyan.github.io/blog/tags/Extensiones/
 https://avdyan.github.io/blog/tags/Navegadores/
 https://avdyan.github.io/blog/tags/Optimizacion-Web/
 https://avdyan.github.io/blog/tags/Tutorial/
-https://avdyan.github.io/blog/tags/Diseno-Web/
-https://avdyan.github.io/blog/tags/Herramientas/
 https://avdyan.github.io/blog/tags/Ingenieria/
 https://avdyan.github.io/blog/tags/Diseno-automotriz/
+https://avdyan.github.io/blog/tags/Diseno-Web/
+https://avdyan.github.io/blog/tags/Herramientas/
 https://avdyan.github.io/blog/tags/Espacio/
 https://avdyan.github.io/blog/categories/Ciencia-y-Tecnologia/
 https://avdyan.github.io/blog/categories/Desarrollo-Web/
