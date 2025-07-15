@@ -218,3 +218,42 @@ div#banners:hover,
 [data-theme="dark"] .recent-post-item:hover {
     background-color: rgba(27, 28, 32, 0.75);
 }
+
+/* ========================================
+   NUEVO CODIGO A SER FORMATEADO Y ORDENADO
+   ======================================== */
+
+/* Cambiar el color del texto de blanco a negro en el modo oscuro */
+.post #post-info .post-title,
+.post #post-info #post-meta,
+.post #post-info #post-firstinfo .meta-firstline .post-meta-original,
+.post #post-info #post-firstinfo .meta-firstline span.post-meta-categories a.post-meta-categories,
+.post #post-info #post-meta a,
+.post #post-info #post-firstinfo .meta-firstline .tag_share .post-meta__tag-list .post-meta__tags {
+    color: var(--efu-black)
+}
+
+/* No mostrar nada de la siguiente clase */
+.post .post-bg .coverdiv {
+    display: none;
+}
+
+/* Mejorar el diseño de los links de TITULOS */
+.article-container a {
+    color: var(--efu-fontcolor);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #9314a3, #3b94a8) 1;
+    font-weight: 700;
+}
+
+.article-container p a:not(.fancybox) {
+    color: var(--efu-theme);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, #9314a3, #3b94a8) 1;
+    padding: 0px 4px;
+    transition: 0.2s;
+}
