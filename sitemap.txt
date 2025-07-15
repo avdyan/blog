@@ -1,7 +1,7 @@
 https://avdyan.github.io/blog/kit/index.html
 https://avdyan.github.io/blog/links/index.html
-https://avdyan.github.io/blog/music/index.html
 https://avdyan.github.io/blog/tags/index.html
+https://avdyan.github.io/blog/music/index.html
 https://avdyan.github.io/blog/about/index.html
 https://avdyan.github.io/blog/posts/marie-curie-en-3-minutos.html
 https://avdyan.github.io/blog/posts/pagespeed-y-optimizacion-web.html
