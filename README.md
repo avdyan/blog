@@ -56,7 +56,7 @@ Este blog está construido con las siguientes tecnologías modernas:
 - **[GitHub Pages](https://pages.github.com/)** - Hosting gratuito
 - **[GitHub Actions](https://github.com/features/actions)** - CI/CD automático
 
-### 🎯 **Características Destacadas**
+### 🎯 **Características del Tema Solitude**
 - ⚡ **Rendimiento Optimizado** - Carga rápida y eficiente
 - 📱 **Responsive** - Perfecto en todos los dispositivos
 - 🌙 **Modo Oscuro** - Experiencia visual adaptable
@@ -64,6 +64,16 @@ Este blog está construido con las siguientes tecnologías modernas:
 - 🔍 **SEO Optimizado** - Meta tags y estructura semántica
 - 📊 **Analytics** - Seguimiento de visitas y engagement
 - 🎵 **Reproductor de Música** - Ambiente personalizable
+
+### ✨ **Modificaciones y Mejoras Personalizadas**
+> Características únicas añadidas específicamente a este blog
+
+- 🌈 **Fondo de Plasma Animado** - Efectos visuales dinámicos con gradientes
+- 💫 **Sistema de Transparencias** - UI semitransparente con efectos glass morphism
+- 📅 **Widget de Calendario Mejorado** - Diseño personalizado con estilos centrados
+- ⚙️ **Configuración Extendida** - Integración automática de CSS y JS personalizados
+- 🎭 **Efectos Hover Avanzados** - Interacciones visuales mejoradas
+- 📱 **Optimizaciones Responsive** - Adaptaciones específicas para móviles
 
 ---
 

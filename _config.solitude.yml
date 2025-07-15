@@ -261,7 +261,7 @@ post:
 # Custom Theme Color
 theme_color:
   dark: "#cba6f7" # Azul oscuro
-  light: "#dc8a78" # Amarillo brillante
+  light: "#7287fd" # Amarillo brillante
 # --------------------------- end ---------------------------
 
 # --------------------------- start ---------------------------
@@ -641,6 +641,12 @@ extends:
 
   # Insert in body
   body:
+    - |
+      <div class='wrapper'>
+        <div class='gradient gradient_1'></div>
+        <div class='gradient gradient_2'></div>
+        <div class='gradient gradient_3'></div>
+      </div>
     - <script src="/blog/js/schedule.js"></script>
     - <script src="https://npm.akass.cn/chinese-lunar@0.1.4/lib/chinese-lunar.js"></script>
 # --------------------------- end ---------------------------

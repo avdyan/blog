@@ -1,0 +1,220 @@
+/* ========================================
+   MODIFICACIONES PERSONALIZADAS DEL BLOG
+   ======================================== */
+
+/* ========================================
+   FONDO DE PLASMA ANIMADO
+   ======================================== */
+
+/* Contenedor principal del fondo de plasma */
+.wrapper {
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(85px);
+    z-index: -999; /* Asegurar que esté detrás de todo */
+    pointer-events: none; /* No interfiere con la interacción */
+}
+
+/* Estilos base para todos los gradientes */
+.gradient {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.15;
+    mix-blend-mode: screen;
+    will-change: transform; /* Optimización para animaciones futuras */
+    /* Animaciones comentadas - descomenta para activar */
+    /*animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1);*/
+}
+
+/* Gradiente 1 - Púrpura (esquina superior izquierda) */
+.gradient_1 {
+    width: 750px;
+    height: 750px;
+    background: #9314a3;
+    z-index: -998;
+    place-self: start start;
+    /*animation-duration: 25s;
+    animation-name: animation-gradient-1;*/
+}
+
+/* Gradiente 2 - Azul (centro) */
+.gradient_2 {
+    width: 850px;
+    height: 850px;
+    background: #3b94a8;
+    z-index: -997;
+    place-self: center;
+    /*animation-duration: 30s;
+    animation-name: animation-gradient-2;*/
+}
+
+/* Gradiente 3 - Púrpura (esquina inferior derecha) */
+.gradient_3 {
+    width: 750px;
+    height: 750px;
+    background: #9314a3;
+    z-index: -996;
+    place-self: end end;
+    /*animation-duration: 35s;
+    animation-name: animation-gradient-3;*/
+}
+
+/* ========================================
+   RESPONSIVE DESIGN - GRADIENTES
+   ======================================== */
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 896px) {
+    .gradient_1 {
+        width: 600px;
+        height: 600px;
+        place-self: start center;
+    }
+
+    .gradient_2 {
+        width: 700px;
+        height: 700px;
+    }
+
+    .gradient_3 {
+        width: 600px;
+        height: 600px;
+        place-self: end center;
+    }
+}
+
+/* Móviles y pantallas pequeñas */
+@media screen and (max-width: 543px) {
+    .wrapper {
+        filter: blur(60px); /* Menos blur en móviles para mejor rendimiento */
+    }
+
+    .gradient {
+        opacity: 0.1; /* Menos opacidad en móviles */
+    }
+
+    .gradient_1 {
+        width: 500px;
+        height: 500px;
+        place-self: start center;
+    }
+
+    .gradient_2 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .gradient_3 {
+        width: 500px;
+        height: 500px;
+        place-self: end center;
+    }
+}
+
+/* ========================================
+   EFECTOS DE TRANSPARENCIA - CONTENIDO
+   ======================================== */
+
+/* Artículo principal */
+#post {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Tarjetas del sidebar */
+#aside-content .card-widget {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Banner principal */
+div#banners {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Items de posts recientes */
+.recent-post-item {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* ========================================
+   MODO OSCURO - TRANSPARENCIAS
+   ======================================== */
+
+/* Artículo principal - Modo oscuro */
+[data-theme="dark"] #post {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Tarjetas del sidebar - Modo oscuro */
+[data-theme="dark"] #aside-content .card-widget {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Banner principal - Modo oscuro */
+[data-theme="dark"] div#banners {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Items de posts recientes - Modo oscuro */
+[data-theme="dark"] .recent-post-item {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* ========================================
+   OPTIMIZACIONES DE RENDIMIENTO
+   ======================================== */
+
+/* Reducir animaciones para usuarios que lo prefieran */
+@media (prefers-reduced-motion: reduce) {
+    .gradient {
+        animation: none;
+    }
+    
+    .wrapper {
+        filter: blur(40px); /* Menos blur para mejor rendimiento */
+    }
+}
+
+/* Ocultar efectos en dispositivos de muy baja potencia */
+@media (max-width: 480px) and (max-height: 640px) {
+    .wrapper {
+        opacity: 0.5; /* Reducir intensidad visual */
+    }
+}
+
+/* ========================================
+   UTILIDADES Y EFECTOS ADICIONALES
+   ======================================== */
+
+/* Efecto hover para elementos con transparencia */
+#post:hover,
+#aside-content .card-widget:hover,
+div#banners:hover,
+.recent-post-item:hover {
+    backdrop-filter: blur(15px);
+}
+
+/* Modo oscuro - Efecto hover */
+[data-theme="dark"] #post:hover,
+[data-theme="dark"] #aside-content .card-widget:hover,
+[data-theme="dark"] div#banners:hover,
+[data-theme="dark"] .recent-post-item:hover {
+    background-color: rgba(27, 28, 32, 0.75);
+}
