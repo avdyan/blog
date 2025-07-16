@@ -446,7 +446,7 @@ footer:
       Andy: https://github.com/
 
   # Random friend link
-  randomlink: true # Enlace de amigo aleatorio
+  randomlink: false # Enlace de amigo aleatorio
 
   # Registro
   beian:
@@ -757,7 +757,7 @@ search:
     # hits:
     #   per_page: 6
   local:
-    preload: false
+    preload: true
     CDN: search.xml
   docsearch:
     appId: "7FSUEL18L4"
