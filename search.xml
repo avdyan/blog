@@ -3,25 +3,25 @@
   <entry>
     <title>¿Qué es la computación cuántica y por qué es importante?</title>
     <url>/blog/posts/computacion-cuantica.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/computacion-cuantica.webp" alt="Computación cuántica"></p>
-<p>La <strong>computación cuántica</strong> es una rama de la informática que se centra en el estudio de cómo utilizar sistemas cuánticos para procesar información.<br>
-Estos sistemas utilizan los fenómenos cuánticos, como la <strong>superposición</strong> y el <strong>entrelazamiento</strong>, para realizar cálculos que no son posibles con la tecnología tradicional.</p>
-<span id="more"></span>
-<p>A diferencia de la computación clásica, que utiliza bits que solo pueden tener valores de 0 o 1, la computación cuántica utiliza <strong>qubits</strong>, que pueden estar en un estado de superposición de 0 y 1 al mismo tiempo.<br>
-Esto permite a la computación cuántica realizar operaciones de manera mucho más eficiente que la computación clásica, lo que la hace ideal para resolver problemas complejos que requieren una gran cantidad de cálculos.</p>
-<p>Sin embargo, el manejo de qubits es un desafío, ya que son muy sensibles al entorno y pueden perder su estado cuántico coherente fácilmente.</p>
-<p>Otro aspecto importante de los qubits es su capacidad de <strong>entrelazamiento</strong>. El entrelazamiento cuántico permite a dos o más qubits estar en un estado correlacionado, lo que les permite realizar operaciones de manera mucho más rápida y precisa que si cada qubit fuera tratado individualmente.</p>
-<p>Uno de los principales desafíos de la computación cuántica es que los sistemas cuánticos son extremadamente sensibles a las perturbaciones externas.<br>
-Esto hace que sea difícil construir y mantener dispositivos cuánticos que sean fiables.<br>
-Además, la programación para sistemas cuánticos es un campo completamente nuevo, por lo que se requieren nuevos lenguajes de programación y algoritmos para utilizar esta tecnología de manera eficiente.</p>
-<p>A pesar de estos desafíos, la computación cuántica tiene un gran potencial.<br>
-Se espera que en el futuro pueda ser utilizada para resolver problemas en campos como la criptografía, la simulación de sistemas complejos y la búsqueda de patrones en grandes conjuntos de datos.<br>
-También se cree que puede ser utilizada para desarrollar nuevos tipos de sensores y dispositivos médicos.</p>
-<hr>
-<p>En resumen, la computación cuántica es un campo emergente y prometedor que tiene el potencial de revolucionar la informática.<br>
-Los qubits son una pieza fundamental de esta tecnología y su capacidad de superposición y entrelazamiento les permite realizar operaciones de manera mucho más eficiente que la computación clásica.</p>
-<p>A medida que la tecnología avanza y se desarrollan nuevas técnicas para manejar los qubits de manera más eficiente, la computación cuántica tiene el potencial de cambiar la forma en que se hacen cálculos y operaciones en el mundo digital.<br>
-Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro cercano pueda ser utilizada para resolver problemas que son actualmente demasiado complejos para ser resueltos con la tecnología tradicional.</p>
+    <content><![CDATA[
+La computación cuántica es una rama de la informática que se centra en el estudio de cómo utilizar sistemas cuánticos para procesar información.
+Estos sistemas utilizan los fenómenos cuánticos, como la superposición y el entrelazamiento, para realizar cálculos que no son posibles con la tecnología tradicional.
+
+A diferencia de la computación clásica, que utiliza bits que solo pueden tener valores de 0 o 1, la computación cuántica utiliza qubits, que pueden estar en un estado de superposición de 0 y 1 al mismo tiempo.
+Esto permite a la computación cuántica realizar operaciones de manera mucho más eficiente que la computación clásica, lo que la hace ideal para resolver problemas complejos que requieren una gran cantidad de cálculos.
+Sin embargo, el manejo de qubits es un desafío, ya que son muy sensibles al entorno y pueden perder su estado cuántico coherente fácilmente.
+Otro aspecto importante de los qubits es su capacidad de entrelazamiento. El entrelazamiento cuántico permite a dos o más qubits estar en un estado correlacionado, lo que les permite realizar operaciones de manera mucho más rápida y precisa que si cada qubit fuera tratado individualmente.
+Uno de los principales desafíos de la computación cuántica es que los sistemas cuánticos son extremadamente sensibles a las perturbaciones externas.
+Esto hace que sea difícil construir y mantener dispositivos cuánticos que sean fiables.
+Además, la programación para sistemas cuánticos es un campo completamente nuevo, por lo que se requieren nuevos lenguajes de programación y algoritmos para utilizar esta tecnología de manera eficiente.
+A pesar de estos desafíos, la computación cuántica tiene un gran potencial.
+Se espera que en el futuro pueda ser utilizada para resolver problemas en campos como la criptografía, la simulación de sistemas complejos y la búsqueda de patrones en grandes conjuntos de datos.
+También se cree que puede ser utilizada para desarrollar nuevos tipos de sensores y dispositivos médicos.
+
+En resumen, la computación cuántica es un campo emergente y prometedor que tiene el potencial de revolucionar la informática.
+Los qubits son una pieza fundamental de esta tecnología y su capacidad de superposición y entrelazamiento les permite realizar operaciones de manera mucho más eficiente que la computación clásica.
+A medida que la tecnología avanza y se desarrollan nuevas técnicas para manejar los qubits de manera más eficiente, la computación cuántica tiene el potencial de cambiar la forma en que se hacen cálculos y operaciones en el mundo digital.
+Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro cercano pueda ser utilizada para resolver problemas que son actualmente demasiado complejos para ser resueltos con la tecnología tradicional.
 ]]></content>
       <categories>
         <category>Ciencia y Tecnología</category>
@@ -35,96 +35,96 @@ Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro c
   <entry>
     <title>Cómo crear un portfolio con GitHub Pages</title>
     <url>/blog/posts/crear-portafolio-web.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/crear-portafolio-web.jpg" alt="Portfolio ejemplo"></p>
-<p>Dentro del gran mundo de la programación, necesitas destacarte para optar por mejores trabajos y ser más remunerado por tu experiencia. Pero, ¿cómo logras eso? En este artículo te lo contamos.</p>
-<p>Un <strong>portfolio web</strong> es una página que recopila una selección de tus trabajos o contenidos para darte a conocer ante otras personas. Piénsalo como un <strong>Instagram</strong> para tus proyectos, pero en vez de tener likes, atraes la atención de reclutadores para optar así a mejores oportunidades laborales.</p>
-<p>Tanto al momento de buscar trabajo como para mantener actualizado tu perfil laboral, exhibir tus proyectos en un portfolio web es tan primordial como beneficioso. Existen muchas plataformas para desplegar tu portfolio, pero en esta ocasión utilizaremos GitHub Pages para facilitarte la tarea.</p>
-<h2 id="¿Como-hacer-un-portfolio">¿Cómo hacer un portfolio?</h2>
-<p>Para facilitarte la tarea de escribir código, hemos creado una plantilla que muestra tus repositorios de GitHub y más, para que tú solamente edites algunas cosas. Puedes darle un vistazo <a href="https://avdyan.github.io/portfolio/">cliqueando aquí</a>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEil6m5AqTacIOoT41I1gLqOll5OAHL6Ao8sjndoIt_VsKSnTrOB3qDRpMtiVTxsLS7FvdJSBD-yOB8-OATzWVsekoqlmEdYYVN5HGgUeeV_7WUDYDi3yWnQyo9qiP7FHOvPvgPWk40ksiwhPXKiqlfTdVSQtJSLev8XFWcHsKQHd9_8k8HxdOTW9vQo/s1600/Captura%20web_15-9-2022_22616_.jpeg" alt="Plantilla del portfolio"></p>
-<h3 id="Clonando-el-repositorio">Clonando el repositorio</h3>
-<ol>
-<li>
-<p>Ingresa a <a href="https://github.com/avdyan/portfolio">este repositorio</a>.</p>
-</li>
-<li>
-<p>Descarga el repositorio como <strong>ZIP</strong>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgoMoc7XWR2adoG0C87fmAHhHZZwnl9_MEbGSWJsYozIwdRKpzEXoFwMuSFtfOqtghmRg1_CT214KlRrrs9dXEWvtEQT_eohea3N5wz0lWbKbAat8aXspuvKuSHMzr1hb-AOdou8WZz2YmqJ4y8O5OtEVcyTShIxxqGfyKR4tqBXReKf407eFcQhPI9/s1600/cap2.png" alt="Descarga ZIP"></p>
-</li>
-<li>
-<p>Extrae el contenido del archivo.</p>
-</li>
-<li>
-<p>Abre la carpeta con VS Code (<code>Archivo &gt; Abrir Carpeta</code> o <code>Ctrl + K Ctrl + O</code>).</p>
-</li>
-</ol>
-<h3 id="Creando-magia">Creando magia</h3>
-<ol>
-<li>
-<p>Abre <code>index.html</code> y busca la palabra <strong>EDITAR</strong>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEisNAulRVVnmrHDLS0gpKvzwvo5AQ5lQFbGCZAy1AIjyTk1gU0uEwnook2ucW2b2_e1IcUp0vIDx6dnkSpNdJC3wcesW0SU1miE1pDNpZs0Jj_uJHlAklVfigMCT1EdiNdYmsmJLwOg2XoyySHYabdljsLhvZIOqr38skBqHbC9I7WAI2dMLr_lb1rt/s1600/cap3.png" alt="Editar index.html"></p>
-</li>
-<li>
-<p>Reemplaza los campos requeridos (aproximadamente 11).</p>
-</li>
-<li>
-<p>Busca la palabra <strong>OPCIONAL</strong> y ajusta según los comentarios.</p>
-</li>
-<li>
-<p>Abre <code>main.js</code> en <code>assets/js</code> y busca <strong>EDITAR</strong>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggPuD0ezcRRM6AMLQylm3XMjKr8omJe4LKIKvKAeoV9vr81O41bScwhgXzqX4YgvnVthR2_82PnW2qKoXtpu8Tv0CF0B0-qb4a12d3qlCG52ghfoDbtSnM7ppktgK3XZO3Wv-TYVK2uMnvOZPt27hLnwV5eAR8h0lQeNDpRu4LkKCqfg_GDBgYMJ4W/s1600/cap7.png" alt="Editar main.js"></p>
-</li>
-<li>
-<p>Cambia el nombre de usuario <code>avdyan</code> por el tuyo de GitHub.</p>
-</li>
-<li>
-<p>Elimina <code>README.md</code> y reemplaza las imágenes y PDF con tus propios archivos.</p>
-</li>
-<li>
-<p>Abre <code>index.html</code> en tu navegador para revisar que todo funcione correctamente.</p>
-</li>
-</ol>
-<h3 id="Creando-el-repositorio">Creando el repositorio</h3>
-<ol>
-<li>
-<p>Ingresa a <a href="https://github.com/new">github.com/new</a> y crea un nuevo repositorio.</p>
-</li>
-<li>
-<p>Nómbralo, por ejemplo: <code>portafolio</code>, y configúralo como público.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg0ZEgNymH_5z4JxlD17yuSWmf3t4TSUK81Tet2nEdVsRXz4iq0WKKcnk-WF9I7Y9hF6Z-SrT2Tz7filVbuFWIiz3gBQ80mI8szmBzliIXl8grSte_BmRX-0HBoKCvdye2kpHN8aNDXh0c7h7tPlfHomWD_8BcP0ee6R9sD8M6zlAXWjrWUf2q86d53/s1600/cap1.png" alt="Crear repositorio"></p>
-</li>
-<li>
-<p>Haz clic en <strong>Create repository</strong>.</p>
-</li>
-</ol>
-<h3 id="Subiendo-los-archivos">Subiendo los archivos</h3>
-<ol>
-<li>
-<p>Clic en <strong>uploading an existing file</strong>.</p>
-</li>
-<li>
-<p>Arrastra los archivos (no la carpeta) al navegador.</p>
-</li>
-<li>
-<p>Clic en <strong>Commit changes</strong>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhNKCGXvsrhIz5BSAA-Y-me7nvQmz0EEh6Wx30TqgfSTD1LzAxCiGik2IMymXH3WNNsWZUc_1Bh1FicsOoGb1x82QTNn8N6kYHBdLTKL3pAwXIh11-u-mJmXQe1KoExjLCBiwpF3YgpVyfLnwM8otjnYAqvQDGsHAIViPknJPDfW_El03S3GQheA2_j/s1600/cap9.gif" alt="Subir archivos"></p>
-</li>
-</ol>
-<h3 id="Activando-GitHub-Pages">Activando GitHub Pages</h3>
-<ol>
-<li>
-<p>Ve a <strong>Settings</strong> &gt; <strong>Pages</strong>.</p>
-</li>
-<li>
-<p>En <strong>Branch</strong>, selecciona <code>main</code>, luego clic en <strong>Save</strong>.</p>
-</li>
-<li>
-<p>Después de unos segundos, aparecerá la URL de tu portfolio.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg4SVF31HqKEygRVLEJNRQwUh1EgLQQfRcLbpb4SIO5biwbV2g_JV_8iQxrYmBHBUhqbDNXRvwP0PdUFwh_PNXwQiJ6vWP266_ek_UHxCRW_vgDjTVGk2OJ3-ZomeWlhOhgcHPghUJtJXOZi43WziguHAXa8dKhy-QBKFi34wxG831UvlmkGkMCycvK/s1600/cap14.png" alt="GitHub Pages activo"></p>
-</li>
-</ol>
-<h2 id="Conclusion">Conclusión</h2>
-<p>Quizás pueda parecerte algo tedioso crear una página web, pero créeme, ahora es mucho más fácil que antes. Además, todo es un beneficio para ti: con un portfolio puedes darte a conocer a las personas y dejar que tus proyectos hablen por ti. No necesitas decir ni venderte, solamente muéstrales tu portfolio y quedarán fascinados.</p>
+    <content><![CDATA[
+Dentro del gran mundo de la programación, necesitas destacarte para optar por mejores trabajos y ser más remunerado por tu experiencia. Pero, ¿cómo logras eso? En este artículo te lo contamos.
+Un portfolio web es una página que recopila una selección de tus trabajos o contenidos para darte a conocer ante otras personas. Piénsalo como un Instagram para tus proyectos, pero en vez de tener likes, atraes la atención de reclutadores para optar así a mejores oportunidades laborales.
+Tanto al momento de buscar trabajo como para mantener actualizado tu perfil laboral, exhibir tus proyectos en un portfolio web es tan primordial como beneficioso. Existen muchas plataformas para desplegar tu portfolio, pero en esta ocasión utilizaremos GitHub Pages para facilitarte la tarea.
+¿Cómo hacer un portfolio?
+Para facilitarte la tarea de escribir código, hemos creado una plantilla que muestra tus repositorios de GitHub y más, para que tú solamente edites algunas cosas. Puedes darle un vistazo cliqueando aquí.
+
+Clonando el repositorio
+
+
+Ingresa a este repositorio.
+
+
+Descarga el repositorio como ZIP.
+
+
+
+Extrae el contenido del archivo.
+
+
+Abre la carpeta con VS Code (Archivo &gt; Abrir Carpeta o Ctrl + K Ctrl + O).
+
+
+Creando magia
+
+
+Abre index.html y busca la palabra EDITAR.
+
+
+
+Reemplaza los campos requeridos (aproximadamente 11).
+
+
+Busca la palabra OPCIONAL y ajusta según los comentarios.
+
+
+Abre main.js en assets/js y busca EDITAR.
+
+
+
+Cambia el nombre de usuario avdyan por el tuyo de GitHub.
+
+
+Elimina README.md y reemplaza las imágenes y PDF con tus propios archivos.
+
+
+Abre index.html en tu navegador para revisar que todo funcione correctamente.
+
+
+Creando el repositorio
+
+
+Ingresa a github.com/new y crea un nuevo repositorio.
+
+
+Nómbralo, por ejemplo: portafolio, y configúralo como público.
+
+
+
+Haz clic en Create repository.
+
+
+Subiendo los archivos
+
+
+Clic en uploading an existing file.
+
+
+Arrastra los archivos (no la carpeta) al navegador.
+
+
+Clic en Commit changes.
+
+
+
+Activando GitHub Pages
+
+
+Ve a Settings &gt; Pages.
+
+
+En Branch, selecciona main, luego clic en Save.
+
+
+Después de unos segundos, aparecerá la URL de tu portfolio.
+
+
+
+Conclusión
+Quizás pueda parecerte algo tedioso crear una página web, pero créeme, ahora es mucho más fácil que antes. Además, todo es un beneficio para ti: con un portfolio puedes darte a conocer a las personas y dejar que tus proyectos hablen por ti. No necesitas decir ni venderte, solamente muéstrales tu portfolio y quedarán fascinados.
 ]]></content>
       <categories>
         <category>Desarrollo Web</category>
@@ -139,46 +139,46 @@ Aunque todavía se encuentra en fase de desarrollo, se espera que en un futuro c
   <entry>
     <title>Las mejores distribuciones Linux tipo rolling release (actualización continua)</title>
     <url>/blog/posts/rolling-release-linux.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/distros-linux.png" alt="Distros Rolling Release"></p>
-<p>Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de las mejores distribuciones de Linux de lanzamiento continuo (“rolling release” de acá en adelante).</p>
-<p><em><strong>¿Sabes qué es una distribución “rolling release”?</strong></em><br>
-Estas distribuciones no esperan seis meses o más para lanzar una nueva versión con nuevas versiones del kernel de Linux, entorno de escritorio u otros componentes de software importantes, sino que se actualizan poco después de que se lanzan.</p>
-<p>Ahora que estás al tanto de eso, echemos un vistazo a algunas de las mejores distribuciones de Linux de lanzamiento continuo.</p>
-<h2 id="openSUSE-Tumbleweed"><a href="https://www.opensuse.org/">openSUSE Tumbleweed</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi9HysxPg3kBDBXfOb4o0v-IvwFBMiPhIhOkvCOlYHlCOF37x1G7J8XrB_Qt0U_ozQCn5SuX5PfANMDkMZrM3f4hBn85NBB9TXlIjP0ttMS3Xef6zk0GSf8FQTYNQq5aWI_8XJ65sEWwpqtERSCG2zxKg4acVMB6kDDtsYfd4tSOoM0kIYsEwPesYqV/s1600/opensuse-tumbleweed.png" alt="openSUSE Tumbleweed"></p>
-<p>El buen viejo openSUSE se centró en la estabilidad durante años con su sistema de liberación puntual. Hace unos años, decidieron cambiar su oferta creando openSUSE Leap y Tumbleweed.<br>
-Mientras que openSUSE Leap sigue un lanzamiento puntual con una nueva versión cada pocos años, Tumbleweed está lanzando un nuevo software poco después de su lanzamiento.</p>
-<p>openSUSE Tumbleweed es una excelente opción para aquellos que quieren permanecer en el lado RPM (del lado Red Hat). El ecosistema openSUSE es mucho más diverso con un gran repositorio de software, además, Zypper y YaST le brindan muchas opciones para la administración de paquetes.</p>
-<h2 id="Arch-Linux"><a href="https://archlinux.org/">Arch Linux</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEieKgJlECW3rcF_ddQxBJqkGi5E6YNtiy0IkmOmBd93_N3ypEAPuwPZ0IBuiGnsTRsDEHQNUHiuDEnaQxuViMy7I3iZ1TSwbat1cSXbj0Dc7aDAmSfNYMsabTk11BD2lGmZQyyG5dsuBy2iizEOo8BJBx_MzKQknp_XtyTZ6AEjm57h8ZYqRhsa3wHh/s1600/arch-linux.png" alt="Arch Linux"></p>
-<p>Es la distribución de lanzamiento continuo más popular. Es casi sinónimo de liberación continua.<br>
-Hay muchas razones por las que Arch Linux tiene un estatus de culto entre los usuarios de Linux. Creo que tiene más que ver con la sensación de logro que uno siente después de instalar Arch Linux porque incluso el procedimiento de instalación no es como otras distribuciones.</p>
-<p>Arch tiene un buen montón de software disponible oficialmente en sus repositorios. Y luego Arch User Repository (AUR) hace que casi cualquier otro software de Linux esté disponible a través del esfuerzo de la comunidad.</p>
-<h2 id="Manjaro-Linux"><a href="https://manjaro.org/">Manjaro Linux</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgk2aA5GjfYXbWT2rhasceLzXEY68ArKlejEdt25rvHmEV-q6AD1KoLk3_ek6KwVAE3kBUw2xe01QMAPNSOP3EWz7VBXpCXMgNqEEbRJyNT3YFLWPd7lVvrBRrzlAtwErDn97AhHvrIL5MzrRSy1HwtPJYsXcMq7UOhy4J0Y-4jkKxYkrr_7Madr29l/s1600/manjaro-linux.png" alt="Manjaro Linux"></p>
-<p>Manjaro es básicamente Arch menos todas las molestias que conlleva Arch Linux.<br>
-Está basado en Arch Linux, por lo que obtienes Pacman y AUR con un modelo de lanzamiento continuo. Y al mismo tiempo, Manjaro tiene un instalador gráfico, un administrador de paquetes basado en GUI y otras herramientas gráficas para mejorar su experiencia.</p>
-<p>Manjaro es más fácil de instalar, más fácil de usar. Una buena opción para aquellos que quieren quedarse cómodamente en el dominio de Arch.<br>
-<strong>Nota:</strong> Hay muchas otras buenas distribuciones basadas en Arch Linux que no podría incluir en esta lista. Si lo deseas, puedes probar <strong>Garuda Linux</strong>, <strong>EndeavourOS</strong> y muchas otras.</p>
-<h2 id="Solus-Linux"><a href="https://getsol.us/">Solus Linux</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMyddKVc8qmqfcWe5UDv6tXuDdwqFBiYkCXwmH9D7Ny2VRjPUsdnGjBUFoLaCAAciD1vOe_LeUvOmGszOQben-ylDDG_zDQShrVKYApTpQc44wFDATLmdsYxqsNpPJgXa3UVKk5BeVB649hgszeHPoe-gHQ2Fr7p1qsYTvxaxc1y5ImTtfI6n48bT1/s1600/solus-linux.png" alt="Solus Linux"></p>
-<p>Solus también es una distribución de lanzamiento continuo “cuidadosa”. A diferencia de Manjaro, no se basa en Arch. Está creada desde cero y utiliza un administrador de paquetes llamado: <strong>eopkg</strong>.</p>
-<p>Solus es una buena opción si quieres algo diferente pero no lo suficientemente complicado como para hacerte sentir incómodo.</p>
-<h2 id="Debian-Testing"><a href="https://www.debian.org/devel/testing.es.html">Debian Testing</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhZetRrmYfiQHMj9LQjda85m-d_iJpO_qglwoh7eIMGbCn2JlEgeJjCOuqznP1Kyy_24podzMix1UWA7-Iq9QwjdqRGCNmaHtt26SCwdwVb7Pl8WiAK93OY3sCTpsetomBcgKHZ1zaYaNg7gFuM2x-w6I5PQtIZWwLoUNnfxFs7hnOrRzZ1S3lckgce/s1600/debian-testing.png" alt="Debian Testing"></p>
-<p>Debian es conocido por su enfoque en la estabilidad tanto que la estabilidad a veces equivale a obsoleta. Pero eso es para la rama estable.</p>
-<p>Debian Testing se encuentra en algún lugar entre la rama estable y la inestable. Obtiene las nuevas características antes del lanzamiento estable.</p>
-<h2 id="Void-Linux"><a href="https://voidlinux.org/">Void Linux</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiXxMknTzToW5BwFMeEVBGmCt353Kalvxf3dclJw3EH3THFf-I8IFpsy4CzpPXBogIreOI0POqxP1Jb1vpL_LmhiDN3oOMbOUvoLcBhd3E4ouOzlHFzFfQFK5sggqXOXYsw5uaf98AY5mn5tDt3YwLYqfrCbT4o8t69D-N32EeUApiukYlzjW9XEtwa/s1600/void-linux.png" alt="Void Linux"></p>
-<p>Void también se creó desde cero, es decir, no se basa en Arch, Red Hat o Debian.<br>
-Es un lanzamiento rodante pero no de última generación como Arch. Da preferencia a la estabilidad.</p>
-<p>Otra cosa que lo separa de otras distribuciones es el uso de <strong>runit</strong> como sistema de inicio. En conjunto, Void es una buena opción si eres un usuario experimentado de Linux.</p>
-<h2 id="Gentoo-Linux"><a href="https://www.gentoo.org/">Gentoo Linux</a></h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEi6vxBsJ9bK7F7sqXEcbb1rqbZk31CAquuk4y2JElWiKGr2dQyM4QHlPsUeoODMCXg7MQ4vt6KRJoZ4_NnKS2QqfOOVukkVfSgIZW16t0stL-1ULL2YoPuteLzgx3RB4v8vBGrbt0oA7DkI2_G85nHCJeeO1OdO_QDiJX38IuKrMFkhCrAhryoHidLr/s1600/gentoo-linux.png" alt="Gentoo Linux"></p>
-<p>Gentoo no es como tomarte una taza de café y esperar a que todo se instale fácilmente. Todo, desde la instalación hasta la configuración y la administración de paquetes, requiere algún tipo de experiencia y tiempo.</p>
-<p>Gentoo podría ser la distribución de tu elección si sientes que cualquier otra distribución no es lo suficientemente desafiante.</p>
-<h2 id="Conclusiones">Conclusiones</h2>
-<p>Cualquiera que sea tu nivel de experiencia, siempre habrá alguna distro que se adapte a ti. Desde Tumbleweed hasta Gentoo, desde lo más fácil hasta lo más complejo, en el mundo de Linux encontrarás cosas locas y a la vez interesantes. Intenta probar o consultar en los foros, que de seguro encontrarás algo con lo que quedarte.</p>
+    <content><![CDATA[
+Hay tantas distribuciones de Linux que se pueden dividir en diferentes categorías basadas en sus características, mejoras, público objetivo previsto y más. En este artículo, te mostraremos algunas de las mejores distribuciones de Linux de lanzamiento continuo (“rolling release” de acá en adelante).
+¿Sabes qué es una distribución “rolling release”?
+Estas distribuciones no esperan seis meses o más para lanzar una nueva versión con nuevas versiones del kernel de Linux, entorno de escritorio u otros componentes de software importantes, sino que se actualizan poco después de que se lanzan.
+Ahora que estás al tanto de eso, echemos un vistazo a algunas de las mejores distribuciones de Linux de lanzamiento continuo.
+openSUSE Tumbleweed
+
+El buen viejo openSUSE se centró en la estabilidad durante años con su sistema de liberación puntual. Hace unos años, decidieron cambiar su oferta creando openSUSE Leap y Tumbleweed.
+Mientras que openSUSE Leap sigue un lanzamiento puntual con una nueva versión cada pocos años, Tumbleweed está lanzando un nuevo software poco después de su lanzamiento.
+openSUSE Tumbleweed es una excelente opción para aquellos que quieren permanecer en el lado RPM (del lado Red Hat). El ecosistema openSUSE es mucho más diverso con un gran repositorio de software, además, Zypper y YaST le brindan muchas opciones para la administración de paquetes.
+Arch Linux
+
+Es la distribución de lanzamiento continuo más popular. Es casi sinónimo de liberación continua.
+Hay muchas razones por las que Arch Linux tiene un estatus de culto entre los usuarios de Linux. Creo que tiene más que ver con la sensación de logro que uno siente después de instalar Arch Linux porque incluso el procedimiento de instalación no es como otras distribuciones.
+Arch tiene un buen montón de software disponible oficialmente en sus repositorios. Y luego Arch User Repository (AUR) hace que casi cualquier otro software de Linux esté disponible a través del esfuerzo de la comunidad.
+Manjaro Linux
+
+Manjaro es básicamente Arch menos todas las molestias que conlleva Arch Linux.
+Está basado en Arch Linux, por lo que obtienes Pacman y AUR con un modelo de lanzamiento continuo. Y al mismo tiempo, Manjaro tiene un instalador gráfico, un administrador de paquetes basado en GUI y otras herramientas gráficas para mejorar su experiencia.
+Manjaro es más fácil de instalar, más fácil de usar. Una buena opción para aquellos que quieren quedarse cómodamente en el dominio de Arch.
+Nota: Hay muchas otras buenas distribuciones basadas en Arch Linux que no podría incluir en esta lista. Si lo deseas, puedes probar Garuda Linux, EndeavourOS y muchas otras.
+Solus Linux
+
+Solus también es una distribución de lanzamiento continuo “cuidadosa”. A diferencia de Manjaro, no se basa en Arch. Está creada desde cero y utiliza un administrador de paquetes llamado: eopkg.
+Solus es una buena opción si quieres algo diferente pero no lo suficientemente complicado como para hacerte sentir incómodo.
+Debian Testing
+
+Debian es conocido por su enfoque en la estabilidad tanto que la estabilidad a veces equivale a obsoleta. Pero eso es para la rama estable.
+Debian Testing se encuentra en algún lugar entre la rama estable y la inestable. Obtiene las nuevas características antes del lanzamiento estable.
+Void Linux
+
+Void también se creó desde cero, es decir, no se basa en Arch, Red Hat o Debian.
+Es un lanzamiento rodante pero no de última generación como Arch. Da preferencia a la estabilidad.
+Otra cosa que lo separa de otras distribuciones es el uso de runit como sistema de inicio. En conjunto, Void es una buena opción si eres un usuario experimentado de Linux.
+Gentoo Linux
+
+Gentoo no es como tomarte una taza de café y esperar a que todo se instale fácilmente. Todo, desde la instalación hasta la configuración y la administración de paquetes, requiere algún tipo de experiencia y tiempo.
+Gentoo podría ser la distribución de tu elección si sientes que cualquier otra distribución no es lo suficientemente desafiante.
+Conclusiones
+Cualquiera que sea tu nivel de experiencia, siempre habrá alguna distro que se adapte a ti. Desde Tumbleweed hasta Gentoo, desde lo más fácil hasta lo más complejo, en el mundo de Linux encontrarás cosas locas y a la vez interesantes. Intenta probar o consultar en los foros, que de seguro encontrarás algo con lo que quedarte.
 ]]></content>
       <categories>
         <category>Guías Linux</category>
@@ -189,74 +189,27 @@ Es un lanzamiento rodante pero no de última generación como Arch. Da preferenc
       </tags>
   </entry>
   <entry>
-    <title>¿Qué sales dan color a los fuegos artificiales?</title>
-    <url>/blog/posts/fuegos-artificiales.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/fuegos-artificiales.jpeg" alt="Fuegos artificiales"></p>
-<p>Los colores de los fuegos artificiales se derivan de una amplia variedad de sales metálicas. Y cuando decimos <strong>‘sal’</strong>, evidentemente no nos referimos a la sal de mesa común (cloruro de sodio), sino a aquellos compuestos que contienen átomos metálicos y no metálicos unidos iónicamente.<br>
-Pero, ¿qué elementos químicos son los encargados de dotar de color a los fuegos artificiales?</p>
-<span id="more"></span>
-<p>El componente más importante de los fuegos artificiales es, por supuesto, la pólvora. Sin embargo, la reacción química que tiene lugar no es simple, ya que intervienen elementos variados y factores como la humedad, que afecta la combustión.</p>
-<p>Dentro de los fuegos artificiales se encuentran esos ‘polvos metálicos’ que dotan de color y espectacularidad a la pirotecnia cuando estalla.<br>
-Cuando ocurre la combustión, los diferentes metales emiten energía con distintas longitudes de onda, es decir, con colores distintos.</p>
-<p>Aquí están las sales metálicas más comunes utilizadas y los colores que producen:</p>
-<ul>
-<li><strong>Sales de Estroncio (Sr)</strong>: Color <strong>ROJO</strong><br>
-(nitrato de estroncio, carbonato de estroncio, sulfato de estroncio)</li>
-<li><strong>Sales de Calcio (Ca)</strong>: Color <strong>NARANJA</strong><br>
-(carbonato de calcio, cloruro de calcio, sulfato de calcio)</li>
-<li><strong>Sales de Sodio (Na)</strong>: Color <strong>AMARILLO</strong><br>
-(nitrato de sodio, oxalato de sodio, criolita)</li>
-<li><strong>Sales de Bario (Ba)</strong>: Color <strong>VERDE</strong><br>
-(nitrato, carbonato, cloruro o clorato de bario)</li>
-<li><strong>Sales de Cobre (Cu)</strong>: Color <strong>AZUL</strong><br>
-(cloruro de cobre, carbonato de cobre, óxido de cobre)</li>
-<li><strong>Cobre + Estroncio</strong>: Color <strong>MORADO</strong></li>
-<li><strong>Aluminio (Al) y Magnesio (Mg)</strong>: Color <strong>PLATEADO</strong></li>
-<li><strong>Magnesio (Mg), Titanio (Ti) o Aluminio (Al)</strong>: Color <strong>BLANCO BRILLANTE</strong>, muy común en chispas</li>
-</ul>
-<p>A grandes rasgos, estos son los compuestos químicos que se emplean para darle colorido a los fuegos artificiales.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiWnXDwqVw9j9Q9_mf0zGHmlAiDkNgVWLUzpgE9a19TGcq76KanFaWY5AagtmDEjeL1TXj7vyGmNQ_u3iU2hOa79Qev0BaxQKytCeHRD5BDdx4djvH39ok0a2SdlMZfw4KJUWPGhg8gO9JgIn-wHD0IB_xk4d2uJwa5fsjfbWmFAMMLeyh73Gho9ZcJ/s1600/dc0e06cdbc363ccd0d791.jpg" alt="Sales y elementos varios"><br>
-<em>Sales y elementos varios para cambiar el color y comportamiento del fuego</em></p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEggFN3CXQunEtLt2PeZoy25A_idfHQ4334M_-ajeGO_20Oas_wlq9gvXAVrOQHX8-Gc0vFOhRIl6Y8cZfFk64acuhreYLqJIQbV4GAG1i7gqXIGqo-WoAIoVqzjUUUbLX2RzT8eCjCEn2ajronYR58IyQ4shpBcVKppT18iI9UNbbxdWR7jkrayzgXT/s1600/20f7ab98d4f084d142fe6.png" alt="Elementos químicos"><br>
-<em>Elementos químicos para cambiar el color del fuego</em></p>
-<hr>
-<h2 id="Conclusiones">Conclusiones</h2>
-<p>Recuerda compartir esta publicación si consideras de valor el contenido que publicamos y quieres que tus amigos sean más cultos cada día.<br>
-¡Gracias por leernos!</p>
-<p><strong>Fuente:</strong><br>
-Ingeniería en General<br>
-<a href="https://t.me/ingenieriaengeneral">https://t.me/ingenieriaengeneral</a></p>
-]]></content>
-      <categories>
-        <category>Ciencia y Tecnología</category>
-      </categories>
-      <tags>
-        <tag>Ciencia</tag>
-        <tag>Química</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Las 6 Paradojas Más Fascinantes de la Física</title>
     <url>/blog/posts/famosas-paradojas-fisica.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/famosas-paradojas-fisicas.jpg" alt="Paradojas de la Física"></p>
-<p>La palabra <strong>paradoja</strong>, de origen griego, puede referir algo contrario al sentido común, o bien algo que sucede contra lo esperado y provoca asombro. <strong>Descubre 6 de éstos a continuación.</strong></p>
-<h2 id="Paradoja-del-Abuelo">Paradoja del Abuelo</h2>
-<p>Una de las posibles paradojas que se desprenderían de un potencial viaje en el tiempo es conocida popularmente como la <strong>paradoja del abuelo</strong>.</p>
-<p>En el libro <strong>“El Viajero Imprudente”</strong> se esbozó por primera vez esta paradoja usada por muchos físicos para demostrar los riesgos del viaje en el tiempo.</p>
-<p>Allí el personaje que retrocede en el tiempo, asesina a su abuelo, antes de que haya entablado relación amorosa con su abuela. En esta extensión de sí mismo, es decir su abuelo en el pasado, el viajero imprudente cometería el error de aniquilarse potencialmente en un futuro posible, dando origen a la paradoja del abuelo.</p>
-<h2 id="Paradoja-EPR">Paradoja EPR</h2>
-<p>La paradoja de Einstein-Podolsky-Rosen o paradoja EPR es un <strong>experimento mental</strong> destinado a demostrar una paradoja inherente en las primeras formulaciones de la teoría cuántica. Es uno de los ejemplos más conocidos de entrelazamiento cuántico. La paradoja involucra <strong>dos partículas que están entrelazadas según la mecánica cuántica</strong>. Según la interpretación de Copenhague de la mecánica cuántica, cada partícula está individualmente en un estado incierto hasta que se mide, momento en el que el estado de esa partícula se vuelve seguro.</p>
-<p>En ese mismo momento exacto, el estado de la otra partícula también se vuelve seguro. La razón por la que esto se clasifica como una paradoja es que aparentemente <strong>involucra la comunicación entre las dos partículas a velocidades mayores que la velocidad de la luz</strong>, lo cual es un conflicto con la teoría de la relatividad de Albert Einstein.</p>
-<h2 id="Paradoja-de-los-Gemelos">Paradoja de los Gemelos</h2>
-<p><strong>Es un experimento mental que analiza la distinta percepción del tiempo entre dos observadores con diferentes estados de movimiento</strong>. Esta paradoja fue propuesta por Albert Einstein al desarrollar lo que hoy se conoce como la teoría de la relatividad especial. La paradoja de los gemelos plantea que, debido al efecto conocido como dilatación temporal, un astronauta regresaría de un viaje interestelar a velocidades próximas a la de la luz siendo considerablemente más joven que su hermano gemelo en la Tierra.</p>
-<h2 id="Paradoja-de-Fermi">Paradoja de Fermi</h2>
-<p>Es la aparente contradicción que hay entre las estimaciones que afirman que hay una alta probabilidad de que existan otras civilizaciones inteligentes en el universo observable y la ausencia de evidencia de dichas civilizaciones.</p>
-<h2 id="Paradoja-Gato-de-Schrodinger">Paradoja Gato de Schrödinger</h2>
-<p><strong>Es un experimento mental, a veces descrito como una paradoja.</strong> El escenario presenta un gato hipotético que puede estar simultáneamente vivo y muerto, un estado conocido como <strong>superposición cuántica</strong>, como resultado de estar vinculado a un evento subatómico aleatorio que puede ocurrir o no.</p>
-<h2 id="Paradoja-de-la-Informacion">Paradoja de la Información</h2>
-<p>En los años setenta, <strong>Stephen Hawking</strong> argumentó que los agujeros negros destruyen para siempre la información contenida en la materia que cae en ellos. De ser el caso, ello violaría uno de los postulados básicos de la mecánica cuántica.</p>
-<p>Una propuesta para resolver dicha paradoja es el llamado <strong>«principio de complementariedad»</strong>. Este sostiene que la información que cae en un agujero negro nunca se pierde, si bien su destino depende del punto de vista del observador.</p>
-<p>La <strong>teoría de cuerdas</strong> parece ofrecer un marco teórico en el que acomodar dicho principio. En particular, varios cálculos han conseguido explicar en términos de cuerdas cuánticas la entropía y la tasa de radiación de ciertos agujeros negros.</p>
+    <content><![CDATA[
+La palabra paradoja, de origen griego, puede referir algo contrario al sentido común, o bien algo que sucede contra lo esperado y provoca asombro. Descubre 6 de éstos a continuación.
+Paradoja del Abuelo
+Una de las posibles paradojas que se desprenderían de un potencial viaje en el tiempo es conocida popularmente como la paradoja del abuelo.
+En el libro “El Viajero Imprudente” se esbozó por primera vez esta paradoja usada por muchos físicos para demostrar los riesgos del viaje en el tiempo.
+Allí el personaje que retrocede en el tiempo, asesina a su abuelo, antes de que haya entablado relación amorosa con su abuela. En esta extensión de sí mismo, es decir su abuelo en el pasado, el viajero imprudente cometería el error de aniquilarse potencialmente en un futuro posible, dando origen a la paradoja del abuelo.
+Paradoja EPR
+La paradoja de Einstein-Podolsky-Rosen o paradoja EPR es un experimento mental destinado a demostrar una paradoja inherente en las primeras formulaciones de la teoría cuántica. Es uno de los ejemplos más conocidos de entrelazamiento cuántico. La paradoja involucra dos partículas que están entrelazadas según la mecánica cuántica. Según la interpretación de Copenhague de la mecánica cuántica, cada partícula está individualmente en un estado incierto hasta que se mide, momento en el que el estado de esa partícula se vuelve seguro.
+En ese mismo momento exacto, el estado de la otra partícula también se vuelve seguro. La razón por la que esto se clasifica como una paradoja es que aparentemente involucra la comunicación entre las dos partículas a velocidades mayores que la velocidad de la luz, lo cual es un conflicto con la teoría de la relatividad de Albert Einstein.
+Paradoja de los Gemelos
+Es un experimento mental que analiza la distinta percepción del tiempo entre dos observadores con diferentes estados de movimiento. Esta paradoja fue propuesta por Albert Einstein al desarrollar lo que hoy se conoce como la teoría de la relatividad especial. La paradoja de los gemelos plantea que, debido al efecto conocido como dilatación temporal, un astronauta regresaría de un viaje interestelar a velocidades próximas a la de la luz siendo considerablemente más joven que su hermano gemelo en la Tierra.
+Paradoja de Fermi
+Es la aparente contradicción que hay entre las estimaciones que afirman que hay una alta probabilidad de que existan otras civilizaciones inteligentes en el universo observable y la ausencia de evidencia de dichas civilizaciones.
+Paradoja Gato de Schrödinger
+Es un experimento mental, a veces descrito como una paradoja. El escenario presenta un gato hipotético que puede estar simultáneamente vivo y muerto, un estado conocido como superposición cuántica, como resultado de estar vinculado a un evento subatómico aleatorio que puede ocurrir o no.
+Paradoja de la Información
+En los años setenta, Stephen Hawking argumentó que los agujeros negros destruyen para siempre la información contenida en la materia que cae en ellos. De ser el caso, ello violaría uno de los postulados básicos de la mecánica cuántica.
+Una propuesta para resolver dicha paradoja es el llamado «principio de complementariedad». Este sostiene que la información que cae en un agujero negro nunca se pierde, si bien su destino depende del punto de vista del observador.
+La teoría de cuerdas parece ofrecer un marco teórico en el que acomodar dicho principio. En particular, varios cálculos han conseguido explicar en términos de cuerdas cuánticas la entropía y la tasa de radiación de ciertos agujeros negros.
 ]]></content>
       <categories>
         <category>Curiosidades</category>
@@ -267,114 +220,106 @@ Ingeniería en General<br>
       </tags>
   </entry>
   <entry>
-    <title>Los 10 Repositorios de GitHub Imprescindibles para Desarrolladores</title>
-    <url>/blog/posts/github-repositorios-esenciales-desarrolladores.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/github-repositorios-esenciales-desarrolladores.webp" alt="Repositorios de GitHub Esenciales"></p>
-<p>Además de ser el hogar de algunos de los proyectos de código abierto más interesantes de Internet, GitHub también es un excelente lugar para compartir recursos de todo tipo: libros gratuitos, API’s o ideas de proyectos. Pero con la gran cantidad se vuelve difícil encontrar los repositorios más útiles. Así que he seleccionado esta lista de diez repositorios fabulosos que brindan un gran valor para todos los desarrolladores web y de software. Todos ellos le agregarán valor y lo ayudarán a convertirse en un mejor desarrollador web o de software.</p>
-<h2 id="Free-Programming-Books">Free Programming Books</h2>
-<p><strong>[GitHub🌟: 183K+]</strong> Ofrecido en una variedad de lenguajes diferentes, <a href="https://github.com/EbookFoundation/free-programming-books"><strong>Free Programming Books</strong></a> es sin duda uno de los repositorios más populares y destacados en GitHub. Aunque tiene “Libros” en su nombre, ofrece mucho más que eso. Contiene secciones de cursos en línea gratuitos, recursos de programación interactivos, conjuntos de problemas y programación competitiva, juegos de programación, podcasts y hojas de trucos para casi todos los lenguajes de programación.</p>
-<hr>
-<h2 id="Developer-Roadmap">Developer Roadmap</h2>
-<p><strong>[GitHub🌟: 155K+]</strong> ¿Quedó atascado? o ¿necesita algún consejo para comenzar su viaje como desarrollador? entonces <a href="https://github.com/kamranahmedse/developer-roadmap">este repositorio</a> lo guiará. Tiene todas las tecnologías que necesitas saber si quieres convertirte en un Ingeniero Frontend, Backend o DevOps. Dispone de todas las tecnologías para que se adapte a su necesidad o comodidad.</p>
-<hr>
-<h2 id="OSSU-Computer-Science">OSSU Computer Science</h2>
-<p><strong>[GitHub🌟:81K+]</strong> Si no tiene una formación o un título en ciencias de la computación y desea el conocimiento equivalente al mismo que un título en Ciencias de la Computación, entonces <a href="https://github.com/ossu/computer-science">este repositorio</a> es para usted. Es para aquellos que desean una base adecuada y completa en conceptos fundamentales para todas las disciplinas informáticas. Ofrece todos los recursos para ayudarlo a convertirse en un graduado autodidacta en ciencias de la computación y tiene una comunidad mundial de estudiantes. Está diseñado de acuerdo con los requisitos de grado de las especializaciones en ciencias de la computación de pregrado, menos los requisitos de educación general (no en informática), ya que se supone que la mayoría de las personas que siguen este plan de estudios ya tienen educación fuera del campo de la informática. Los cursos en sí se encuentran entre los mejores del mundo, a menudo provenientes de Harvard, Princeton, MIT, etc., pero elegidos específicamente para cumplir con los criterios.</p>
-<hr>
-<h2 id="Awesome">Awesome</h2>
-<p><strong>[GitHub🌟: 158K+]</strong> Como su nombre lo describe, tiene una lista <a href="https://github.com/sindresorhus/awesome">impresionante</a> de todo tipo de temas interesantes que van desde la informática hasta los medios, desde los juegos hasta los negocios, y la lista continúa.</p>
-<hr>
-<h2 id="Build-your-own-X">Build your own X</h2>
-<p><strong>[GitHub🌟: 103K+]</strong> Si eres una persona que cree en el principio de “aprender haciendo”, entonces <a href="https://github.com/danistefanovic/build-your-own-x">este repositorio</a> tiene el potencial de convertirse en tu parada diaria en GitHub. Tiene enlaces a los recursos que lo ayudan a crear su propia criptomoneda, base de datos, bots, clientes de BitTorrent y muchos más.</p>
-<hr>
-<h2 id="Coding-Interview-University">Coding Interview University</h2>
-<p><strong>[Github 🌟: 165K+]</strong> <a href="https://github.com/jwasham/coding-interview-university">Coding Interview University</a> tiene un plan de estudios de varios meses para convertirse en ingeniero de software para una gran empresa de tecnología como Google, Amazon, Facebook, Apple o cualquier otra empresa de software. Ofrece consejos sobre cómo estudiar para convertirse en ingeniero de confiabilidad o ingeniero de operaciones. También tiene enlaces a las tarjetas didácticas para repasar rápidamente sus conocimientos y mantenerse actualizado, creado originalmente por el autor del repositorio que consiguió un trabajo en Amazon. Y hay muchas más historias de éxito como esa.</p>
-<hr>
-<h2 id="Public-API’s">Public API’s</h2>
-<p><strong>[GitHub🌟: 118K+]</strong> <a href="https://github.com/public-apis/public-apis">Public API’s</a> tiene una lista colectiva de todas las API’s gratuitas disponibles en Internet para usar en sus proyectos personales o profesionales. Ofrece una amplia gama de interfaces de programación de aplicaciones (API), como negocios, anime, animales, noticias, finanzas, juegos y más.</p>
-<hr>
-<h2 id="Tech-Interview-Handbook">Tech Interview Handbook</h2>
-<p><strong>[GitHub🌟:51K+]</strong> <a href="https://github.com/yangshun/tech-interview-handbook">Tech Interview Handbook</a> tiene todos los materiales que necesita para descifrar una entrevista técnica. Tiene una variedad de material sobre cómo prepararse para entrevistas de codificación, buenas preguntas para hacerle a su entrevistador, consejos útiles sobre el currículum y mucho más.</p>
-<hr>
-<h2 id="System-Design-Primer">System Design Primer</h2>
-<p><strong>[GitHub🌟:127K+]</strong> <a href="https://github.com/donnemartin/system-design-primer">System Design Primer</a> es un excelente repositorio para ingenieros de software que lo ayudará a aprender cómo diseñar sistemas a gran escala. Eso te ayudará a convertirte en un mejor ingeniero. El repositorio proporciona una colección organizada de recursos para este amplio tema. Debido a que el diseño del sistema a menudo es un componente requerido del proceso de entrevista técnica en muchas empresas, este repositorio también puede ayudarlo a prepararse para esas entrevistas con una guía de estudio, consejos sobre cómo abordar una entrevista, preguntas de entrevista con soluciones, juegos de tarjetas flash Anki para aprendizaje interactivo y desafíos de codificación interactivos.</p>
-<hr>
-<h2 id="Design-Resources-for-Developers">Design Resources for Developers</h2>
-<p><strong>[GitHub🌟:25K+]</strong> <a href="https://github.com/bradtraversy/design-resources-for-developers">Este repositorio</a> tiene una lista seleccionada de recursos de diseño e interfaz de usuario de fotos de stock, plantillas web, marcos CSS, bibliotecas de interfaz de usuario, herramientas y mucho más, disponibles de forma gratuita para usar en sus proyectos y aplicaciones. Ofrece todas las plantillas que necesita para comenzar con sus proyectos de desarrollo web.</p>
-<hr>
-<p>Espero que encuentre estos repositorios tan útiles como yo y que pueda usarlos para convertirse en mejor ingeniero de software. ¡Gracias por leer!</p>
+    <title>¿Qué sales dan color a los fuegos artificiales?</title>
+    <url>/blog/posts/fuegos-artificiales.html</url>
+    <content><![CDATA[
+Los colores de los fuegos artificiales se derivan de una amplia variedad de sales metálicas. Y cuando decimos ‘sal’, evidentemente no nos referimos a la sal de mesa común (cloruro de sodio), sino a aquellos compuestos que contienen átomos metálicos y no metálicos unidos iónicamente.
+Pero, ¿qué elementos químicos son los encargados de dotar de color a los fuegos artificiales?
+
+El componente más importante de los fuegos artificiales es, por supuesto, la pólvora. Sin embargo, la reacción química que tiene lugar no es simple, ya que intervienen elementos variados y factores como la humedad, que afecta la combustión.
+Dentro de los fuegos artificiales se encuentran esos ‘polvos metálicos’ que dotan de color y espectacularidad a la pirotecnia cuando estalla.
+Cuando ocurre la combustión, los diferentes metales emiten energía con distintas longitudes de onda, es decir, con colores distintos.
+Aquí están las sales metálicas más comunes utilizadas y los colores que producen:
+
+Sales de Estroncio (Sr): Color ROJO
+(nitrato de estroncio, carbonato de estroncio, sulfato de estroncio)
+Sales de Calcio (Ca): Color NARANJA
+(carbonato de calcio, cloruro de calcio, sulfato de calcio)
+Sales de Sodio (Na): Color AMARILLO
+(nitrato de sodio, oxalato de sodio, criolita)
+Sales de Bario (Ba): Color VERDE
+(nitrato, carbonato, cloruro o clorato de bario)
+Sales de Cobre (Cu): Color AZUL
+(cloruro de cobre, carbonato de cobre, óxido de cobre)
+Cobre + Estroncio: Color MORADO
+Aluminio (Al) y Magnesio (Mg): Color PLATEADO
+Magnesio (Mg), Titanio (Ti) o Aluminio (Al): Color BLANCO BRILLANTE, muy común en chispas
+
+A grandes rasgos, estos son los compuestos químicos que se emplean para darle colorido a los fuegos artificiales.
+
+Sales y elementos varios para cambiar el color y comportamiento del fuego
+
+Elementos químicos para cambiar el color del fuego
+
+Conclusiones
+Recuerda compartir esta publicación si consideras de valor el contenido que publicamos y quieres que tus amigos sean más cultos cada día.
+¡Gracias por leernos!
+Fuente:
+Ingeniería en General
+https://t.me/ingenieriaengeneral
 ]]></content>
       <categories>
-        <category>Herramientas y Recursos</category>
+        <category>Ciencia y Tecnología</category>
       </categories>
       <tags>
-        <tag>GitHub</tag>
-        <tag>Desarrollo Web</tag>
-        <tag>Recursos</tag>
-        <tag>Programación</tag>
+        <tag>Ciencia</tag>
+        <tag>Química</tag>
       </tags>
   </entry>
   <entry>
     <title>Cómo instalar paquetes en Arch Linux fácilmente</title>
     <url>/blog/posts/instalar-paquetes-arch.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/instalar-programas-en-arch-linux.jpg" alt="Instalar Arch Linux"></p>
-<p>Al igual que en otras distribuciones, <strong>Arch Linux</strong> tiene su propio gestor de paquetes con el que podemos instalar, actualizar paquetes o desinstalarlos del sistema.<br>
-Si ya tienes algún conocimiento básico o intermedio en Linux, sabrás que no solo existe una forma de instalar paquetes. Existen muchas, las cuales <strong>se adaptan a ti y a tus preferencias</strong>.</p>
-<p>Mira el vídeo del gran <a href="https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/">Riky Linux</a> a continuación para saber más al respecto:</p>
-<span id="more"></span>
-<iframe
-  title="Compilado, binario, yay, helper,  otras maneras de instalar programas en distribuciones Arch o derivadas!"
-  width="100%"
-  height="480"
-  src="https://fediverse.tv/videos/embed/36f37bf3-6f02-43f6-b1f3-83066f45bd15?autoplay=1&amp;warningTitle=0&amp;peertubeLink=0"
-  frameborder="0"
-  allowfullscreen
-  sandbox="allow-same-origin allow-scripts allow-popups"
-></iframe>
-<hr>
-<h2 id="Como-instalar-paquetes-en-Arch-paso-a-paso">Cómo instalar paquetes en Arch paso a paso</h2>
-<p>Aquí te va un resumen para instalar paquetes de forma fácil y sencilla:</p>
-<ol>
-<li>
-<p><strong>Actualizar el sistema:</strong><br>
-Antes de instalar cualquier programa, asegúrate de que el sistema esté actualizado:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Syu</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><strong>Buscar el paquete deseado:</strong><br>
-Usa el siguiente comando para buscar:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">pacman -Ss nombre_del_paquete</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><strong>Instalar el paquete:</strong><br>
-Una vez encontrado, instala con:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -S nombre_del_paquete</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><strong>Actualizar un paquete específico:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -Sy nombre_del_paquete</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><strong>Desinstalar un paquete:</strong></p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line"><span class="built_in">sudo</span> pacman -R nombre_del_paquete</span><br></pre></td></tr></table></figure>
-</li>
-<li>
-<p><strong>Instalar un paquete AUR:</strong><br>
-Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
-<figure class="highlight bash"><table><tr><td class="code"><pre><span class="line">yay -S nombre_del_paquete</span><br></pre></td></tr></table></figure>
-</li>
-</ol>
-<blockquote>
-<p>💡 <strong>Nota:</strong> AUR no está respaldado oficialmente por el equipo de Arch. Úsalo con precaución.</p>
-</blockquote>
-<hr>
-<h2 id="Conclusiones">Conclusiones</h2>
-<p>En resumen, la instalación de programas en Arch Linux se realiza mediante el uso de comandos con <code>pacman</code>, y también puedes usar AUR para instalar programas que no están en los repos oficiales. Arch te da la libertad de elegir cómo y con qué instalar tus herramientas favoritas.</p>
-<hr>
-<h2 id="Creditos">Créditos</h2>
-<ul>
-<li><a href="https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/">https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/</a><br>
-<strong>Riky Linux</strong></li>
-</ul>
+    <content><![CDATA[
+Al igual que en otras distribuciones, Arch Linux tiene su propio gestor de paquetes con el que podemos instalar, actualizar paquetes o desinstalarlos del sistema.
+Si ya tienes algún conocimiento básico o intermedio en Linux, sabrás que no solo existe una forma de instalar paquetes. Existen muchas, las cuales se adaptan a ti y a tus preferencias.
+Mira el vídeo del gran Riky Linux a continuación para saber más al respecto:
+
+
+
+Cómo instalar paquetes en Arch paso a paso
+Aquí te va un resumen para instalar paquetes de forma fácil y sencilla:
+
+
+Actualizar el sistema:
+Antes de instalar cualquier programa, asegúrate de que el sistema esté actualizado:
+sudo pacman -Syu
+
+
+Buscar el paquete deseado:
+Usa el siguiente comando para buscar:
+pacman -Ss nombre_del_paquete
+
+
+Instalar el paquete:
+Una vez encontrado, instala con:
+sudo pacman -S nombre_del_paquete
+
+
+Actualizar un paquete específico:
+sudo pacman -Sy nombre_del_paquete
+
+
+Desinstalar un paquete:
+sudo pacman -R nombre_del_paquete
+
+
+Instalar un paquete AUR:
+Usa un gestor de AUR como yay o paru. Por ejemplo:
+yay -S nombre_del_paquete
+
+
+
+💡 Nota: AUR no está respaldado oficialmente por el equipo de Arch. Úsalo con precaución.
+
+
+Conclusiones
+En resumen, la instalación de programas en Arch Linux se realiza mediante el uso de comandos con pacman, y también puedes usar AUR para instalar programas que no están en los repos oficiales. Arch te da la libertad de elegir cómo y con qué instalar tus herramientas favoritas.
+
+Créditos
+
+https://fediverse.tv/c/gnuxero_el_canal_de_rikylinux/
+Riky Linux
+
 ]]></content>
       <categories>
         <category>Guías Linux</category>
@@ -387,21 +332,68 @@ Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
       </tags>
   </entry>
   <entry>
+    <title>Los 10 Repositorios de GitHub Imprescindibles para Desarrolladores</title>
+    <url>/blog/posts/github-repositorios-esenciales-desarrolladores.html</url>
+    <content><![CDATA[
+Además de ser el hogar de algunos de los proyectos de código abierto más interesantes de Internet, GitHub también es un excelente lugar para compartir recursos de todo tipo: libros gratuitos, API’s o ideas de proyectos. Pero con la gran cantidad se vuelve difícil encontrar los repositorios más útiles. Así que he seleccionado esta lista de diez repositorios fabulosos que brindan un gran valor para todos los desarrolladores web y de software. Todos ellos le agregarán valor y lo ayudarán a convertirse en un mejor desarrollador web o de software.
+Free Programming Books
+[GitHub🌟: 183K+] Ofrecido en una variedad de lenguajes diferentes, Free Programming Books es sin duda uno de los repositorios más populares y destacados en GitHub. Aunque tiene “Libros” en su nombre, ofrece mucho más que eso. Contiene secciones de cursos en línea gratuitos, recursos de programación interactivos, conjuntos de problemas y programación competitiva, juegos de programación, podcasts y hojas de trucos para casi todos los lenguajes de programación.
+
+Developer Roadmap
+[GitHub🌟: 155K+] ¿Quedó atascado? o ¿necesita algún consejo para comenzar su viaje como desarrollador? entonces este repositorio lo guiará. Tiene todas las tecnologías que necesitas saber si quieres convertirte en un Ingeniero Frontend, Backend o DevOps. Dispone de todas las tecnologías para que se adapte a su necesidad o comodidad.
+
+OSSU Computer Science
+[GitHub🌟:81K+] Si no tiene una formación o un título en ciencias de la computación y desea el conocimiento equivalente al mismo que un título en Ciencias de la Computación, entonces este repositorio es para usted. Es para aquellos que desean una base adecuada y completa en conceptos fundamentales para todas las disciplinas informáticas. Ofrece todos los recursos para ayudarlo a convertirse en un graduado autodidacta en ciencias de la computación y tiene una comunidad mundial de estudiantes. Está diseñado de acuerdo con los requisitos de grado de las especializaciones en ciencias de la computación de pregrado, menos los requisitos de educación general (no en informática), ya que se supone que la mayoría de las personas que siguen este plan de estudios ya tienen educación fuera del campo de la informática. Los cursos en sí se encuentran entre los mejores del mundo, a menudo provenientes de Harvard, Princeton, MIT, etc., pero elegidos específicamente para cumplir con los criterios.
+
+Awesome
+[GitHub🌟: 158K+] Como su nombre lo describe, tiene una lista impresionante de todo tipo de temas interesantes que van desde la informática hasta los medios, desde los juegos hasta los negocios, y la lista continúa.
+
+Build your own X
+[GitHub🌟: 103K+] Si eres una persona que cree en el principio de “aprender haciendo”, entonces este repositorio tiene el potencial de convertirse en tu parada diaria en GitHub. Tiene enlaces a los recursos que lo ayudan a crear su propia criptomoneda, base de datos, bots, clientes de BitTorrent y muchos más.
+
+Coding Interview University
+[Github 🌟: 165K+] Coding Interview University tiene un plan de estudios de varios meses para convertirse en ingeniero de software para una gran empresa de tecnología como Google, Amazon, Facebook, Apple o cualquier otra empresa de software. Ofrece consejos sobre cómo estudiar para convertirse en ingeniero de confiabilidad o ingeniero de operaciones. También tiene enlaces a las tarjetas didácticas para repasar rápidamente sus conocimientos y mantenerse actualizado, creado originalmente por el autor del repositorio que consiguió un trabajo en Amazon. Y hay muchas más historias de éxito como esa.
+
+Public API’s
+[GitHub🌟: 118K+] Public API’s tiene una lista colectiva de todas las API’s gratuitas disponibles en Internet para usar en sus proyectos personales o profesionales. Ofrece una amplia gama de interfaces de programación de aplicaciones (API), como negocios, anime, animales, noticias, finanzas, juegos y más.
+
+Tech Interview Handbook
+[GitHub🌟:51K+] Tech Interview Handbook tiene todos los materiales que necesita para descifrar una entrevista técnica. Tiene una variedad de material sobre cómo prepararse para entrevistas de codificación, buenas preguntas para hacerle a su entrevistador, consejos útiles sobre el currículum y mucho más.
+
+System Design Primer
+[GitHub🌟:127K+] System Design Primer es un excelente repositorio para ingenieros de software que lo ayudará a aprender cómo diseñar sistemas a gran escala. Eso te ayudará a convertirte en un mejor ingeniero. El repositorio proporciona una colección organizada de recursos para este amplio tema. Debido a que el diseño del sistema a menudo es un componente requerido del proceso de entrevista técnica en muchas empresas, este repositorio también puede ayudarlo a prepararse para esas entrevistas con una guía de estudio, consejos sobre cómo abordar una entrevista, preguntas de entrevista con soluciones, juegos de tarjetas flash Anki para aprendizaje interactivo y desafíos de codificación interactivos.
+
+Design Resources for Developers
+[GitHub🌟:25K+] Este repositorio tiene una lista seleccionada de recursos de diseño e interfaz de usuario de fotos de stock, plantillas web, marcos CSS, bibliotecas de interfaz de usuario, herramientas y mucho más, disponibles de forma gratuita para usar en sus proyectos y aplicaciones. Ofrece todas las plantillas que necesita para comenzar con sus proyectos de desarrollo web.
+
+Espero que encuentre estos repositorios tan útiles como yo y que pueda usarlos para convertirse en mejor ingeniero de software. ¡Gracias por leer!
+]]></content>
+      <categories>
+        <category>Herramientas y Recursos</category>
+      </categories>
+      <tags>
+        <tag>GitHub</tag>
+        <tag>Desarrollo Web</tag>
+        <tag>Recursos</tag>
+        <tag>Programación</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>Marie Curie: La leyenda que ganó 2 premios Nobel</title>
     <url>/blog/posts/marie-curie-en-3-minutos.html</url>
-    <content><![CDATA[<p>Descubre la historia de Marie Curie, la primera mujer en recibir 2 premios Nobel y ser una leyenda en la Física y la Química.</p>
-<blockquote>
-<p><em>“Cuanto más mayor te haces, más sientes que el momento presente debe ser disfrutado, tanto como si fuera un estado de gracia”</em></p>
-<p>— Marie Curie</p>
-</blockquote>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 1.5rem;">
-  <iframe src="https://www.facebook.com/plugins/video.php?height=720&href=https%3A%2F%2Fwww.facebook.com%2FEntropia.SinRetorno%2Fvideos%2F2190723154419397%2F&show_text=false&width=1280&t=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; picture-in-picture" allowfullscreen="true"></iframe>
-</div>
-<blockquote>
-<p>Visita la página de <a href="https://www.facebook.com/Entropia.SinRetorno">“Entropía Sin Retorno”</a></p>
-</blockquote>
-<p><strong>Fuente:</strong><br>
-<a href="https://www.facebook.com/Entropia.SinRetorno">https://www.facebook.com/Entropia.SinRetorno</a></p>
+    <content><![CDATA[Descubre la historia de Marie Curie, la primera mujer en recibir 2 premios Nobel y ser una leyenda en la Física y la Química.
+
+“Cuanto más mayor te haces, más sientes que el momento presente debe ser disfrutado, tanto como si fuera un estado de gracia”
+— Marie Curie
+
+
+  
+
+
+Visita la página de “Entropía Sin Retorno”
+
+Fuente:
+https://www.facebook.com/Entropia.SinRetorno
 ]]></content>
       <categories>
         <category>Biografías</category>
@@ -414,21 +406,21 @@ Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
   <entry>
     <title>Top extensiones para navegadores que todo techie debería probar</title>
     <url>/blog/posts/mejores-extensiones.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/mejores-extensiones.jpg" alt="Top Extensiones Para Navegadores"></p>
-<p>Como programadores o entusiastas de la tecnología queremos estar a la vanguardia y destacar entre los demás. Quizás alguna vez hayas querido que hubiera una herramienta que te facilite la tarea o te ahorre tiempo. Es por ello que hoy te traemos una lista con algunas extensiones que sin duda te encantarán, ya sea por su gran utilidad o porque añaden una estética diferente.</p>
-<h2 id="uBlock-Origin"><a href="https://ublockorigin.com/es">uBlock Origin</a></h2>
-<p>Más de alguna vez nos hemos frustrado de tanto saltar y quitar anuncios por aquí y por allá, pero eso ha acabado ahora. <a href="https://ublockorigin.com/es">uBlock Origin</a> es una extensión que te bloquea cualquier tipo de anuncio en cualquier sitio que visites, incluyendo los molestos anuncios de YouTube, consumiendo menos recursos que otros bloqueadores. Así que dale una oportunidad y verás la diferencia.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiZwpG7Am7Q0Y4soVgNpY80ojM_vTm3fOPb27sYsM1e03Fg1c2PiS4eIWeGe-YvhLlStmNdtAF8OVdtwfUrnVq5DRKrRUpFg_w7zQuJM807ibKMXc7PdDltLOQu8WeNqLX4aOUTRYlK0cwtOx5lFOs5h3dghVk9qELTn_HwKv6EZQbc_bj8nXAA5IZO/s1600/uBlock%20Origin.webp" alt="uBlock Origin"></p>
-<h2 id="Dark-Reader"><a href="https://darkreader.org/">Dark Reader</a></h2>
-<p>¿Te gusta el modo oscuro? Apuesto a que sí. ¿Te molestan los sitios que no tienen modo oscuro? Apuesto a que sí también. <a href="https://darkreader.org/">Dark Reader</a> es una extensión que modifica las páginas web para que se adapten a un modo oscuro, cambiando el fondo y el color del texto. Es de mucha utilidad para quienes trabajan por la noche, reduciendo así la fatiga visual. Además, puedes añadirle un atajo de teclado para no andar dando tantos clics.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiSHGJ7iqiCkGd5BXQrS5MbQM_KRrbj-3Ole4vGaMg-uZ-v42F3R4oRWDZCyUe5VmASOnjbUApUe8C86OlxQ35kImb71Zci340PgttA8Np8zc6GDp_xRBX6VfPbsq6u82ycJAjERugIV1SDqyR_37792GaptYsZLhnhcE0zrbYe9dF623-KN7pLzACm/s1600/Dark%20Reader.webp" alt="Dark Reader"></p>
-<h2 id="Refined-GitHub"><a href="https://github.com/refined-github/refined-github">Refined GitHub</a></h2>
-<p>Sin duda, GitHub es la plataforma más conocida para almacenar tus proyectos. Pero, ¿sabías que puedes añadirle más funcionalidades? Sí, leíste bien. Con <a href="https://github.com/refined-github/refined-github">Refined GitHub</a> puedes descargar carpetas o archivos individuales sin tener que descargar todo el repositorio, además de revertir cambios de un commit y muchas funcionalidades más. Conviértete en un pro con esta extensión.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiVFE_I2D2f50OijlBijD8UQlcms3xszgD3fsvxN7nFpETQY-GukgiZnPho4j9U8jqLgEHgif1djcV58uVDpGZDPf_ph5qxQTBDYqYiHpCV_cJsTkxJ83InQsqW2ixdLcePp33Rjh5U5RwuD4RBT2tY7cNEKPa71pO8wQ9HLuzj4-k5PFj3TO6YCqmG/s1600/Refined%20GitHub.webp" alt="Refined GitHub"></p>
-<hr>
-<blockquote>
-<p>Añadiremos otras más adelante.</p>
-</blockquote>
+    <content><![CDATA[
+Como programadores o entusiastas de la tecnología queremos estar a la vanguardia y destacar entre los demás. Quizás alguna vez hayas querido que hubiera una herramienta que te facilite la tarea o te ahorre tiempo. Es por ello que hoy te traemos una lista con algunas extensiones que sin duda te encantarán, ya sea por su gran utilidad o porque añaden una estética diferente.
+uBlock Origin
+Más de alguna vez nos hemos frustrado de tanto saltar y quitar anuncios por aquí y por allá, pero eso ha acabado ahora. uBlock Origin es una extensión que te bloquea cualquier tipo de anuncio en cualquier sitio que visites, incluyendo los molestos anuncios de YouTube, consumiendo menos recursos que otros bloqueadores. Así que dale una oportunidad y verás la diferencia.
+
+Dark Reader
+¿Te gusta el modo oscuro? Apuesto a que sí. ¿Te molestan los sitios que no tienen modo oscuro? Apuesto a que sí también. Dark Reader es una extensión que modifica las páginas web para que se adapten a un modo oscuro, cambiando el fondo y el color del texto. Es de mucha utilidad para quienes trabajan por la noche, reduciendo así la fatiga visual. Además, puedes añadirle un atajo de teclado para no andar dando tantos clics.
+
+Refined GitHub
+Sin duda, GitHub es la plataforma más conocida para almacenar tus proyectos. Pero, ¿sabías que puedes añadirle más funcionalidades? Sí, leíste bien. Con Refined GitHub puedes descargar carpetas o archivos individuales sin tener que descargar todo el repositorio, además de revertir cambios de un commit y muchas funcionalidades más. Conviértete en un pro con esta extensión.
+
+
+
+Añadiremos otras más adelante.
+
 ]]></content>
       <categories>
         <category>Recomendaciones</category>
@@ -439,168 +431,49 @@ Usa un gestor de AUR como <code>yay</code> o <code>paru</code>. Por ejemplo:</p>
       </tags>
   </entry>
   <entry>
-    <title>Optimiza la Velocidad de tu Web: Tutorial con WebP y PageSpeed</title>
-    <url>/blog/posts/pagespeed-y-optimizacion-web.html</url>
-    <content><![CDATA[<p>En este articulo voy a ir al grano, navegando por la web me he encontrado muchos sitios sin optimización o con problemas de carga, algunos están dentro del 40% al 70% de optimización según Google y esto podría estar afectando tanto a la experiencia de usuario como al posicionamiento en el buscador más grande del mundo, por eso les comparto este pequeño tutorial que posiblemente podría ayudar a algunos a utilizar herramientas nuevas, reforzar sus conocimientos y mejorar un poco la carga de su sitio web.</p>
-<hr>
-<h2 id="Herramientas">Herramientas:</h2>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjvqB6DwZXJg3lMMPaacU1KbicGOt_KdIYY0zDQl6q8AaJ-iy7ZxwyfHz_Ci7_mqiSBHqFdpxOW9lLiDQHrfEsbGzLC17Vg-hDVjqQVMSnpMjN9T31itPsXj8KcoFlBK2MEw2coa28X_USDjomBno9HltSbJ0kt7oNAPvnb7quVN7myJYnwEUxXA6fJ/s335/webp.webp" alt=""></p>
-<h3 id="Imagenes-en-Webp">Imágenes en Webp</h3>
-<p>Creado y distribuido por Google, <strong>Webp</strong> es un formato contenedor de imágenes, ofrece la posibilidad de reducir el peso de una imagen desde un 60%, ademas de estar optimizado para trabajar con la mayoría de navegadores web. Esta será nuestra primer herramienta.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEitlyV52UyTOD6CucNSodQaftqBFlVIHMRrrVrKrLLKQxW_iKu6FCxfUuiEicAmDVwah965C4RhQBr3NGQLFeBTeUGWTpE4uggXSVZNA4nL0ptzRejqG76Hv3JHX56vPum8kHeSSVEtPRjLUHW_jrRlQLASmqZf__KM-zVH7wJND0qe4ZcpcaoYfcuM/s512/kisspng-google-pagespeed-tools-website-google-search-web-p-5ccec86fac9811.916385711557055599707.png" alt=""></p>
-<h3 id="PageSpeed-Insights-de-Google">PageSpeed Insights de Google</h3>
-<p>Herramienta para análisis y diagnostico de rendimiento. Diseñada por Google, <strong>PageSpeed Insights</strong> ofrece un análisis gratuito del rendimiento de tu sitio web. Esta sera nuestra segunda herramienta.</p>
-<hr>
-<h2 id="Vamos-a-comenzar">Vamos a comenzar</h2>
-<p>Para empezar debemos saber que problemas tiene nuestro sitio web en cuestión de <strong>performance</strong>, para esto vamos a ingresar al sitio web oficial de <strong><a href="https://pagespeed.web.dev/">PageSpeed</a></strong> y colocaremos la url de nuestro sitio.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjfygGt3Hvh6XIxNwpBAAvc_u7tlRrpUX7hb4up3DTlBe_5Bvfiqf9jDdbyiYJcw9DQL7Nvtf6wx_PwzuvRefG9-0Lt176AzfQxEGx1raNg_WasxJzRZilBE9FSmhxEDAxOfjSoTpaYsrjlC2cZWUtEZ0cdS8tb934dYtFIGjm5geoUjNJZvWo4P1hS/s1600/blog.png" alt=""></p>
-<p>En este caso vemos un rendimiento bajo, visitando el sitio de manera orgánica notamos que es una app hecha con <strong>React</strong>, y que a pesar de obtener un porcentaje bajo en este análisis, la carga está oscilando entre 1 y 2 segundos promedio, entonces veremos que falla.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgCBt0LkA17JZH5LMMq_AlLlRKF3q92beB5NQ1oF8lPiGzHDpHplyGmBsC84Bw0E9EC72zV-qJwWVspa4Nw1UY3bFrZK6cq0KmqNHaTytm9Iihr8RsxD65PPSQ8kRlgWuSraqNBqlO8nlwQNq5npddshO83obrG-lr-JDQAQEyXfFJ-7xDXLFdBGy0e/s1600/Captura%20de%20pantalla%202022-07-17%20-%2023.25.03.png" alt=""></p>
-<p>Al desplazarnos leemos una lista detallada de errores y posibles soluciones. Dentro de ellas encontramos que algunas imágenes se encuentran en formato <strong>jpg</strong> y <strong>png</strong>.</p>
-<hr>
-<h2 id="Solucion">Solución:</h2>
-<h3 id="Paso-1">Paso 1</h3>
-<p>Necesitamos convertir nuestros archivos png a webp. Ingresamos al siguiente url: <strong><a href="https://convertio.co/es">convertio.co</a></strong>, nos mostrara un panel donde agregaremos y convertiremos nuestros archivos a webp.</p>
-<h3 id="Paso-2">Paso 2</h3>
-<p>Remplazar estos archivos dentro de nuestro proyecto.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjI9VSTzD6ZXqIIURCqPUuzE8QgVCA_lZZ2zGJIjJ-I2FYuKjpVO0bx8I7P6ahhiQ6qsJsO64DuvkYvba8rReYKe051b0XIWOXZ9yRlSrHPY-UOU1wGn92wLaoO8q-SMMgpEqokpstIWH_tFR7n2LhMxTcEV5Xxrm-nhkxJ-7zdOLMYtkkfXpOBOCbx/s1600/araee.png" alt=""></p>
-<h3 id="Paso-3">Paso 3</h3>
-<p>Agregar <strong>lazy loading</strong> a las imágenes. En Html es tan simple como agregar la propiedad <code>loading=&quot;lazy&quot;</code> dentro de nuestra etiqueta img, de la siguiente manera:</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfxD3alCUGAZql2egBJAAvIUn2CbJ6uYovgS3S_VWkz4C9dKF8cFg9-DSRrwwvpSa1iiQ0vW9ltYs-wgcEDKsBPX4OemdRfeGDbuOkCxohje3lW0k1_8Kxioo6SkL_IzIsOdSLfqYEWeVujbNhJstmpCEjgc_ZdfiqMXX2yFLkBf6DpVkCkmfi-w7x/s1600/ll.png" alt=""></p>
-<p>Ahora vamos a hacer un segundo análisis para ver el resultado.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEhh9i7l6w4Jr7s61BYghsBvOHdX4FOakoJUo9J80PvQAaT1BuE0vij1hCrJaSbwxx5rRGT7nbLJydF5vdThGOJQnJrlevWZleDqsDYfZBYhTSMQ4qs8YvKQHnKTsNRlnlisPBgc7g6HJ7oCv3wVzAYxEX5QxcJxCE5XOqdvwN6eHKrFI9VmVV34uENy/s1600/Captura%20de%20pantalla%202022-07-17%20-%2023.51.42.png" alt=""></p>
-<p>Al ser un sitio web con <strong>React</strong> nos damos cuenta de que un ligero cambio en formatos de imágenes y un poco de <strong>lazy loading</strong> al momento de renderizar el <strong>DOM</strong> nos ayudaron a mejorar el performance y lo datos de rendimiento, mejorando la visión que tiene Google de nuestro sitio y haciéndolo un mejor candidato para posicionamiento <strong>SEO</strong>, es posible que en tu sitio experimentes una mejora notoria aunque no tan sorprendente como esta.</p>
-<p>Ademas de lo anterior algunos consejos para mejorar el rendimiento del sitio web son:</p>
-<ul>
-<li>Utiliza un tamaño adecuado de imágenes para dispositivos móviles.</li>
-<li>Utiliza siempre buenas practicas al programar.</li>
-<li>El uso de bibliotecas como: <strong>Bootstrap</strong> o <strong>Tailwind</strong> podría afectar la carga si no se depura el código correctamente.</li>
-<li>Permite que tu <strong>Hosting</strong> cree una aceleración por medio de caché.</li>
-</ul>
-<hr>
-<h2 id="Conclusion">Conclusión:</h2>
-<p>Mejorar el rendimiento de tu sitio web ayudará a tener una mejor interacción y crear una experiencia fluida para el usuario.</p>
-<p>con 💜 s3ntin3l<br>
-Invítame un <strong><a href="https://www.buymeacoffee.com/sentinelbot">Cafecín</a></strong> ☕</p>
-]]></content>
-      <categories>
-        <category>Tutoriales útiles</category>
-      </categories>
-      <tags>
-        <tag>Optimización Web</tag>
-        <tag>Tutorial</tag>
-      </tags>
-  </entry>
-  <entry>
-    <title>¿Cómo se diseña un coche? El paso a paso del diseño automotriz</title>
-    <url>/blog/posts/diseno-automotriz.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/trazo-de-un-automovil.webp" alt="Diseño automotriz"></p>
-<p>Aunque a veces pueda parecer fácil, diseñar un nuevo modelo es una tarea que exige un gran esfuerzo por parte de un amplio equipo de profesionales.<br>
-Desde que se coge lápiz y papel hasta que el coche sale a la venta, se suceden una serie de pasos que SEAT nos desvela con su SUV <strong>Ateca</strong> como ejemplo.</p>
-<span id="more"></span>
-<p>Estos son los ocho pasos imprescindibles en todo proceso de diseño según SEAT:</p>
-<hr>
-<h2 id="Briefing">Briefing</h2>
-<p>Se redactan las líneas maestras del modelo: la hoja de ruta que definirá el ADN del coche.<br>
-Todo el proceso de diseño se ajustará a estas indicaciones.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEj4sOc5ncwBY38XrYxycKbpBNndCEfEyECTHZEqFsKiC3DO6jQFnVWWdubCZrzu7L7yBnrve-peSEGK2adRuQwBG6Gab0oFpJRYEZmwoVgTILxq5X1-kVcMTJSm-a4IOhjA3HWNh7YGkhNQrNzp33wYnlGmBJDdHiLbXF83rRhMjQDdEB0v96pwCTjS/s1600/briefing.png" alt="Briefing en el diseño de autos"><br>
-<em>Briefing en el diseño de autos</em></p>
-<hr>
-<h2 id="Esbozos">Esbozos</h2>
-<p>Los diseñadores plasman sus ideas a mano: “lo que nos gustaría hacer”.<br>
-Durante cuatro años se pueden llegar a elaborar más de <strong>1,000 esbozos</strong>.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgDpgdBiVL7a47_wmEH0HRB_g5aaICcN2aZoy8jMXY-fe05m92lxZDWcVK2mt-rXuRfWifjEwYH_07TnXYZ3TXetlcY_tq5jO_kDzP9dknjo-SbFcH9ajZn9jlx9z2EfMVLoFuXocEGLcm426tbSWw8_HcZ38bo-swcg1-qIDv864BogEnZEiTphu_v/s1600/esbozos.png" alt="Esbozos en el diseño de autos"><br>
-<em>Esbozos del diseño</em></p>
-<hr>
-<h2 id="Generacion-del-CAD">Generación del CAD</h2>
-<p>Se recrea virtualmente el vehículo con software CAD (Computer-Aided Design), lo cual permite trabajar en 2D y 3D y hacer seguimiento técnico.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgFdmtT-15iUmaQ8itdGYEPiakDEOUVaBT6EEL_TSiGw7agYmBdWH02PbDerpErvyTspPwiL8yiCkQwUCMAI9Q8uTTuY3rfrKzPOInjiJkxy1y1fobSRuQYk4EOZMup-bKtbKE5AZ-izQ2ywggDCR354AscMXWObkEszLKUBYxZdDHOVJooFqE0s9cO/s840/esbozo_en_CAD.png" alt="Esbozo en CAD de autos"><br>
-<em>Diseño CAD</em></p>
-<hr>
-<h2 id="Modelo-de-“Clay”">Modelo de “Clay”</h2>
-<p>Un modelo de <strong>arcilla a escala real</strong> que puede pesar más de 4 toneladas. Se le va dando forma y ajustando manualmente durante el desarrollo.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiAMc8gdXfO72F9NzwFS2qp1-utZmr1O3YY-lSmGHyMMfQKUjrsgElvRVKjB6aiJ3SLfGrBcpit--imKYGP4Cjg9uobLyXwCIKJM4c8EtMzelgD2aHyA-ML9vPj4o7Ntjwxt1gwuOH7y808z7OKYqEfndrQ60k0GhLmF2SGlo9itDUeD2m9bgkIsNww/s1600/modelo_del_clay.png" alt="Modelo de arcilla (clay)"><br>
-<em>Modelo de arcilla</em></p>
-<hr>
-<h2 id="“Frozen-Model”">“Frozen Model”</h2>
-<p>Es el modelo definitivo aprobado por la empresa. A pesar de ser aún de clay, tiene apariencia real. Se pueden usar hasta <strong>5,000 kg de arcilla</strong> en total.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgfx8BXtvI8zqlQCknDqERDvGP3EQzkzScSK-bMg2vwu6DzolHJz-E-9_3-15SHBLM5mGXxeEteSnI1_7MOb7SRNSH1ZjQp_MKWlQU8txMpWtXAR1tzL8yqlYp6wzejgG0mbnLiBZ4I6hUZBYdfa5t4Wa99QV1LnuP9JI4IloCRYyvb5gQ-q7av_88v/s800-rw/frozen_model.webp" alt="Frozen Model"><br>
-<em>Frozen Model del diseño automotriz</em></p>
-<hr>
-<h2 id="Creacion-de-colores">Creación de colores</h2>
-<p>El departamento Color&amp;Trim formula hasta 100 colores, aunque solo 12 se aprueban. Se inspiran en la moda, la arquitectura y el diseño de producto.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEiBrT8J6fX4bKfsvvGIHYFEelDu0wZlCqMU8mZSTU2as6mxb4kvEMq0c_rs_u2vMuYFL0VkRqNKoBNsonRChMSrOHWQBrVnSnNzM_NCxWM8WT0i7Qn18LdiPoDzbAs4i5dQWiyx_G6T5rXm2jmwghQV5oLb0NefQ4kJgutWR7WbOQOGMnPMO9cBBIaD/s1600-rw/creacion_de_colores.webp" alt="Colores del coche"><br>
-<em>Creación y elección de colores</em></p>
-<hr>
-<h2 id="Asientos">Asientos</h2>
-<p>Los asientos deben ser cómodos y estéticos. Se eligen materiales y patrones con ayuda de máquinas de coser especializadas en el prototipo.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEg03RLFKeyjm_p65tpR5Rw-Ez8VCbzp6Rd8_lQ7OFrwEfdKdAfupiICzIV3JT53_oc7ENvuw52E-G0n9vmjoJw7Yk6FX759JmnWNaTVHnh8vkVPUyg9ejpATO175NXYwyuCGI4MkRbVRDRau7FgHHNvRcHDrSfcqV8i51DoRFo_A1iEg72gylrG_WUr/s1600/asientos.png" alt="Diseño de asientos"><br>
-<em>Elaboración de asientos</em></p>
-<hr>
-<h2 id="Diseno-interior">Diseño interior</h2>
-<p>Orientado al conductor. La pantalla central define el resto del diseño. Se prioriza funcionalidad: guardar objetos, accesibilidad y ergonomía.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjRXHrKKmdrW6hm0RunupPt6f9TUWU3O5nEZURKgOtTsGEkoA2VRhPQEASibqkoMIUC8Jzpv21PeLmPTvbT94iOwuBFODNfqWqlW5d2_595aPhUIa8_Y_d-U7-LA6c0WyQKuNEeA2AQHDU99M7ywQNzDlPYS_keyTyYunKlNX79GYPRn6tsDzNoVDxN/s1600/dise%C3%B1o_de_interior.png" alt="Diseño interior"><br>
-<em>Diseño interior funcional</em></p>
-<hr>
-<h2 id="Conclusiones">Conclusiones</h2>
-<p>Aunque parezca una tarea sencilla, diseñar un coche es un proceso que puede llevar meses o años.<br>
-El resultado final es mucho más que un vehículo: es una obra colectiva de diseño, ingeniería y pasión por la movilidad.</p>
-<p><strong>Fuente:</strong><br>
-Ingeniería en General<br>
-<a href="https://t.me/ingenieriaengeneral">https://t.me/ingenieriaengeneral</a></p>
-]]></content>
-      <categories>
-        <category>Tecnología</category>
-      </categories>
-      <tags>
-        <tag>Ingeniería</tag>
-        <tag>Diseño automotriz</tag>
-      </tags>
-  </entry>
-  <entry>
     <title>Recursos Esenciales para Desarrolladores y Diseñadores Web</title>
     <url>/blog/posts/recursos-desarrollo-diseno-web.html</url>
-    <content><![CDATA[<p><img src="/blog/img/post-covers/recursos-desarrollo-diseno-web.jpg" alt="Recursos Esenciales"></p>
-<p>Ya sea que necesites herramientas para facilitar tu tarea como programador o necesites inspiración para un nuevo diseño en mente, agilizar el proceso es algo que todos necesitamos, ¿las razones? Mejorar el tiempo de entrega, salir temprano del trabajo entre otros beneficios. Checa este listado que preparamos para ti.</p>
-<h5 id="Escucha-musica-lo-fi-mientras-lees-este-articulo">Escuchá música lo-fi mientras lées este artículo</h5>
-<div class="ytShdw">
-  <div class="lazyYt" data-embed="jfKfPfyJRdk">
-    <div class="play">
-      <svg viewbox="0 0 213.7 213.7">
-        <polygon class="t" points="73.5,62.5 148.5,105.8 73.5,149.1"></polygon>
-        <circle class="c" cx="106.8" cy="106.8" r="103.3"></circle>
-      </svg>
-    </div>
-  </div>
-</div>
-<hr>
-<h2 id="The-Front-End-Checklist"><a href="https://frontendchecklist.io/">The Front-End Checklist</a></h2>
-<p>Si lo que quieres en esta vida es convertirte en desarrollador web, este sitio web, recoge todas las fases y tecnologías que deberías aprender para crear sitios web increíbles.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjMcnTcUYwz0QVofRKsyW94upS9xunIeNDZo8pWOI5yWvN98mBoGwzNcaFi0gWg7VAG4h_VJJZbfkPLp4SaQPy34tykbeGC_Bs-RXQ4Ea4T7W42IQzZEhDz4uXDHTXpCH869JRkK3QeZE2UphdCetZgXMv7wnPRP1avgzaN-LtnW1T8Sn4q4unD0hFJ_A/s1600/image.png" alt="The Front-End Checklist"></p>
-<p><a href="https://frontendchecklist.io/">Ir al sitio</a></p>
-<hr>
-<h2 id="Web-Skills"><a href="https://andreasbm.github.io/web-skills/">Web Skills</a></h2>
-<p>Web Skills es una visión general de las habilidades útiles para aprender como desarrollador web. Es útil para las personas que acaban de comenzar a aprender sobre desarrollo web y para las personas que han estado en el campo durante años y quieren aprender cosas nuevas.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgqZLclR__bS9iC5urPdJzVwmalSs5ided7-8mfSgYR27zOmR1V1x6sTwEzkLJKUzvAEks5VatpD20e4CXI5s-OSKFJmI82JP7Y7a2MbOuIoJEOa03f9agmI3kXzONFva3UzVC6ZNf1osnjWDCHqmlqOW5eCJRXFUqrFhBjc3BaOpu6_aYTu4ZbjrpnHw/s1600/image.png" alt="Web Skills"></p>
-<p><a href="https://andreasbm.github.io/web-skills/">Ir al sitio</a></p>
-<hr>
-<details class='sp toc' open=''>
-  <summary data-show='Show all' data-hide='Hide all'>Artículos Relacionados</summary>  
-  <div class='toC' id='aRel'></div>
-</details>
-<hr>
-<h2 id="Goodpalette"><a href="https://goodpalette.io/">Goodpalette</a></h2>
-<p>Usar demasiados colores a menudo distrae. Limitar su paleta de colores a un color primario, un color de acento y una base sólida de tonos neutros puede ayudar a que su diseño se sienta consistente.</p>
-<p>Goodpalette le proporciona precisamente eso. Cada color tiene nueve tonos que han sido cuidadosamente seleccionados para ser utilizados para texto, fondos, pozos, botones y más. También puede ver cómo se verá el color en diferentes tipos de sitios web con las maquetas en vivo. Una cosa es mirar una selección de muestras de color de color de forma aislada, pero verlo en el contexto de una aplicación real es clave.</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEgu1ZYOWRo2QSSTCczDkyJ8LIW5X1PZXmVc4a_hbrVqtPMehqlVnHcGbmot6mfPj01DMwAGd2dfFcXonfV0ZUNINbfhXohbHXVycZz8VNEGE1c24HtLC9bCoVKfziyRu39EB6ilXxGGruZa2b27LuhFJ2t7jIj4D7e1q8TePEnZj08QCch0Z-85WBG-_A/s1600/image.png" alt="Goodpalette"></p>
-<p><a href="https://goodpalette.io/">Ir al sitio</a></p>
-<hr>
-<h2 id="Flaticon"><a href="https://www.flaticon.com/">Flaticon</a></h2>
-<p>¿Necesitas íconos para tu sitio web, alguna tarea o algún proyecto? Flaticon es tu solución, tiene millones de íconos disponibles para descargar en PNG, SVG, EPS, PSD y en formato CSS, ¡en la mejor resolución posible!</p>
-<p><img src="https://blogger.googleusercontent.com/img/b/R29vZ2xl/AVvXsEjZFN2DznEGY5DgqvrFA9DedK0AbyRVS6ASfUpX3cPk57x8yHAACvmfuBkk7NncZPDtpm6L2SZdhTtQYHYBjVlMG2U9oa9DtIGBCkN2pKUY64a440cu9C7oMS_SaKbdt--ikPauygmncsCxmdBlunbU8m794FwmLMSu-Io4RyEgomlzx86wq00-KXBF7Q/s1600/image.png" alt="Flaticon"></p>
-<p><a href="https://www.flaticon.com/">Ir al sitio</a></p>
-<hr>
-<p>¡Próximamente añadiremos más fuentes!</p>
+    <content><![CDATA[
+Ya sea que necesites herramientas para facilitar tu tarea como programador o necesites inspiración para un nuevo diseño en mente, agilizar el proceso es algo que todos necesitamos, ¿las razones? Mejorar el tiempo de entrega, salir temprano del trabajo entre otros beneficios. Checa este listado que preparamos para ti.
+Escuchá música lo-fi mientras lées este artículo
+
+  
+    
+      
+        
+        
+      
+    
+  
+
+
+The Front-End Checklist
+Si lo que quieres en esta vida es convertirte en desarrollador web, este sitio web, recoge todas las fases y tecnologías que deberías aprender para crear sitios web increíbles.
+
+Ir al sitio
+
+Web Skills
+Web Skills es una visión general de las habilidades útiles para aprender como desarrollador web. Es útil para las personas que acaban de comenzar a aprender sobre desarrollo web y para las personas que han estado en el campo durante años y quieren aprender cosas nuevas.
+
+Ir al sitio
+
+
+  Artículos Relacionados  
+  
+
+
+Goodpalette
+Usar demasiados colores a menudo distrae. Limitar su paleta de colores a un color primario, un color de acento y una base sólida de tonos neutros puede ayudar a que su diseño se sienta consistente.
+Goodpalette le proporciona precisamente eso. Cada color tiene nueve tonos que han sido cuidadosamente seleccionados para ser utilizados para texto, fondos, pozos, botones y más. También puede ver cómo se verá el color en diferentes tipos de sitios web con las maquetas en vivo. Una cosa es mirar una selección de muestras de color de color de forma aislada, pero verlo en el contexto de una aplicación real es clave.
+
+Ir al sitio
+
+Flaticon
+¿Necesitas íconos para tu sitio web, alguna tarea o algún proyecto? Flaticon es tu solución, tiene millones de íconos disponibles para descargar en PNG, SVG, EPS, PSD y en formato CSS, ¡en la mejor resolución posible!
+
+Ir al sitio
+
+¡Próximamente añadiremos más fuentes!
 ]]></content>
       <categories>
         <category>Herramientas y Recursos</category>
@@ -613,17 +486,136 @@ Ingeniería en General<br>
       </tags>
   </entry>
   <entry>
+    <title>Optimiza la Velocidad de tu Web: Tutorial con WebP y PageSpeed</title>
+    <url>/blog/posts/pagespeed-y-optimizacion-web.html</url>
+    <content><![CDATA[En este articulo voy a ir al grano, navegando por la web me he encontrado muchos sitios sin optimización o con problemas de carga, algunos están dentro del 40% al 70% de optimización según Google y esto podría estar afectando tanto a la experiencia de usuario como al posicionamiento en el buscador más grande del mundo, por eso les comparto este pequeño tutorial que posiblemente podría ayudar a algunos a utilizar herramientas nuevas, reforzar sus conocimientos y mejorar un poco la carga de su sitio web.
+
+Herramientas:
+
+Imágenes en Webp
+Creado y distribuido por Google, Webp es un formato contenedor de imágenes, ofrece la posibilidad de reducir el peso de una imagen desde un 60%, ademas de estar optimizado para trabajar con la mayoría de navegadores web. Esta será nuestra primer herramienta.
+
+PageSpeed Insights de Google
+Herramienta para análisis y diagnostico de rendimiento. Diseñada por Google, PageSpeed Insights ofrece un análisis gratuito del rendimiento de tu sitio web. Esta sera nuestra segunda herramienta.
+
+Vamos a comenzar
+Para empezar debemos saber que problemas tiene nuestro sitio web en cuestión de performance, para esto vamos a ingresar al sitio web oficial de PageSpeed y colocaremos la url de nuestro sitio.
+
+En este caso vemos un rendimiento bajo, visitando el sitio de manera orgánica notamos que es una app hecha con React, y que a pesar de obtener un porcentaje bajo en este análisis, la carga está oscilando entre 1 y 2 segundos promedio, entonces veremos que falla.
+
+Al desplazarnos leemos una lista detallada de errores y posibles soluciones. Dentro de ellas encontramos que algunas imágenes se encuentran en formato jpg y png.
+
+Solución:
+Paso 1
+Necesitamos convertir nuestros archivos png a webp. Ingresamos al siguiente url: convertio.co, nos mostrara un panel donde agregaremos y convertiremos nuestros archivos a webp.
+Paso 2
+Remplazar estos archivos dentro de nuestro proyecto.
+
+Paso 3
+Agregar lazy loading a las imágenes. En Html es tan simple como agregar la propiedad loading=&quot;lazy&quot; dentro de nuestra etiqueta img, de la siguiente manera:
+
+Ahora vamos a hacer un segundo análisis para ver el resultado.
+
+Al ser un sitio web con React nos damos cuenta de que un ligero cambio en formatos de imágenes y un poco de lazy loading al momento de renderizar el DOM nos ayudaron a mejorar el performance y lo datos de rendimiento, mejorando la visión que tiene Google de nuestro sitio y haciéndolo un mejor candidato para posicionamiento SEO, es posible que en tu sitio experimentes una mejora notoria aunque no tan sorprendente como esta.
+Ademas de lo anterior algunos consejos para mejorar el rendimiento del sitio web son:
+
+Utiliza un tamaño adecuado de imágenes para dispositivos móviles.
+Utiliza siempre buenas practicas al programar.
+El uso de bibliotecas como: Bootstrap o Tailwind podría afectar la carga si no se depura el código correctamente.
+Permite que tu Hosting cree una aceleración por medio de caché.
+
+
+Conclusión:
+Mejorar el rendimiento de tu sitio web ayudará a tener una mejor interacción y crear una experiencia fluida para el usuario.
+con 💜 s3ntin3l
+Invítame un Cafecín ☕
+]]></content>
+      <categories>
+        <category>Tutoriales útiles</category>
+      </categories>
+      <tags>
+        <tag>Optimización Web</tag>
+        <tag>Tutorial</tag>
+      </tags>
+  </entry>
+  <entry>
+    <title>¿Cómo se diseña un coche? El paso a paso del diseño automotriz</title>
+    <url>/blog/posts/diseno-automotriz.html</url>
+    <content><![CDATA[
+Aunque a veces pueda parecer fácil, diseñar un nuevo modelo es una tarea que exige un gran esfuerzo por parte de un amplio equipo de profesionales.
+Desde que se coge lápiz y papel hasta que el coche sale a la venta, se suceden una serie de pasos que SEAT nos desvela con su SUV Ateca como ejemplo.
+
+Estos son los ocho pasos imprescindibles en todo proceso de diseño según SEAT:
+
+Briefing
+Se redactan las líneas maestras del modelo: la hoja de ruta que definirá el ADN del coche.
+Todo el proceso de diseño se ajustará a estas indicaciones.
+
+Briefing en el diseño de autos
+
+Esbozos
+Los diseñadores plasman sus ideas a mano: “lo que nos gustaría hacer”.
+Durante cuatro años se pueden llegar a elaborar más de 1,000 esbozos.
+
+Esbozos del diseño
+
+Generación del CAD
+Se recrea virtualmente el vehículo con software CAD (Computer-Aided Design), lo cual permite trabajar en 2D y 3D y hacer seguimiento técnico.
+
+Diseño CAD
+
+Modelo de “Clay”
+Un modelo de arcilla a escala real que puede pesar más de 4 toneladas. Se le va dando forma y ajustando manualmente durante el desarrollo.
+
+Modelo de arcilla
+
+“Frozen Model”
+Es el modelo definitivo aprobado por la empresa. A pesar de ser aún de clay, tiene apariencia real. Se pueden usar hasta 5,000 kg de arcilla en total.
+
+Frozen Model del diseño automotriz
+
+Creación de colores
+El departamento Color&amp;Trim formula hasta 100 colores, aunque solo 12 se aprueban. Se inspiran en la moda, la arquitectura y el diseño de producto.
+
+Creación y elección de colores
+
+Asientos
+Los asientos deben ser cómodos y estéticos. Se eligen materiales y patrones con ayuda de máquinas de coser especializadas en el prototipo.
+
+Elaboración de asientos
+
+Diseño interior
+Orientado al conductor. La pantalla central define el resto del diseño. Se prioriza funcionalidad: guardar objetos, accesibilidad y ergonomía.
+
+Diseño interior funcional
+
+Conclusiones
+Aunque parezca una tarea sencilla, diseñar un coche es un proceso que puede llevar meses o años.
+El resultado final es mucho más que un vehículo: es una obra colectiva de diseño, ingeniería y pasión por la movilidad.
+Fuente:
+Ingeniería en General
+https://t.me/ingenieriaengeneral
+]]></content>
+      <categories>
+        <category>Tecnología</category>
+      </categories>
+      <tags>
+        <tag>Ingeniería</tag>
+        <tag>Diseño automotriz</tag>
+      </tags>
+  </entry>
+  <entry>
     <title>La velocidad de la luz y lo que observamos</title>
     <url>/blog/posts/velocidad-de-la-luz.html</url>
-    <content><![CDATA[<p>Un ejemplo sencillo de cómo lo que observamos, es un haz de luz que proviene de un tiempo determinado; segundos, minutos, horas, semanas, meses, años, años luz… según cuán lejos se encuentre el objetivo del observardor. Es por eso, que algunas estrellas, galaxias, etc. podrían inclusive no existir y aún así poder observalas de cómo fueron en su existencia.</p>
-<div style="position: relative; padding-bottom: 56.25%; height: 0; overflow: hidden; max-width: 100%; height: auto; margin-bottom: 1.5rem;">
-  <iframe src="https://www.facebook.com/plugins/video.php?height=720&href=https%3A%2F%2Fwww.facebook.com%2F104167972264564%2Fvideos%2F825980721719504%2F&show_text=false&width=1280&t=0" style="position: absolute; top: 0; left: 0; width: 100%; height: 100%;" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; picture-in-picture" allowfullscreen="true"></iframe>
-</div>
-<blockquote>
-<p>Visita la página de <a href="https://www.facebook.com/Cosmonauta-104167972264564">“Cosmonauta”</a></p>
-</blockquote>
-<p><strong>Fuente:</strong><br>
-<a href="https://www.facebook.com/Cosmonauta-104167972264564">https://www.facebook.com/Cosmonauta-104167972264564</a></p>
+    <content><![CDATA[Un ejemplo sencillo de cómo lo que observamos, es un haz de luz que proviene de un tiempo determinado; segundos, minutos, horas, semanas, meses, años, años luz… según cuán lejos se encuentre el objetivo del observardor. Es por eso, que algunas estrellas, galaxias, etc. podrían inclusive no existir y aún así poder observalas de cómo fueron en su existencia.
+
+  
+
+
+Visita la página de “Cosmonauta”
+
+Fuente:
+https://www.facebook.com/Cosmonauta-104167972264564
 ]]></content>
       <categories>
         <category>Curiosidades</category>
@@ -632,5 +624,808 @@ Ingeniería en General<br>
         <tag>Ciencia</tag>
         <tag>Espacio</tag>
       </tags>
+  </entry>
+  <entry>
+    <title>Sobre mí</title>
+    <url>/blog/about/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/css/menu-custom.css</url>
+    <content><![CDATA[/* CSS personalizado para el menú de navegación del tema Solitude */
+
+/* ========================================
+   ESPACIADO ENTRE LETRAS DEL MENÚ
+   ======================================== */
+
+/* Más específico para asegurar que se aplique */
+#menus>div.menus_items>div>a,
+.menus_items a {
+  letter-spacing: normal !important; /* Ajusta el espaciado entre letras */
+}]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/css/modifications.css</url>
+    <content><![CDATA[/* ========================================
+   MODIFICACIONES PERSONALIZADAS DEL BLOG
+   ======================================== */
+
+/* ========================================
+   FONDO DE PLASMA ANIMADO
+   ======================================== */
+
+/* Contenedor principal del fondo de plasma */
+.wrapper {
+    display: grid;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    filter: blur(85px);
+    z-index: -999; /* Asegurar que esté detrás de todo */
+    pointer-events: none; /* No interfiere con la interacción */
+}
+
+/* Estilos base para todos los gradientes */
+.gradient {
+    position: absolute;
+    border-radius: 100%;
+    opacity: 0.15;
+    mix-blend-mode: screen;
+    will-change: transform; /* Optimización para animaciones futuras */
+    /* Animaciones comentadas - descomenta para activar */
+    /*animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0.1, 0, 0.9, 1);*/
+}
+
+/* Gradiente 1 - Púrpura (esquina superior izquierda) */
+.gradient_1 {
+    width: 750px;
+    height: 750px;
+    background: #9314a3;
+    z-index: -998;
+    place-self: start start;
+    /*animation-duration: 25s;
+    animation-name: animation-gradient-1;*/
+}
+
+/* Gradiente 2 - Azul (centro) */
+.gradient_2 {
+    width: 850px;
+    height: 850px;
+    background: #3b94a8;
+    z-index: -997;
+    place-self: center;
+    /*animation-duration: 30s;
+    animation-name: animation-gradient-2;*/
+}
+
+/* Gradiente 3 - Púrpura (esquina inferior derecha) */
+.gradient_3 {
+    width: 750px;
+    height: 750px;
+    background: #9314a3;
+    z-index: -996;
+    place-self: end end;
+    /*animation-duration: 35s;
+    animation-name: animation-gradient-3;*/
+}
+
+/* ========================================
+   RESPONSIVE DESIGN - GRADIENTES
+   ======================================== */
+
+/* Tablets y pantallas medianas */
+@media screen and (max-width: 896px) {
+    .gradient_1 {
+        width: 600px;
+        height: 600px;
+        place-self: start center;
+    }
+
+    .gradient_2 {
+        width: 700px;
+        height: 700px;
+    }
+
+    .gradient_3 {
+        width: 600px;
+        height: 600px;
+        place-self: end center;
+    }
+}
+
+/* Móviles y pantallas pequeñas */
+@media screen and (max-width: 543px) {
+    .wrapper {
+        filter: blur(60px); /* Menos blur en móviles para mejor rendimiento */
+    }
+
+    .gradient {
+        opacity: 0.1; /* Menos opacidad en móviles */
+    }
+
+    .gradient_1 {
+        width: 500px;
+        height: 500px;
+        place-self: start center;
+    }
+
+    .gradient_2 {
+        width: 600px;
+        height: 600px;
+    }
+
+    .gradient_3 {
+        width: 500px;
+        height: 500px;
+        place-self: end center;
+    }
+}
+
+/* ========================================
+   EFECTOS DE TRANSPARENCIA - CONTENIDO
+   ======================================== */
+
+/* Artículo principal */
+#post {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Tarjetas del sidebar */
+#aside-content .card-widget {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Banner principal */
+div#banners {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* Items de posts recientes */
+.recent-post-item {
+    background-color: rgba(255, 255, 255, 0.6);
+    backdrop-filter: blur(10px);
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+/* ========================================
+   MODO OSCURO - TRANSPARENCIAS
+   ======================================== */
+
+/* Artículo principal - Modo oscuro */
+[data-theme="dark"] #post {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Tarjetas del sidebar - Modo oscuro */
+[data-theme="dark"] #aside-content .card-widget {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Banner principal - Modo oscuro */
+[data-theme="dark"] div#banners {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* Items de posts recientes - Modo oscuro */
+[data-theme="dark"] .recent-post-item {
+    background-color: rgba(27, 28, 32, 0.6);
+}
+
+/* ========================================
+   OPTIMIZACIONES DE RENDIMIENTO
+   ======================================== */
+
+/* Reducir animaciones para usuarios que lo prefieran */
+@media (prefers-reduced-motion: reduce) {
+    .gradient {
+        animation: none;
+    }
+    
+    .wrapper {
+        filter: blur(40px); /* Menos blur para mejor rendimiento */
+    }
+}
+
+/* Ocultar efectos en dispositivos de muy baja potencia */
+@media (max-width: 480px) and (max-height: 640px) {
+    .wrapper {
+        opacity: 0.5; /* Reducir intensidad visual */
+    }
+}
+
+/* ========================================
+   UTILIDADES Y EFECTOS ADICIONALES
+   ======================================== */
+
+/* Efecto hover para elementos con transparencia */
+#post:hover,
+#aside-content .card-widget:hover,
+div#banners:hover,
+.recent-post-item:hover {
+    backdrop-filter: blur(15px);
+}
+
+/* Modo oscuro - Efecto hover */
+[data-theme="dark"] #post:hover,
+[data-theme="dark"] #aside-content .card-widget:hover,
+[data-theme="dark"] div#banners:hover,
+[data-theme="dark"] .recent-post-item:hover {
+    background-color: rgba(27, 28, 32, 0.75);
+}
+
+/* ========================================
+   NUEVO CODIGO A SER FORMATEADO Y ORDENADO
+   ======================================== */
+
+/* Cambiar el color del texto de blanco a negro en el modo oscuro */
+.post #post-info .post-title,
+.post #post-info #post-meta,
+.post #post-info #post-firstinfo .meta-firstline .post-meta-original,
+.post #post-info #post-firstinfo .meta-firstline span.post-meta-categories a.post-meta-categories,
+.post #post-info #post-meta a,
+.post #post-info #post-firstinfo .meta-firstline .tag_share .post-meta__tag-list .post-meta__tags {
+    color: var(--efu-black)
+}
+
+/* No mostrar nada de la siguiente clase */
+.post .post-bg .coverdiv {
+    display: none;
+}
+
+/* Mejorar el diseño de los links de TITULOS */
+.article-container a {
+    color: var(--efu-fontcolor);
+    border-radius: 4px 4px 0 0;
+    border-bottom: 3px solid;
+    border-image: linear-gradient(90deg, #9314a3, #3b94a8) 1;
+    font-weight: 700;
+}
+
+.article-container p a:not(.fancybox) {
+    color: var(--efu-theme);
+    font-weight: 700;
+    text-decoration: none;
+    border-radius: 4px 4px 0 0;
+    border-bottom: 2px solid;
+    border-image: linear-gradient(90deg, #9314a3, #3b94a8) 1;
+    padding: 0px 4px;
+    transition: 0.2s;
+}]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/css/schedule.css</url>
+    <content><![CDATA[.card-widget {
+  max-height: calc(100vh - 100px);
+  position: relative;
+}
+
+/* Centrar el título del schedule */
+#schedule-title.centered-title {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 8px 0;
+}
+
+.card-times a,
+.card-times div {
+  color: var(--efu-fontcolor);
+}
+
+#card-widget-calendar .item-content {
+  display: flex;
+}
+
+#calendar-area-left {
+  width: 45%;
+}
+
+#calendar-area-right {
+  width: 55%;
+}
+
+#calendar-area-left,
+#calendar-area-right {
+  height: 100%;
+  padding: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+#calendar-main {
+  width: 100%;
+}
+
+#calendar-week {
+  height: 1.2rem;
+  font-size: 14px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+}
+
+#calendar-date {
+  height: 3rem;
+  line-height: 1.3;
+  font-size: 64px;
+  letter-spacing: 3px;
+  color: var(--efu-main);
+  font-weight: 700;
+  align-items: center;
+  display: flex;
+  position: absolute;
+  top: calc(50% - 2.1rem);
+}
+
+#calendar-lunar,
+#calendar-solar {
+  height: 1rem;
+  font-size: 12px;
+  align-items: center;
+  display: flex;
+  position: absolute;
+}
+
+#calendar-solar {
+  bottom: 2.1rem;
+}
+
+#calendar-lunar {
+  bottom: 1rem;
+  color: var(--efu-secondtext);
+}
+
+#calendar-main a {
+  height: 1rem;
+  width: 1rem;
+  border-radius: 50%;
+  font-size: 12px;
+  line-height: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#calendar-main a.now {
+  background: var(--efu-main);
+  color: var(--efu-card-bg);
+}
+
+#calendar-main .calendar-rh a {
+  color: var(--efu-secondtext);
+}
+
+.calendar-r0,
+.calendar-r1,
+.calendar-r2,
+.calendar-r3,
+.calendar-r4,
+.calendar-r5,
+.calendar-rh {
+  height: 1.2rem;
+  display: flex;
+}
+
+.calendar-d0,
+.calendar-d1,
+.calendar-d2,
+.calendar-d3,
+.calendar-d4,
+.calendar-d5,
+.calendar-d6 {
+  width: calc(100% / 7);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#card-widget-schedule .item-content {
+  display: flex;
+}
+
+#schedule-area-left,
+#schedule-area-right {
+  height: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#schedule-area-left {
+  width: 30%;
+}
+
+#schedule-area-right {
+  width: 70%;
+  padding: 0 5px;
+}
+
+.schedule-r0,
+.schedule-r1,
+.schedule-r2 {
+  height: 2rem;
+  width: 100%;
+  align-items: center;
+  display: flex;
+}
+
+.schedule-d0 {
+  width: 30px;
+  margin-right: 5px;
+  text-align: center;
+  font-size: 12px;
+}
+
+.schedule-d1 {
+  width: calc(100% - 35px);
+  height: 1.5rem;
+  align-items: center;
+  display: flex;
+}
+
+progress::-webkit-progress-bar {
+  background: linear-gradient(
+    to right,
+    var(--efu-main-op-deep),
+    var(--efu-main-op),
+    var(--efu-main-op-light)
+  );
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+progress::-webkit-progress-value {
+  background: var(--efu-main);
+  border-radius: 5px;
+}
+
+.aside-span1,
+.aside-span2 {
+  height: 1rem;
+  font-size: 12px;
+  z-index: 1;
+  display: flex;
+  align-items: center;
+  position: absolute;
+}
+
+.aside-span1 {
+  margin-left: 5px;
+}
+
+.aside-span2 {
+  right: 20px;
+  color: var(--efu-secondtext);
+}
+
+.aside-span2 a {
+  margin: 0 3px;
+}
+
+#pBar_month,
+#pBar_week,
+#pBar_year {
+  width: 100%;
+  border-radius: 5px;
+  height: 100%;
+}
+
+#schedule-date,
+#schedule-days,
+#schedule-title {
+  display: flex;
+  align-items: center;
+}
+
+#schedule-title {
+  height: 25px;
+  line-height: 1;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+#schedule-days {
+  height: 40px;
+  line-height: 1;
+  font-size: 30px;
+  font-weight: 900;
+  color: var(--efu-main);
+}
+
+#schedule-date {
+  height: 20px;
+  line-height: 1;
+  font-size: 12px;
+  color: var(--efu-secondtext);
+}
+
+#card-widget-schedule,
+#card-widget-calendar {
+  padding: 10px;
+}
+]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/css/theme-variables.css</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/css/waline-custom.css</url>
+    <content><![CDATA[/* ========================================
+   PERSONALIZACIÓN CSS PARA WALINE
+   ======================================== */
+
+/* ========================================
+   CONTENEDOR PRINCIPAL DE COMENTARIOS
+   ======================================== */
+
+:root {
+    /* Font Size */
+    --waline-font-size: 16px;
+
+    /* Regular color */
+    --waline-white: #fff;
+    --waline-light-grey: #999;
+    --waline-dark-grey: #666;
+
+    /* Theme Color */
+    --waline-theme-color: #27ae60;
+    --waline-active-color: #2ecc71;
+
+    /* Layout Color */
+    --waline-color: #444;
+    --waline-bg-color: #fff;
+    --waline-bg-color-light: #f8f8f8;
+    --waline-bg-color-hover: #f0f0f0;
+    --waline-border-color: #ddd;
+    --waline-disable-bg-color: #f8f8f8;
+    --waline-disable-color: #bbb;
+    --waline-code-bg-color: #282c34;
+
+    /* Special Color */
+    --waline-bq-color: #f0f0f0;
+
+    /* Avatar */
+    --waline-avatar-size: 3.25rem;
+    --waline-m-avatar-size: calc(var(--waline-avatar-size) * 9 / 13);
+
+    /* Badge */
+    --waline-badge-color: #3498db;
+    --waline-badge-font-size: 0.775em;
+
+    /* Information */
+    --waline-info-bg-color: #f8f8f8;
+    --waline-info-color: #999;
+    --waline-info-font-size: 0.625em;
+
+    /* Render choice */
+    --waline-border: 1px solid var(--waline-border-color);
+    --waline-avatar-radius: 50%;
+    --waline-box-shadow: none;
+}
+
+/* ↓ Based on user settings */
+darkmode-selector {
+    /* Regular color */
+    --waline-white: #000;
+    --waline-light-grey: #666;
+    --waline-dark-grey: #999;
+
+    /* Layout color */
+    --waline-color: #888;
+    --waline-bg-color: #1e1e1e;
+    --waline-bg-color-light: #272727;
+    --waline-border-color: #333;
+    --waline-disable-bg-color: #444;
+    --waline-disable-color: #272727;
+
+    /* Special color */
+    --waline-bq-color: #272727;
+
+    /* Other color */
+    --waline-info-bg-color: #272727;
+    --waline-info-color: #666;
+}]]></content>
+  </entry>
+  <entry>
+    <title></title>
+    <url>/blog/js/schedule.js</url>
+    <content><![CDATA[document.addEventListener("DOMContentLoaded", () => {
+  initializeCard();
+});
+
+document.addEventListener("pjax:complete", () => {
+  initializeCard();
+});
+
+function initializeCard() {
+  cardTimes();
+  cardRefreshTimes();
+}
+
+let year,
+  month,
+  week,
+  date,
+  dates,
+  weekStr,
+  monthStr,
+  asideTime,
+  asideDay,
+  asideDayNum,
+  animalYear,
+  ganzhiYear,
+  lunarMon,
+  lunarDay;
+const now = new Date();
+
+function cardRefreshTimes() {
+  const e = document.getElementById("card-widget-schedule");
+  if (e) {
+    asideDay = (now - asideTime) / 1e3 / 60 / 60 / 24;
+    e.querySelector("#pBar_year").value = asideDay;
+    e.querySelector("#p_span_year").innerHTML =
+      ((asideDay / 365) * 100).toFixed(1) + "%";
+    e.querySelector(
+      ".schedule-r0 .schedule-d1 .aside-span2"
+    ).innerHTML = `Faltan ${(365 - asideDay).toFixed(0)} días`;
+    e.querySelector("#pBar_month").value = date;
+    e.querySelector("#pBar_month").max = dates;
+    e.querySelector("#p_span_month").innerHTML =
+      ((date / dates) * 100).toFixed(1) + "%";
+    e.querySelector(
+      ".schedule-r1 .schedule-d1 .aside-span2"
+    ).innerHTML = `Faltan ${dates - date} días`;
+    e.querySelector("#pBar_week").value = week === 0 ? 7 : week;
+    e.querySelector("#p_span_week").innerHTML =
+      (((week === 0 ? 7 : week) / 7) * 100).toFixed(1) + "%";
+    e.querySelector(
+      ".schedule-r2 .schedule-d1 .aside-span2"
+    ).innerHTML = `Faltan ${7 - (week === 0 ? 7 : week)} días`;
+  }
+}
+
+function cardTimes() {
+  year = now.getFullYear();
+  month = now.getMonth();
+  week = now.getDay();
+  date = now.getDate();
+
+  const e = document.getElementById("card-widget-calendar");
+  if (e) {
+    const isLeapYear = (year % 4 === 0 && year % 100 !== 0) || year % 400 === 0;
+    weekStr = ["Dom", "Lun", "Mar", "Mié", "Jue", "Vie", "Sáb"][week];
+    const monthData = [
+      { month: "Ene", days: 31 },
+      { month: "Feb", days: isLeapYear ? 29 : 28 },
+      { month: "Mar", days: 31 },
+      { month: "Abr", days: 30 },
+      { month: "May", days: 31 },
+      { month: "Jun", days: 30 },
+      { month: "Jul", days: 31 },
+      { month: "Ago", days: 31 },
+      { month: "Sep", days: 30 },
+      { month: "Oct", days: 31 },
+      { month: "Nov", days: 30 },
+      { month: "Dic", days: 31 },
+    ];
+    monthStr = monthData[month].month;
+    dates = monthData[month].days;
+
+    const t = (week + 8 - (date % 7)) % 7;
+    let n = "",
+      d = false,
+      s = 7 - t;
+    const o =
+      (dates - s) % 7 === 0
+        ? Math.floor((dates - s) / 7) + 1
+        : Math.floor((dates - s) / 7) + 2;
+    const c = e.querySelector("#calendar-main");
+    const l = e.querySelector("#calendar-date");
+
+    l.style.fontSize = ["64px", "48px", "36px"][Math.min(o - 3, 2)];
+
+    for (let i = 0; i < o; i++) {
+      if (!c.querySelector(`.calendar-r${i}`)) {
+        c.innerHTML += ``;
+      }
+      for (let j = 0; j < 7; j++) {
+        if (i === 0 && j === t) {
+          n = 1;
+          d = true;
+        }
+        const r = n === date ? " class='now'" : "";
+        if (!c.querySelector(`.calendar-r${i} .calendar-d${j} a`)) {
+          c.querySelector(
+            `.calendar-r${i}`
+          ).innerHTML += `${n}`;
+        }
+        if (n >= dates) {
+          n = "";
+          d = false;
+        }
+        if (d) {
+          n += 1;
+        }
+      }
+    }
+
+    const lunarDate = chineseLunar.solarToLunar(new Date(year, month, date));
+    animalYear = chineseLunar.format(lunarDate, "A");
+    ganzhiYear = chineseLunar.format(lunarDate, "T").slice(0, -1);
+    lunarMon = chineseLunar.format(lunarDate, "M");
+    lunarDay = chineseLunar.format(lunarDate, "d");
+
+    const newYearDate = new Date("2026/01/01 00:00:00");
+    const daysUntilNewYear = Math.floor(
+      (newYearDate - now) / 1e3 / 60 / 60 / 24
+    );
+    asideTime = new Date(`${new Date().getFullYear()}/01/01 00:00:00`);
+    asideDay = (now - asideTime) / 1e3 / 60 / 60 / 24;
+    asideDayNum = Math.floor(asideDay);
+    const weekNum =
+      week - (asideDayNum % 7) >= 0
+        ? Math.ceil(asideDayNum / 7)
+        : Math.ceil(asideDayNum / 7) + 1;
+
+    e.querySelector(
+      "#calendar-week"
+    ).innerHTML = `Semana ${weekNum}`;
+    e.querySelector("#calendar-date").innerHTML = date
+      .toString()
+      .padStart(2, "0");
+    e.querySelector(
+      "#calendar-solar"
+    ).innerHTML = `${weekStr}, ${date} ${monthStr} ${year}`;
+    // e.querySelector(
+    //   "#calendar-lunar"
+    // ).innerHTML = `${ganzhiYear}${animalYear}&nbsp;${lunarMon}${lunarDay}`;
+    document.getElementById("schedule-days").innerHTML = daysUntilNewYear;
+  }
+}
+]]></content>
+  </entry>
+  <entry>
+    <title>Mi Equipo</title>
+    <url>/blog/kit/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Enlaces de amigos</title>
+    <url>/blog/links/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Etiquetas</title>
+    <url>/blog/tags/index.html</url>
+    <content><![CDATA[]]></content>
+  </entry>
+  <entry>
+    <title>Untitled</title>
+    <url>/blog/music/index.html</url>
+    <content><![CDATA[]]></content>
   </entry>
 </search>
