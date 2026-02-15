@@ -25,121 +25,243 @@ const isActive = (path: string) => {
 <a
   id="skip-to-content"
   href="#main-content"
-  class="absolute start-16 -top-full z-50 bg-background px-3 py-2 text-accent backdrop-blur-lg transition-all focus:top-4"
+  class="absolute start-16 -top-full z-50 rounded-b-lg bg-accent px-4 py-2 text-background font-medium transition-all focus:top-0"
 >
   Skip to content
 </a>
 
 <header
-  class="app-layout flex flex-col items-center justify-between sm:flex-row"
+  class="header-glass sticky top-0 z-40 w-full"
 >
-  <div
-    id="top-nav-wrap"
-    class:list={[
-      "py-4 sm:py-6",
-      "border-b border-border",
-      "relative w-full bg-background",
-      "flex items-baseline justify-between sm:items-center",
-    ]}
-  >
-    <a
-      href="/"
-      class="absolute py-1 text-xl leading-8 font-semibold whitespace-nowrap sm:static sm:my-auto sm:text-2xl sm:leading-none"
+  <div class="app-layout">
+    <div
+      id="top-nav-wrap"
+      class:list={[
+        "py-3 sm:py-4",
+        "relative w-full",
+        "flex items-center justify-between",
+      ]}
     >
-      {SITE.title}
-    </a>
-    <nav
-      id="nav-menu"
-      class="flex w-full flex-col items-center sm:ms-2 sm:flex-row sm:justify-end sm:space-x-4 sm:py-0"
-    >
-      <button
-        id="menu-btn"
-        class="focus-outline self-end p-2 sm:hidden"
-        aria-label="Open Menu"
-        aria-expanded="false"
-        aria-controls="menu-items"
+      <!-- Logo -->
+      <a
+        href="/"
+        class="group relative z-20 flex items-center gap-2 text-xl font-bold tracking-tight sm:text-2xl"
       >
-        <IconX id="close-icon" class="hidden" />
-        <IconMenuDeep id="menu-icon" />
-      </button>
-      <ul
-        id="menu-items"
-        class:list={[
-          "mt-4 grid w-44 grid-cols-2 place-content-center gap-2",
-          "[&>li>a]:block [&>li>a]:px-4 [&>li>a]:py-3 [&>li>a]:text-center [&>li>a]:font-medium [&>li>a]:hover:text-accent sm:[&>li>a]:px-2 sm:[&>li>a]:py-1",
-          "hidden",
-          "sm:mt-0 sm:flex sm:w-auto sm:gap-x-5 sm:gap-y-0",
-        ]}
+        <span class="nav-logo-icon inline-flex size-8 items-center justify-center rounded-lg bg-accent/10 text-accent transition-all duration-300 group-hover:bg-accent group-hover:text-background group-hover:shadow-lg group-hover:shadow-accent/25">
+          <svg class="size-4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+            <polyline points="16 18 22 12 16 6"></polyline>
+            <polyline points="8 6 2 12 8 18"></polyline>
+          </svg>
+        </span>
+        <span class="nav-logo-text">{SITE.title}</span>
+      </a>
+
+      <!-- Desktop nav -->
+      <nav
+        id="nav-menu"
+        class="flex items-center sm:gap-1"
       >
-        <li class="col-span-2">
-          <a href="/posts" class:list={{ "active-nav": isActive("/posts") }}>
-            Posts
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a href="/tags" class:list={{ "active-nav": isActive("/tags") }}>
-            Tags
-          </a>
-        </li>
-        <li class="col-span-2">
-          <a href="/about" class:list={{ "active-nav": isActive("/about") }}>
-            About
-          </a>
-        </li>
-        {
-          SITE.showArchives && (
-            <li class="col-span-2">
-              <LinkButton
-                href="/archives"
-                class:list={[
-                  "focus-outline flex justify-center p-3 sm:p-1",
-                  {
-                    "active-nav [&>svg]:stroke-accent": isActive("/archives"),
-                  },
-                ]}
-                title="Archives"
-                aria-label="archives"
-              >
-                <IconArchive class="hidden sm:inline-block" />
-                <span class="sm:sr-only">Archives</span>
-              </LinkButton>
-            </li>
-          )
-        }
-        <li class="col-span-1 flex items-center justify-center">
-          <LinkButton
-            href="/search"
-            class:list={[
-              "focus-outline flex p-3 sm:p-1",
-              { "[&>svg]:stroke-accent": isActive("/search") },
-            ]}
-            title="Search"
-            aria-label="search"
-          >
-            <IconSearch />
-            <span class="sr-only">Search</span>
-          </LinkButton>
-        </li>
-        {
-          SITE.lightAndDarkMode && (
-            <li class="col-span-1 flex items-center justify-center">
-              <button
-                id="theme-btn"
-                class="focus-outline relative size-12 p-4 sm:size-8 hover:[&>svg]:stroke-accent"
-                title="Toggles light & dark"
-                aria-label="auto"
-                aria-live="polite"
-              >
-                <IconMoon class="absolute top-[50%] left-[50%] -translate-[50%] scale-100 rotate-0 transition-all dark:scale-0 dark:-rotate-90" />
-                <IconSunHigh class="absolute top-[50%] left-[50%] -translate-[50%] scale-0 rotate-90 transition-all dark:scale-100 dark:rotate-0" />
-              </button>
-            </li>
-          )
-        }
-      </ul>
-    </nav>
+        <!-- Mobile hamburger -->
+        <button
+          id="menu-btn"
+          class="relative z-20 rounded-lg p-2 transition-colors hover:bg-accent/10 sm:hidden"
+          aria-label="Open Menu"
+          aria-expanded="false"
+          aria-controls="menu-items"
+        >
+          <IconX id="close-icon" class="hidden size-5" />
+          <IconMenuDeep id="menu-icon" class="size-5" />
+        </button>
+
+        <ul
+          id="menu-items"
+          class:list={[
+            // Mobile: overlay menu
+            "fixed inset-0 z-10 flex flex-col items-center justify-center gap-6 bg-background/95 backdrop-blur-xl",
+            "hidden",
+            // Desktop: inline row
+            "sm:static sm:flex sm:flex-row sm:items-center sm:gap-1 sm:bg-transparent sm:backdrop-blur-none",
+          ]}
+        >
+          <li>
+            <a
+              href="/posts"
+              class:list={[
+                "nav-link",
+                { "nav-active": isActive("/posts") },
+              ]}
+            >
+              Posts
+            </a>
+          </li>
+          <li>
+            <a
+              href="/tags"
+              class:list={[
+                "nav-link",
+                { "nav-active": isActive("/tags") },
+              ]}
+            >
+              Tags
+            </a>
+          </li>
+          <li>
+            <a
+              href="/about"
+              class:list={[
+                "nav-link",
+                { "nav-active": isActive("/about") },
+              ]}
+            >
+              About
+            </a>
+          </li>
+          {
+            SITE.showArchives && (
+              <li>
+                <LinkButton
+                  href="/archives"
+                  class:list={[
+                    "nav-link",
+                    { "nav-active": isActive("/archives") },
+                  ]}
+                  title="Archives"
+                  aria-label="archives"
+                >
+                  <IconArchive class="hidden sm:inline-block" />
+                  <span class="sm:sr-only">Archives</span>
+                </LinkButton>
+              </li>
+            )
+          }
+
+          <!-- Separator -->
+          <li class="hidden sm:flex sm:items-center sm:px-1" aria-hidden="true">
+            <div class="h-4 w-px bg-border/30"></div>
+          </li>
+
+          <li class="flex items-center">
+            <LinkButton
+              href="/search"
+              class:list={[
+                "nav-icon-btn",
+                { "text-accent": isActive("/search") },
+              ]}
+              title="Search"
+              aria-label="search"
+            >
+              <IconSearch class="size-[18px]" />
+              <span class="sr-only">Search</span>
+            </LinkButton>
+          </li>
+          {
+            SITE.lightAndDarkMode && (
+              <li class="flex items-center">
+                <button
+                  id="theme-btn"
+                  class="nav-icon-btn relative"
+                  title="Toggles light & dark"
+                  aria-label="auto"
+                  aria-live="polite"
+                >
+                  <IconMoon class="absolute top-1/2 left-1/2 -translate-1/2 scale-100 rotate-0 transition-all duration-300 dark:scale-0 dark:-rotate-90" />
+                  <IconSunHigh class="absolute top-1/2 left-1/2 -translate-1/2 scale-0 rotate-90 transition-all duration-300 dark:scale-100 dark:rotate-0" />
+                </button>
+              </li>
+            )
+          }
+        </ul>
+      </nav>
+    </div>
   </div>
+  <!-- Bottom border with gradient -->
+  <div class="h-px w-full bg-gradient-to-r from-transparent via-border/40 to-transparent"></div>
 </header>
+
+<style>
+  .header-glass {
+    background: color-mix(in srgb, var(--background) 80%, transparent);
+    backdrop-filter: blur(16px) saturate(180%);
+    -webkit-backdrop-filter: blur(16px) saturate(180%);
+  }
+
+  .nav-logo-text {
+    background: linear-gradient(
+      135deg,
+      var(--foreground) 0%,
+      var(--foreground) 60%,
+      var(--accent) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .nav-link {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+    gap: 0.25rem;
+    padding: 0.375rem 0.75rem;
+    font-size: 0.875rem;
+    font-weight: 500;
+    color: var(--foreground);
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    /* Mobile override */
+    @media (max-width: 639px) {
+      font-size: 1.25rem;
+      padding: 0.75rem 1.5rem;
+    }
+  }
+
+  .nav-link:hover {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+
+  .nav-active {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 10%, transparent);
+  }
+
+  .nav-active::after {
+    content: '';
+    position: absolute;
+    bottom: 0.125rem;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1rem;
+    height: 2px;
+    border-radius: 1px;
+    background: var(--accent);
+    @media (max-width: 639px) {
+      bottom: 0;
+      width: 1.5rem;
+    }
+  }
+
+  .nav-icon-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 0.5rem;
+    transition: all 0.2s ease;
+    color: var(--foreground);
+    /* Mobile override */
+    @media (max-width: 639px) {
+      width: 2.75rem;
+      height: 2.75rem;
+    }
+  }
+
+  .nav-icon-btn:hover {
+    color: var(--accent);
+    background: color-mix(in srgb, var(--accent) 8%, transparent);
+  }
+</style>
 
 <script>
   function toggleNav() {
