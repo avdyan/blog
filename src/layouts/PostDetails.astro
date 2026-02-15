@@ -3,7 +3,6 @@ import { render, type CollectionEntry } from "astro:content";
 import Layout from "@/layouts/Layout.astro";
 import Header from "@/components/Header.astro";
 import Footer from "@/components/Footer.astro";
-import Tag from "@/components/Tag.astro";
 import Datetime from "@/components/Datetime.astro";
 import EditPost from "@/components/EditPost.astro";
 import ShareLinks from "@/components/ShareLinks.astro";
@@ -11,8 +10,6 @@ import BackButton from "@/components/BackButton.astro";
 import BackToTopButton from "@/components/BackToTopButton.astro";
 import { getPath } from "@/utils/getPath";
 import { slugifyStr } from "@/utils/slugify";
-import IconChevronLeft from "@/assets/icons/IconChevronLeft.svg";
-import IconChevronRight from "@/assets/icons/IconChevronRight.svg";
 import { SITE } from "@/config";
 
 type Props = {
@@ -90,23 +87,62 @@ const nextPost =
     class:list={["app-layout relative pb-12", { "mt-8": !SITE.showBackButton }]}
     data-pagefind-body
   >
-    <h1
-      transition:name={slugifyStr(title.replaceAll(".", "-"))}
-      class="inline-block text-2xl font-bold text-accent sm:text-3xl"
-    >
-      {title}
-    </h1>
-    <div class="my-2 flex items-center gap-2">
-      <Datetime {pubDatetime} {modDatetime} {timezone} size="lg" />
-      <span
-        aria-hidden="true"
-        class:list={[
-          "max-sm:hidden",
-          { hidden: !SITE.editPost.enabled || hideEditPost },
-        ]}>|</span
+    <!-- Post header section -->
+    <header class="post-header relative mb-10 text-center">
+      <!-- Title -->
+      <h1
+        transition:name={slugifyStr(title.replaceAll(".", "-"))}
+        class="post-title text-3xl font-bold leading-tight tracking-tight sm:text-4xl lg:text-[2.75rem]"
       >
-      <EditPost {hideEditPost} {post} class="max-sm:hidden" />
-    </div>
+        {title}
+      </h1>
+
+      <!-- Tags as badges -->
+      <div class="mt-4 flex flex-wrap justify-center gap-2">
+        {tags.map(tag => (
+          <a
+            href={`/tags/${slugifyStr(tag)}/`}
+            class="post-tag-badge inline-flex items-center gap-1 rounded-full border border-accent/20 bg-accent/5 px-2.5 py-0.5 font-cartograph text-xs text-accent transition-all duration-200 hover:border-accent/40 hover:bg-accent/10"
+          >
+            <span class="opacity-50">#</span>{tag}
+          </a>
+        ))}
+      </div>
+
+      <!-- Metadata row -->
+      <div class="mt-5 flex flex-wrap items-center justify-center gap-3 text-sm">
+        <!-- Author chip -->
+        <div class="inline-flex items-center gap-1.5 rounded-lg border border-border/25 bg-muted/10 px-2.5 py-1 backdrop-blur-sm">
+          <svg class="size-3.5 text-accent/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+            <circle cx="12" cy="7" r="4"></circle>
+          </svg>
+          <span class="opacity-70">{author}</span>
+        </div>
+
+        <!-- Date chip -->
+        <div class="inline-flex items-center gap-1.5 rounded-lg border border-border/25 bg-muted/10 px-2.5 py-1 backdrop-blur-sm">
+          <svg class="size-3.5 text-accent/70" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+            <line x1="16" y1="2" x2="16" y2="6"></line>
+            <line x1="8" y1="2" x2="8" y2="6"></line>
+            <line x1="3" y1="10" x2="21" y2="10"></line>
+          </svg>
+          <Datetime {pubDatetime} {modDatetime} {timezone} size="sm" class="opacity-70 [&>svg]:hidden" />
+        </div>
+
+        <!-- Edit post -->
+        <EditPost {hideEditPost} {post} class="hidden sm:flex rounded-lg border border-border/25 bg-muted/10 px-2.5 py-1 backdrop-blur-sm opacity-70 hover:opacity-100 hover:border-accent/30 transition-all duration-200 [&>svg]:size-3.5" />
+      </div>
+
+      <!-- Decorative separator -->
+      <div class="mt-8 flex items-center gap-3" aria-hidden="true">
+        <div class="h-px flex-1 bg-gradient-to-r from-accent/30 via-border/40 to-transparent"></div>
+        <span class="font-cartograph text-[10px] tracking-widest text-accent/30 uppercase select-none">// contenido</span>
+        <div class="h-px flex-1 bg-gradient-to-r from-transparent via-border/40 to-accent/30"></div>
+      </div>
+    </header>
+
     <article
       id="article"
       class="app-prose mt-8 w-full max-w-app prose-pre:bg-(--shiki-light-bg) dark:prose-pre:bg-(--shiki-dark-bg)"
@@ -114,51 +150,79 @@ const nextPost =
       <Content />
     </article>
 
-    <hr class="my-8 border-dashed" />
+    <!-- ═══════ Post footer section ═══════ -->
+    <div class="mt-10 flex items-center gap-3" aria-hidden="true">
+      <div class="h-px flex-1 bg-gradient-to-r from-accent/20 via-border/30 to-transparent"></div>
+      <span class="font-cartograph text-[10px] tracking-widest text-accent/25 uppercase select-none">// fin</span>
+      <div class="h-px flex-1 bg-gradient-to-r from-transparent via-border/30 to-accent/20"></div>
+    </div>
 
-    <EditPost class="sm:hidden" {hideEditPost} {post} />
+    <EditPost class="sm:hidden mt-4" {hideEditPost} {post} />
 
-    <ul class="mt-4 mb-8 flex flex-wrap gap-4 sm:my-8">
-      {tags.map(tag => <Tag tag={slugifyStr(tag)} tagName={tag} size="sm" />)}
-    </ul>
+    <!-- Tags & Share row -->
+    <div class="mt-6 mb-8 flex flex-col items-center gap-6 sm:flex-row sm:items-start sm:justify-between">
+      <!-- Tags -->
+      <div class="flex flex-wrap justify-center gap-2 sm:justify-start">
+        {tags.map(tag => (
+          <a
+            href={`/tags/${slugifyStr(tag)}/`}
+            class="inline-flex items-center gap-1 rounded-full border border-border/25 bg-muted/10 px-2.5 py-1 font-cartograph text-xs transition-all duration-200 hover:border-accent/40 hover:bg-accent/5 hover:text-accent"
+          >
+            <span class="opacity-40">#</span>{tag}
+          </a>
+        ))}
+      </div>
 
-    <BackToTopButton />
+      <!-- Share links -->
+      <ShareLinks />
+    </div>
 
-    <ShareLinks />
+    <!-- Decorative separator before prev/next -->
+    <div class="my-6 flex items-center gap-3" aria-hidden="true">
+      <div class="h-px flex-1 bg-gradient-to-r from-transparent via-border/30 to-transparent"></div>
+    </div>
 
-    <hr class="my-6 border-dashed" />
-
-    <!-- Previous/Next Post Buttons -->
-    <div data-pagefind-ignore class="grid grid-cols-1 gap-6 sm:grid-cols-2">
+    <!-- Previous/Next Post Navigation -->
+    <div data-pagefind-ignore class="grid grid-cols-2 gap-3">
       {
-        prevPost && (
+        prevPost ? (
           <a
             href={getPath(prevPost.id, prevPost.filePath)}
-            class="flex w-full gap-1 hover:opacity-75"
+            class="post-nav-link group relative flex flex-col gap-1 rounded-2xl border border-border/20 px-5 py-4 transition-all duration-300 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5"
           >
-            <IconChevronLeft class="inline-block flex-none rtl:rotate-180" />
-            <div>
-              <span>Previous Post</span>
-              <div class="text-sm text-accent/85">{prevPost.title}</div>
+            <div class="post-nav-bg" />
+            <div class="flex items-center gap-1.5">
+              <svg class="size-3.5 text-accent/50 transition-transform duration-300 group-hover:-translate-x-1 rtl:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="19" y1="12" x2="5" y2="12"></line>
+                <polyline points="12 19 5 12 12 5"></polyline>
+              </svg>
+              <span class="font-cartograph text-[10px] tracking-wider text-foreground/35 uppercase">Anterior</span>
             </div>
+            <span class="line-clamp-2 text-sm font-medium leading-snug text-foreground/70 transition-colors duration-200 group-hover:text-accent">{prevPost.title}</span>
           </a>
-        )
+        ) : <div />
       }
       {
         nextPost && (
           <a
             href={getPath(nextPost.id, nextPost.filePath)}
-            class="flex w-full justify-end gap-1 text-end hover:opacity-75 sm:col-start-2"
+            class="post-nav-link group relative flex flex-col items-end gap-1 rounded-2xl border border-border/20 px-5 py-4 text-end transition-all duration-300 hover:border-accent/30 hover:shadow-lg hover:shadow-accent/5 col-start-2"
           >
-            <div>
-              <span>Next Post</span>
-              <div class="text-sm text-accent/85">{nextPost.title}</div>
+            <div class="post-nav-bg" />
+            <div class="flex items-center gap-1.5">
+              <span class="font-cartograph text-[10px] tracking-wider text-foreground/35 uppercase">Siguiente</span>
+              <svg class="size-3.5 text-accent/50 transition-transform duration-300 group-hover:translate-x-1 rtl:rotate-180" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <line x1="5" y1="12" x2="19" y2="12"></line>
+                <polyline points="12 5 19 12 12 19"></polyline>
+              </svg>
             </div>
-            <IconChevronRight class="inline-block flex-none rtl:rotate-180" />
+            <span class="line-clamp-2 text-sm font-medium leading-snug text-foreground/70 transition-colors duration-200 group-hover:text-accent">{nextPost.title}</span>
           </a>
         )
       }
     </div>
+
+    <BackToTopButton />
   </main>
   <Footer />
 </Layout>
@@ -283,3 +347,67 @@ const nextPost =
     window.scrollTo({ left: 0, top: 0, behavior: "instant" })
   );
 </script>
+
+<style>
+  .post-title {
+    background: linear-gradient(
+      135deg,
+      var(--accent) 0%,
+      color-mix(in oklab, var(--accent) 60%, var(--foreground)) 25%,
+      var(--foreground) 50%,
+      var(--foreground) 100%
+    );
+    -webkit-background-clip: text;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .post-tag-badge {
+    backdrop-filter: blur(4px);
+    -webkit-backdrop-filter: blur(4px);
+  }
+
+  .post-nav-link {
+    backdrop-filter: blur(6px);
+    -webkit-backdrop-filter: blur(6px);
+    background: color-mix(in srgb, var(--muted) 5%, transparent);
+    position: relative;
+  }
+
+  .post-nav-link:hover {
+    background: color-mix(in srgb, var(--accent) 4%, transparent);
+  }
+
+  /* Aurora glow layer — always visible, intensifies on hover */
+  .post-nav-bg {
+    position: absolute;
+    inset: -1px;
+    opacity: 0.5;
+    transition: opacity 0.4s ease;
+    background:
+      radial-gradient(
+        ellipse 80% 60% at 20% 80%,
+        color-mix(in oklab, var(--accent) 12%, transparent) 0%,
+        transparent 70%
+      ),
+      radial-gradient(
+        ellipse 60% 70% at 80% 20%,
+        color-mix(in oklab, var(--accent) 8%, transparent) 0%,
+        transparent 60%
+      ),
+      radial-gradient(
+        ellipse 90% 40% at 50% 100%,
+        color-mix(in oklab, var(--accent) 6%, transparent) 0%,
+        transparent 50%
+      );
+    filter: blur(16px);
+    pointer-events: none;
+    z-index: -1;
+    border-radius: inherit;
+  }
+
+  .post-nav-link:hover .post-nav-bg {
+    opacity: 1;
+    filter: blur(20px);
+  }
+</style>
