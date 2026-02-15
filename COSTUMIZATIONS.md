@@ -329,3 +329,37 @@ Complete visual overhaul of the search page, replacing the basic `Main` layout w
   - "Load more" button: rounded pill with accent border, hover glow.
   - Clear button: accent hover background.
 
+## 21. Global Search Modal (Cmd+K)
+
+**Files:**
+- `src/components/SearchModal.astro` (new)
+- `src/layouts/Layout.astro`
+- `src/components/Header.astro`
+
+### SearchModal Component (`SearchModal.astro`)
+
+A full-featured search modal accessible from any page via keyboard shortcut or navbar icon:
+
+- **Trigger:** `⌘K` / `Ctrl+K` keyboard shortcut, or clicking the search icon (lupa) in the navbar.
+- **Pagefind integration:** Lazy-loads `@pagefind/default-ui` on first open. Supports `showSubResults`.
+- **Aurora background:** 3 animated `radial-gradient` orbs (`blur(70px)`) with independent drift animations floating behind the modal content.
+- **Cursor-following glow:** 350px radial glow (`blur(40px)`) that tracks the mouse position inside the modal via `--gx`/`--gy` CSS vars.
+- **Sparkles:** 5 decorative dots with staggered `sparkle-pulse` animation (scale 0→1→0 with opacity fade) at fixed positions.
+- **Animated border glow:** `conic-gradient` border that rotates continuously using `@property --border-angle` animation, masked to only show on the 1px border edge.
+- **Glassmorphism:** Backdrop with `blur(20px) saturate(180%)`, header/footer with `backdrop-filter: blur(12px)` and semi-transparent backgrounds.
+- **Spring animation:** Modal entrance uses `cubic-bezier(0.34, 1.56, 0.64, 1)` for a subtle bounce effect.
+- **Empty state:** Floating search icon with `empty-float` animation + placeholder text when no query entered.
+- **Footer bar:** Navigation hints (↵ abrir, ↑↓ navegar) and "powered by pagefind" credit.
+- **Custom scrollbar:** Accent-colored thin scrollbar in the results area.
+- **Result hover effects:** Each result gets accent background tint + `box-shadow` glow on hover. Mark highlights have subtle `box-shadow`.
+- **Close:** `Escape` key, backdrop click, or close button. Restores `body` scroll on close.
+
+### Layout Integration (`Layout.astro`)
+
+- `<SearchModal />` imported and rendered inside `<body>` of the root layout, making it available on every page.
+
+### Navbar Changes (`Header.astro`)
+
+- **New "Search" nav link:** Added as a regular navigation entry (`<a href="/search">`) alongside Posts, Tags, About, linking to the dedicated search page.
+- **Search icon (lupa) repurposed:** Changed from `<LinkButton href="/search">` to `<button data-search-trigger>`, now opens the search modal instead of navigating. Title updated to "Buscar (⌘K)".
+

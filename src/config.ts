@@ -1,7 +1,7 @@
 export const SITE = {
   website: "https://devosfera.com/", // replace this with your deployed domain
   author: "Andrés Ujpán",
-  profile: "https://andressable.vercel.app/",
+  profile: "https://github.com/avdyan",
   desc: "A blog to share my thoughts and projects meanwhile learning some new stuff.",
   title: "Devosfera",
   ogImage: "astropaper-og.jpg",
