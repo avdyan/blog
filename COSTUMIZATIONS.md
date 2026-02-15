@@ -310,3 +310,22 @@ Complete visual overhaul replacing the simple list layout with a timeline-based 
   - Hover elevation (`translateY(-2px)`) with multi-layer box-shadow + inset highlight.
 - Months translated to Spanish (Enero, Febrero, etc.).
 
+## 20. Search Page — Full Redesign with Interactive Aurora
+
+**File:** `src/pages/search.astro`
+
+Complete visual overhaul of the search page, replacing the basic `Main` layout with a custom aurora-enhanced design:
+
+- **Hero section:** 3 floating aurora orbs with drift animations + mouse-following aurora orb (350px, `blur(50px)`). Gradient glow title "Buscar", Spanish description.
+- **Search container card:** Rounded card (`.search-container`) wrapping the Pagefind UI with:
+  - **Mouse-reactive aurora** (`.search-aurora`): 300px radial glow following cursor, `blur(40px)`.
+  - **Mouse-reactive border glow** (`.search-border-glow`): 150px concentrated glow, `mix-blend-mode: screen`.
+  - `:has(.pagefind-ui__search-input:focus)` — card border shifts to accent with outer box-shadow glow when input is focused.
+- **Pagefind UI restyling:**
+  - Input: `rounded-xl`, subtle background, triple-ring focus glow (`box-shadow` with 3px spread + 20px glow), accent background tint on focus.
+  - Results: clean separators (`6% foreground`), accent link with `text-shadow` glow on hover.
+  - Highlighted matches (`mark`): accent background tint with rounded corners.
+  - Nested results: left border accent line.
+  - "Load more" button: rounded pill with accent border, hover glow.
+  - Clear button: accent hover background.
+
