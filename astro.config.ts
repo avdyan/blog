@@ -23,7 +23,7 @@ export default defineConfig({
     remarkPlugins: [remarkToc, [remarkCollapse, { test: "Table of contents" }]],
     shikiConfig: {
       // For more themes, visit https://shiki.style/themes
-      themes: { light: "min-light", dark: "night-owl" },
+      themes: { light: "min-light", dark: "github-dark-default" },
       defaultColor: false,
       wrap: false,
       transformers: [
@@ -61,13 +61,42 @@ export default defineConfig({
     preserveScriptOrder: true,
     fonts: [
       {
-        name: "Google Sans Code",
-        cssVariable: "--font-google-sans-code",
-        provider: fontProviders.google(),
-        fallbacks: ["monospace"],
-        weights: [300, 400, 500, 600, 700],
-        styles: ["normal", "italic"],
+        name: "Wotfard",
+        cssVariable: "--font-wotfard",
+        fallbacks: ["sans-serif"],
+        provider: fontProviders.local(),
+        options: {
+          variants: [
+            {
+              src: [
+                "./src/assets/fonts/wotfard-regular-webfont.woff2",
+              ]
+            },
+          ],
+        },
+        
       },
+      {
+        name: "Sriracha",
+        cssVariable: "--font-sriracha",
+        fallbacks: ["cursive"],
+        provider: fontProviders.google(),
+      },
+      {
+        name: "Cartograph CF",
+        cssVariable: "--font-cartograph",
+        fallbacks: ["monospace"],
+        provider: fontProviders.local(),
+        options: {
+          variants: [
+            {
+              src: [
+                "./src/assets/fonts/cartograph-cf-regular-webfont.woff2",
+              ]
+            }
+          ]
+        }
+      }
     ],
   },
 });
