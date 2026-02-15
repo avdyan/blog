@@ -134,6 +134,17 @@ const isActive = (path: string) => {
               </li>
             )
           }
+          <li>
+            <a
+              href="/search"
+              class:list={[
+                "nav-link",
+                { "nav-active": isActive("/search") },
+              ]}
+            >
+              Search
+            </a>
+          </li>
 
           <!-- Separator -->
           <li class="hidden sm:flex sm:items-center sm:px-1" aria-hidden="true">
@@ -141,18 +152,17 @@ const isActive = (path: string) => {
           </li>
 
           <li class="flex items-center">
-            <LinkButton
-              href="/search"
+            <button
+              data-search-trigger
               class:list={[
                 "nav-icon-btn",
-                { "text-accent": isActive("/search") },
               ]}
-              title="Search"
-              aria-label="search"
+              title="Buscar (⌘K)"
+              aria-label="Abrir búsqueda"
             >
               <IconSearch class="size-[18px]" />
-              <span class="sr-only">Search</span>
-            </LinkButton>
+              <span class="sr-only">Buscar</span>
+            </button>
           </li>
           {
             SITE.lightAndDarkMode && (
