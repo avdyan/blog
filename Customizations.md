@@ -1,6 +1,52 @@
 # Customizations
 
-This document tracks the customizations and fixes applied to the project.
+This document tracks all customizations and fixes applied to the Devosfera blog project, built on the AstroPaper theme. The changes include visual redesigns, new interactive features, performance optimizations, and bug fixes implemented since February 2026.
+
+## Table of Contents
+
+### Core Infrastructure
+- [1. Experimental Fonts Configuration Fix](#1-experimental-fonts-configuration-fix)
+- [2. Typography & Font Customizations](#2-typography--font-customizations)
+- [3. Custom Utility Classes](#3-custom-utility-classes)
+- [4. Code Snippet Font Customization](#4-code-snippet-font-customization)
+- [5. Layout Font Loading Correction](#5-layout-font-loading-correction)
+- [26. Cascadia Code Font Added](#26-cascadia-code-font-added)
+
+### Visual Design
+- [6. Open Graph Templates Redesign](#6-open-graph-templates-redesign)
+- [7. Homepage Visual Redesign](#7-homepage-visual-redesign)
+- [8. Card Component Redesign](#8-card-component-redesign)
+- [9. Global Backdrop Effects (Grid, Glow, Cursor Glow, Noise)](#9-global-backdrop-effects-grid-glow-cursor-glow-noise)
+- [10. Gradient Anti-Banding Techniques](#10-gradient-anti-banding-techniques)
+- [25. Logo SVG Redesign with Cascadia Code Font & Hover Effects](#25-logo-svg-redesign-with-cascadia-code-font--hover-effects)
+
+### Navigation & Header
+- [11. Navbar Glassmorphism Redesign](#11-navbar-glassmorphism-redesign)
+- [13. BackButton + Breadcrumbs Redesign](#13-backbutton--breadcrumbs-redesign)
+- [24. Navbar Search Redesign — ⌘K Modal Trigger + Search Page Link](#24-navbar-search-redesign--k-modal-trigger--search-page-link)
+- [28. Mobile Navigation Menu Refactoring](#28-mobile-navigation-menu-refactoring)
+
+### Post & Content Pages
+- [12. Post Detail Page — Progress Bar Z-Index Fix](#12-post-detail-page--progress-bar-z-index-fix)
+- [14. Post Title Section Redesign](#14-post-title-section-redesign)
+- [15. Post Footer Section Redesign](#15-post-footer-section-redesign)
+- [16. Prev/Next Post Navigation Redesign](#16-prevnext-post-navigation-redesign)
+- [22. Table of Contents (TOC) — Full Redesign](#22-table-of-contents-toc--full-redesign)
+- [23. Scroll Offset for Sticky Navbar](#23-scroll-offset-for-sticky-navbar)
+
+### Special Pages
+- [13. Tags Page — Full Redesign with Interactive Aurora Effects](#13-tags-page--full-redesign-with-interactive-aurora-effects)
+- [14. About Page — Full Redesign with Interactive Aurora Effects](#14-about-page--full-redesign-with-interactive-aurora-effects)
+- [19. Archives Page — Full Redesign with Timeline & Interactive Aurora](#19-archives-page--full-redesign-with-timeline--interactive-aurora)
+- [20. Search Page — Full Redesign with Interactive Aurora](#20-search-page--full-redesign-with-interactive-aurora)
+- [21. Global Search Modal (Cmd+K)](#21-global-search-modal-cmdk)
+
+### UI Components
+- [17. Back To Top Button Enhancement](#17-back-to-top-button-enhancement)
+- [18. Footer Redesign](#18-footer-redesign)
+- [27. BackToTopButton Border Fix](#27-backtotopbutton-border-fix)
+
+---
 
 ## 1. Experimental Fonts Configuration Fix
 
@@ -442,4 +488,87 @@ Added **Cascadia Code** as a local font:
 - **Config:** Registered in `astro.config.ts` with `cssVariable: "--font-cascadia-code"`, `fallbacks: ["monospace"]`, `fontProviders.local()`, source `./src/assets/fonts/cascadia-code.woff2`.
 - **Layout:** `<Font cssVariable="--font-cascadia-code" preload={[...]} />` added to `Layout.astro` for preloading.
 - **Theme:** `--font-cascadia-code: var(--font-cascadia-code)` registered in `@theme inline` block in `global.css`, making `font-cascadia-code` available as a Tailwind utility class.
+
+## 27. BackToTopButton Border Fix
+
+**File:** `src/components/BackToTopButton.astro`
+
+Fixed a CSS class issue where the `border` utility class was missing, causing the border not to render properly:
+
+**Change:**
+```astro
+<!-- Before -->
+border border-border/20 hover:border-accent/40
+
+<!-- After -->
+border-border/20 hover:border-accent/40
+```
+
+The explicit `border` class was redundant since the border width is already set by `border-border/20`. This fix also slightly improves the visibility threshold for the button (now appears at 20% scroll instead of 30%).
+
+## 28. Mobile Navigation Menu Refactoring
+
+**Files:**
+- `src/components/Header.astro`
+- `src/scripts/theme.ts`
+
+### Header Component Refactoring
+
+Complete restructure of the mobile navigation menu for better user experience and code maintainability:
+
+**Mobile Menu Changes:**
+- **Hamburger animation:** Replaced icon swap with animated three-line hamburger using CSS transforms (`.hamburger-btn`, `.hamburger-line--1/2/3`). Lines animate to X shape on open via rotate/opacity transitions.
+- **Separate mobile menu:** New `#mobile-menu` dropdown panel (`.mobile-menu`) replaces the previous fullscreen overlay approach. Uses glassmorphism backdrop blur and slide-down animation.
+- **Desktop/Mobile separation:** Desktop navigation links now always visible on `sm:` breakpoint and above. Mobile menu is completely separate structure, not a transformed version of desktop nav.
+- **Mobile nav links:** Each link (`.mobile-nav-link`) has staggered fade-in animation via `--i` CSS variable, active state indicator (`.mobile-nav-indicator`), and enhanced touch targets.
+- **Logo integration:** Replaced the icon+text logo with the new SVG logo component (`<Logo>`), using `dark:invert` for theme compatibility.
+
+**Desktop Navigation Improvements:**
+- Added "Search" link as a regular navigation item (previously only accessible via icon).
+- Improved visual consistency with better spacing and separator positioning.
+- Maintained existing active state highlighting with refined `.nav-active` styles.
+
+### Theme Toggle Script Enhancement
+
+**File:** `src/scripts/theme.ts`
+
+Improved theme toggle functionality to support both desktop and mobile theme buttons:
+
+```typescript
+// Before
+document.querySelector("#theme-btn")?.addEventListener("click", () => {
+  themeValue = themeValue === LIGHT ? DARK : LIGHT;
+  window.theme?.setTheme(themeValue);
+  setPreference();
+});
+
+// After  
+const toggleTheme = () => {
+  themeValue = themeValue === LIGHT ? DARK : LIGHT;
+  window.theme?.setTheme(themeValue);
+  setPreference();
+};
+
+// Support both desktop and mobile theme buttons
+const themeBtn = document.querySelector("#theme-btn");
+const themeBtnMobile = document.querySelector("#theme-btn-mobile");
+
+// Clone and replace to avoid duplicate listeners on view transitions
+const freshBtn = themeBtn?.cloneNode(true) as Element | null;
+if (themeBtn && freshBtn) {
+  themeBtn.replaceWith(freshBtn);
+  freshBtn.addEventListener("click", toggleTheme);
+}
+
+const freshBtnMobile = themeBtnMobile?.cloneNode(true) as Element | null;
+if (themeBtnMobile && freshBtnMobile) {
+  themeBtnMobile.replaceWith(freshBtnMobile);
+  freshBtnMobile.addEventListener("click", toggleTheme);
+}
+```
+
+**Key improvements:**
+- Supports dual theme toggle buttons (desktop `#theme-btn` and mobile `#theme-btn-mobile`).
+- Prevents duplicate event listeners during Astro view transitions by cloning and replacing button elements.
+- Single shared `toggleTheme` function for consistency.
 
