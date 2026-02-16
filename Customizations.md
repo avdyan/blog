@@ -493,18 +493,18 @@ Added **Cascadia Code** as a local font:
 
 **File:** `src/components/BackToTopButton.astro`
 
-Fixed a CSS class issue where the `border` utility class was missing, causing the border not to render properly:
+Fixed a bug introduced in commit da121c1 where the `border` utility class was accidentally removed, causing the border to not render at all. Tailwind CSS requires the `border` class to set the border width before color classes like `border-border/20` can take effect.
 
 **Change:**
 ```astro
-<!-- Before -->
-border border-border/20 hover:border-accent/40
-
-<!-- After -->
+<!-- Before (Bug) -->
 border-border/20 hover:border-accent/40
+
+<!-- After (Fixed) -->
+border border-border/20 hover:border-accent/40
 ```
 
-The explicit `border` class was redundant since the border width is already set by `border-border/20`. This fix also slightly improves the visibility threshold for the button (now appears at 20% scroll instead of 30%).
+Without the `border` class, `border-border/20` alone doesn't render a border. This also includes a minor improvement where the button's visibility threshold was adjusted (now appears at 20% scroll instead of 30%).
 
 ## 28. Mobile Navigation Menu Refactoring
 
