@@ -585,13 +585,21 @@ const isActive = (path: string) => {
 </style>
 
 <script>
+  // Store cleanup function for proper memory management
+  let cleanupMobileNav: (() => void) | null = null;
+
   function setupMobileNav() {
+    // Clean up previous instance if it exists
+    if (cleanupMobileNav) {
+      cleanupMobileNav();
+    }
+
     const menuBtn = document.querySelector("#menu-btn");
     const mobileMenu = document.querySelector("#mobile-menu");
 
     if (!menuBtn || !mobileMenu) return;
 
-    menuBtn.addEventListener("click", () => {
+    const handleMenuToggle = () => {
       const isOpen = menuBtn.getAttribute("aria-expanded") === "true";
 
       menuBtn.setAttribute("aria-expanded", isOpen ? "false" : "true");
@@ -599,19 +607,27 @@ const isActive = (path: string) => {
 
       mobileMenu.classList.toggle("is-open");
       mobileMenu.setAttribute("aria-hidden", isOpen ? "true" : "false");
-    });
+    };
 
-    // Close mobile menu on link click
-    mobileMenu.querySelectorAll("a").forEach(link => {
-      link.addEventListener("click", () => {
+    // Use event delegation for link clicks to avoid multiple listeners
+    const handleMobileMenuClick = (e: Event) => {
+      const target = e.target as HTMLElement;
+      if (target.closest("a")) {
         menuBtn.setAttribute("aria-expanded", "false");
         menuBtn.setAttribute("aria-label", "Open Menu");
         mobileMenu.classList.remove("is-open");
         mobileMenu.setAttribute("aria-hidden", "true");
-      });
-    });
+      }
+    };
 
+    menuBtn.addEventListener("click", handleMenuToggle);
+    mobileMenu.addEventListener("click", handleMobileMenuClick);
 
+    // Store cleanup function
+    cleanupMobileNav = () => {
+      menuBtn.removeEventListener("click", handleMenuToggle);
+      mobileMenu.removeEventListener("click", handleMobileMenuClick);
+    };
   }
 
   setupMobileNav();
