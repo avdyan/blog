@@ -296,20 +296,39 @@ const structuredData = {
 </style>
 
 <script>
+  // Store cleanup function for proper memory management
+  let cleanupBackdrop: (() => void) | null = null;
+
   document.addEventListener("astro:page-load", () => {
+    // Clean up previous instance if it exists
+    if (cleanupBackdrop) {
+      cleanupBackdrop();
+    }
+
     const backdrop = document.querySelector<HTMLElement>(".site-backdrop");
     const cursorGlow = document.querySelector<HTMLElement>(".site-cursor-glow");
+    
     if (backdrop && cursorGlow) {
-      document.addEventListener("mousemove", (e: MouseEvent) => {
+      const handleMouseMove = (e: MouseEvent) => {
         backdrop.style.setProperty("--site-cx", `${e.clientX}px`);
         backdrop.style.setProperty("--site-cy", `${e.clientY}px`);
         if (!cursorGlow.classList.contains("active")) {
           cursorGlow.classList.add("active");
         }
-      });
-      document.addEventListener("mouseleave", () => {
+      };
+
+      const handleMouseLeave = () => {
         cursorGlow.classList.remove("active");
-      });
+      };
+
+      document.addEventListener("mousemove", handleMouseMove);
+      document.addEventListener("mouseleave", handleMouseLeave);
+
+      // Store cleanup function
+      cleanupBackdrop = () => {
+        document.removeEventListener("mousemove", handleMouseMove);
+        document.removeEventListener("mouseleave", handleMouseLeave);
+      };
     }
   });
 </script>

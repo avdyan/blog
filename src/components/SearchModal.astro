@@ -92,7 +92,15 @@ import "@pagefind/default-ui/css/ui.css";
 </div>
 
 <script>
+  // Store cleanup functions for proper memory management
+  let cleanupSearchModal: (() => void) | null = null;
+
   function initSearchModal() {
+    // Clean up previous instance if it exists
+    if (cleanupSearchModal) {
+      cleanupSearchModal();
+    }
+
     const modal = document.getElementById("search-modal");
     if (!modal) return;
 
@@ -100,24 +108,31 @@ import "@pagefind/default-ui/css/ui.css";
     const glow = modal.querySelector("[data-modal-glow]") as HTMLElement;
     const emptyState = modal.querySelector("[data-search-empty]") as HTMLElement;
     let pagefindLoaded = false;
+    let pagefindInputListener: (() => void) | null = null;
+    let originalOverflow = "";
 
-    // Mouse follow glow on card
+    // Mouse follow glow handlers
+    const handleCardMouseMove = (e: MouseEvent) => {
+      const rect = card.getBoundingClientRect();
+      const x = e.clientX - rect.left;
+      const y = e.clientY - rect.top;
+      glow.style.setProperty("--gx", `${x}px`);
+      glow.style.setProperty("--gy", `${y}px`);
+      glow.style.opacity = "1";
+    };
+
+    const handleCardMouseLeave = () => {
+      glow.style.opacity = "0";
+    };
+
     if (card && glow) {
-      card.addEventListener("mousemove", (e: MouseEvent) => {
-        const rect = card.getBoundingClientRect();
-        const x = e.clientX - rect.left;
-        const y = e.clientY - rect.top;
-        glow.style.setProperty("--gx", `${x}px`);
-        glow.style.setProperty("--gy", `${y}px`);
-        glow.style.opacity = "1";
-      });
-      card.addEventListener("mouseleave", () => {
-        glow.style.opacity = "0";
-      });
+      card.addEventListener("mousemove", handleCardMouseMove);
+      card.addEventListener("mouseleave", handleCardMouseLeave);
     }
 
     function openModal() {
       modal!.classList.add("active");
+      originalOverflow = document.body.style.overflow;
       document.body.style.overflow = "hidden";
 
       if (!pagefindLoaded) {
@@ -135,7 +150,7 @@ import "@pagefind/default-ui/css/ui.css";
 
     function closeModal() {
       modal!.classList.remove("active");
-      document.body.style.overflow = "";
+      document.body.style.overflow = originalOverflow;
     }
 
     async function loadPagefind() {
@@ -163,9 +178,10 @@ import "@pagefind/default-ui/css/ui.css";
         // Hide empty state when user types
         const input = modal!.querySelector<HTMLInputElement>(".pagefind-ui__search-input");
         if (input && emptyState) {
-          input.addEventListener("input", () => {
+          pagefindInputListener = () => {
             emptyState.style.display = input.value.trim() ? "none" : "";
-          });
+          };
+          input.addEventListener("input", pagefindInputListener);
         }
 
         requestAnimationFrame(() => {
@@ -174,19 +190,15 @@ import "@pagefind/default-ui/css/ui.css";
       });
     }
 
-    // Close triggers
-    modal.querySelectorAll("[data-search-close]").forEach(el => {
-      el.addEventListener("click", closeModal);
-    });
-
-    document.addEventListener("keydown", (e: KeyboardEvent) => {
+    // Keyboard event handlers
+    const handleEscapeKey = (e: KeyboardEvent) => {
       if (e.key === "Escape" && modal.classList.contains("active")) {
         e.preventDefault();
         closeModal();
       }
-    });
+    };
 
-    document.addEventListener("keydown", (e: KeyboardEvent) => {
+    const handleCommandK = (e: KeyboardEvent) => {
       if ((e.metaKey || e.ctrlKey) && e.key === "k") {
         e.preventDefault();
         if (modal.classList.contains("active")) {
@@ -195,21 +207,63 @@ import "@pagefind/default-ui/css/ui.css";
           openModal();
         }
       }
+    };
+
+    document.addEventListener("keydown", handleEscapeKey);
+    document.addEventListener("keydown", handleCommandK);
+
+    // Close button handlers
+    const handleCloseClick = () => closeModal();
+    modal.querySelectorAll("[data-search-close]").forEach(el => {
+      el.addEventListener("click", handleCloseClick);
     });
 
+    // Search trigger handlers
+    const handleTriggerClick = (e: Event) => {
+      e.preventDefault();
+      openModal();
+    };
+    
     document.querySelectorAll("[data-search-trigger]").forEach(el => {
-      el.addEventListener("click", (e: Event) => {
-        e.preventDefault();
-        openModal();
-      });
+      el.addEventListener("click", handleTriggerClick);
     });
 
-    modal.addEventListener("click", (e: Event) => {
+    // Modal click handler
+    const handleModalClick = (e: Event) => {
       const target = e.target as HTMLElement;
       if (target.closest(".pagefind-ui__result-link")) {
         closeModal();
       }
-    });
+    };
+    modal.addEventListener("click", handleModalClick);
+
+    // Store cleanup function
+    cleanupSearchModal = () => {
+      document.removeEventListener("keydown", handleEscapeKey);
+      document.removeEventListener("keydown", handleCommandK);
+      
+      modal.querySelectorAll("[data-search-close]").forEach(el => {
+        el.removeEventListener("click", handleCloseClick);
+      });
+      
+      document.querySelectorAll("[data-search-trigger]").forEach(el => {
+        el.removeEventListener("click", handleTriggerClick);
+      });
+      
+      modal.removeEventListener("click", handleModalClick);
+      
+      if (card && glow) {
+        card.removeEventListener("mousemove", handleCardMouseMove);
+        card.removeEventListener("mouseleave", handleCardMouseLeave);
+      }
+      
+      if (pagefindInputListener) {
+        const input = modal.querySelector<HTMLInputElement>(".pagefind-ui__search-input");
+        if (input) {
+          input.removeEventListener("input", pagefindInputListener);
+        }
+      }
+    };
   }
 
   initSearchModal();

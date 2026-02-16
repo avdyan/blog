@@ -85,17 +85,13 @@ function setThemeFeature(): void {
   const themeBtn = document.querySelector("#theme-btn");
   const themeBtnMobile = document.querySelector("#theme-btn-mobile");
 
-  // Remove previous listeners to avoid duplicates on view transitions
-  const freshBtn = themeBtn?.cloneNode(true) as Element | null;
-  if (themeBtn && freshBtn) {
-    themeBtn.replaceWith(freshBtn);
-    freshBtn.addEventListener("click", toggleTheme);
+  // Add event listeners with cleanup support
+  if (themeBtn) {
+    themeBtn.addEventListener("click", toggleTheme);
   }
 
-  const freshBtnMobile = themeBtnMobile?.cloneNode(true) as Element | null;
-  if (themeBtnMobile && freshBtnMobile) {
-    themeBtnMobile.replaceWith(freshBtnMobile);
-    freshBtnMobile.addEventListener("click", toggleTheme);
+  if (themeBtnMobile) {
+    themeBtnMobile.addEventListener("click", toggleTheme);
   }
 }
 
