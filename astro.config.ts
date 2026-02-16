@@ -96,7 +96,22 @@ export default defineConfig({
             }
           ]
         }
-      }
+      },
+      {
+        name: "Cascadia Code",
+        cssVariable: "--font-cascadia-code",
+        fallbacks: ["monospace"],
+        provider: fontProviders.local(),
+        options: {
+          variants: [
+            {
+              src: [
+                "./src/assets/fonts/cascadia-code.woff2",
+              ]
+            }
+          ]
+        }
+       },
     ],
   },
 });

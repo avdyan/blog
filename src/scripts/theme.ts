@@ -76,11 +76,27 @@ function setThemeFeature(): void {
   reflectPreference();
 
   // now this script can find and listen for clicks on the control
-  document.querySelector("#theme-btn")?.addEventListener("click", () => {
+  const toggleTheme = () => {
     themeValue = themeValue === LIGHT ? DARK : LIGHT;
     window.theme?.setTheme(themeValue);
     setPreference();
-  });
+  };
+
+  const themeBtn = document.querySelector("#theme-btn");
+  const themeBtnMobile = document.querySelector("#theme-btn-mobile");
+
+  // Remove previous listeners to avoid duplicates on view transitions
+  const freshBtn = themeBtn?.cloneNode(true) as Element | null;
+  if (themeBtn && freshBtn) {
+    themeBtn.replaceWith(freshBtn);
+    freshBtn.addEventListener("click", toggleTheme);
+  }
+
+  const freshBtnMobile = themeBtnMobile?.cloneNode(true) as Element | null;
+  if (themeBtnMobile && freshBtnMobile) {
+    themeBtnMobile.replaceWith(freshBtnMobile);
+    freshBtnMobile.addEventListener("click", toggleTheme);
+  }
 }
 
 // Set up theme features after page load
